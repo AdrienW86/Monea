@@ -1,0 +1,61 @@
+{
+  "name": "monea-beauty",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "local:setup": "node scripts/local-setup.mjs",
+    "local:prepare-import": "node scripts/prepare-local-import.mjs",
+    "local:backup": "node scripts/local-transfer.mjs",
+    "stripe:check": "node scripts/stripe-check.mjs",
+    "stripe:listen": "node scripts/stripe-listen.mjs",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
+    "test": "vitest run",
+    "test:e2e": "playwright test",
+    "test:e2e:local": "playwright test --config playwright.local.config.ts",
+    "test:e2e:supabase": "playwright test --config playwright.supabase.config.ts",
+    "db:test": "vitest run tests/database.test.ts"
+  },
+  "dependencies": {
+    "@supabase/ssr": "0.12.7",
+    "@supabase/supabase-js": "2.118.0",
+    "date-fns": "4.1.0",
+    "date-fns-tz": "3.2.0",
+    "lucide-react": "0.577.0",
+    "next": "16.4.3",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "server-only": "0.0.1",
+    "sharp": "0.35.5",
+    "stripe": "23.0.1",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "4.14.0",
+    "@electric-sql/pglite": "^0.5.0",
+    "@eslint/js": "10.0.1",
+    "@next/eslint-plugin-next": "16.4.3",
+    "@playwright/test": "^1.58.0",
+    "@tailwindcss/postcss": "^4.2.0",
+    "@types/node": "^22.19.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "embedded-postgres": "18.4.0-beta.17",
+    "eslint": "10.13.0",
+    "eslint-plugin-react-hooks": "7.1.1",
+    "pg": "8.23.1",
+    "prettier": "3.9.10",
+    "supabase": "2.122.0",
+    "tailwindcss": "^4.2.0",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "8.72.1",
+    "vitest": "5.0.5"
+  }
+}

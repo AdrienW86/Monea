@@ -1,0 +1,558 @@
+/* Finition du hero uniquement : le catalogue Polaroid conserve ses styles. */
+.hero-mosaic-section {
+  background: var(--night);
+  color: #fff7ef;
+}
+.hero-mosaic {
+  display: grid;
+  grid-template-columns: minmax(0, 1.9fr) repeat(2, minmax(0, 0.55fr));
+  grid-template-rows: repeat(2, clamp(285px, 22.5vw, 340px));
+  gap: 12px;
+  max-width: 1600px;
+  margin: auto;
+  padding: 24px 30px 18px;
+  background: var(--night);
+}
+.mosaic-main {
+  grid-column: 1;
+  grid-row: span 2;
+  min-width: 0;
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  border-radius: 10px;
+  background: #101410;
+}
+.mosaic-main-photo {
+  position: absolute;
+  inset: 0 -35px 0 35px;
+  background: #101410;
+  mask-image: linear-gradient(to right, transparent, #000 16%);
+}
+.mosaic-main-photo img {
+  object-position: 62% 34%;
+}
+.mosaic-main-shade {
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(
+      90deg,
+      #0c100ee8,
+      #0c100eb0 31%,
+      #0c100e42 52%,
+      transparent 76%
+    ),
+    linear-gradient(to top, #10100c55, transparent 35%);
+}
+.mosaic-main-copy {
+  position: relative;
+  z-index: 2;
+  padding: 52px 25px 28px 50px;
+  width: 400px;
+  max-width: 53%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.mosaic-main-copy h1 {
+  font-size: clamp(67px, 5.3vw, 82px);
+  line-height: 0.9;
+  letter-spacing: -0.045em;
+  margin: 0 0 29px;
+  white-space: nowrap;
+}
+.mosaic-main-copy h1.mosaic-custom-title {
+  white-space: normal;
+  font-size: clamp(44px, 4vw, 62px);
+  overflow-wrap: anywhere;
+}
+.mosaic-signature {
+  display: inline-block;
+  color: var(--rose);
+  font-size: 1.33em;
+  line-height: 0.8;
+  transform: rotate(-7deg);
+  position: relative;
+  padding-right: 28px;
+  letter-spacing: 0;
+}
+.mosaic-signature:after {
+  content: "";
+  position: absolute;
+  bottom: -9px;
+  left: 0;
+  width: 91%;
+  height: 6px;
+  border-bottom: 1px solid var(--rose);
+  transform: rotate(-4deg);
+}
+.mosaic-signature > span {
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 0.46em;
+}
+.mosaic-eyebrow {
+  font-size: 9px;
+  line-height: 1.8;
+  letter-spacing: 0.18em;
+  padding-bottom: 17px;
+  margin-bottom: 22px;
+  border-bottom: 1px solid #e4bba659;
+  width: 100%;
+  color: #fff0e0;
+  white-space: nowrap;
+}
+.mosaic-description {
+  font-size: 13px;
+  line-height: 1.9;
+  color: #f5e8dc;
+  margin: 0 0 27px;
+  max-width: 280px;
+  text-wrap: pretty;
+}
+.mosaic-actions {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 19px;
+  width: 100%;
+}
+.button.mosaic-book {
+  background: var(--coral);
+  color: #fffaf4;
+  border: 1px solid #f1b4aa80;
+  border-radius: 5px;
+  font-size: 11px;
+  letter-spacing: 0.035em;
+  font-weight: 600;
+  padding: 13px 18px;
+  gap: 16px;
+  min-height: 57px;
+  white-space: nowrap;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 300px;
+  box-shadow:
+    0 8px 25px #0004,
+    0 0 0 4px #f1b4aa12;
+  transition:
+    background 0.2s,
+    transform 0.2s,
+    box-shadow 0.2s;
+}
+.button.mosaic-book > svg {
+  flex-shrink: 0;
+  width: 19px;
+  height: 19px;
+  padding: 5px;
+  box-sizing: content-box;
+  background: #ffffff16;
+  border-radius: 50%;
+  transition: translate 0.2s;
+}
+.button.mosaic-book:hover {
+  background: #93312e;
+  box-shadow:
+    0 12px 29px #0005,
+    0 0 0 5px #f1b4aa20;
+}
+.button.mosaic-book:hover > svg {
+  translate: 3px 0;
+}
+.mosaic-discover {
+  color: #fcebdd;
+  font-size: 10px;
+  letter-spacing: 0.08em;
+  border-bottom: 1px solid #f1d7c188;
+  padding-bottom: 6px;
+}
+.mosaic-project {
+  font-size: 9px;
+  color: #dfc7b4;
+  line-height: 1.6;
+  margin: 23px 0 0;
+  letter-spacing: 0.02em;
+}
+.mosaic-tile {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  min-width: 0;
+  display: block;
+  color: #fff8ef;
+  background: #40261b;
+  border-radius: 7px;
+  border: 1px solid #e8c3a52e;
+}
+.mosaic-tile > .beauty-photo {
+  position: absolute;
+  inset: 0;
+}
+.mosaic-tile .beauty-photo img {
+  transition: transform 0.65s;
+}
+.mosaic-tile:hover .beauty-photo img {
+  transform: scale(1.045);
+}
+.mosaic-tile-shade {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    180deg,
+    #1c0d061a,
+    transparent 18%,
+    #1c0d060a 35%,
+    #180a05d9 100%
+  );
+}
+.mosaic-tile-copy {
+  position: absolute;
+  bottom: 24px;
+  left: 19px;
+  right: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 13px;
+  z-index: 2;
+}
+.mosaic-category {
+  font-size: 10px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  line-height: 1.4;
+  color: #fff8ee;
+}
+.mosaic-tile-title {
+  font-size: 36px;
+  color: #ffd5c4;
+  line-height: 0.98;
+  max-width: 205px;
+  transform: rotate(-6deg);
+  transform-origin: left;
+  text-wrap: balance;
+}
+.mosaic-tile-title > span {
+  font-size: 0.8em;
+  white-space: nowrap;
+}
+.mosaic-tile-status {
+  position: absolute;
+  top: 13px;
+  right: 12px;
+  z-index: 2;
+  font-size: 8px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  border: 1px solid #e6c5ad6b;
+  border-radius: 12px;
+  padding: 4px 8px;
+  background: #25150ded;
+  color: #fff7ef;
+}
+.mosaic-tile-arrow {
+  position: absolute;
+  right: 13px;
+  bottom: 12px;
+  z-index: 3;
+  color: #fbe5d2;
+  width: 15px;
+  height: 15px;
+  transition: translate 0.2s;
+}
+.mosaic-tile:hover .mosaic-tile-arrow {
+  translate: 3px -3px;
+}
+.mosaic-tile-1 .beauty-photo img {
+  object-position: 52% center;
+}
+.mosaic-tile-2 .beauty-photo img {
+  object-position: 52% center;
+}
+.mosaic-tile-3 .beauty-photo img {
+  object-position: 50% 38%;
+}
+.mosaic-tile-4 .beauty-photo img {
+  object-position: 52% center;
+}
+.mosaic-disclaimer {
+  margin: 0;
+  padding: 0 30px 13px;
+  text-align: right;
+  font-size: 9px;
+  line-height: 1.6;
+  color: #cfb8a6;
+  background: var(--night);
+  max-width: 1600px;
+  margin-inline: auto;
+}
+.hero-mosaic-section + .beauty-ribbon {
+  border-top: 0;
+}
+@media (min-width: 1500px) {
+  .hero-mosaic {
+    padding-inline: 40px;
+    padding-top: 30px;
+    gap: 14px;
+  }
+  .mosaic-main-copy {
+    padding-top: 59px;
+    padding-left: 60px;
+    width: 430px;
+  }
+  .mosaic-description {
+    font-size: 14px;
+  }
+  .mosaic-tile-copy {
+    left: 22px;
+    bottom: 27px;
+  }
+  .mosaic-tile-title {
+    font-size: 41px;
+  }
+  .mosaic-category {
+    font-size: 11px;
+  }
+  .mosaic-tile-status {
+    font-size: 9px;
+  }
+}
+@media (min-width: 701px) and (max-width: 1100px) {
+  .hero-mosaic {
+    grid-template-columns: minmax(0, 1.8fr) repeat(2, minmax(0, 0.6fr));
+    grid-template-rows: repeat(2, 295px);
+    padding: 18px 20px 14px;
+    gap: 9px;
+  }
+  .mosaic-main-copy {
+    padding: 39px 19px 25px 29px;
+    width: 310px;
+    max-width: 65%;
+  }
+  .mosaic-main-copy h1 {
+    font-size: 62px;
+    margin-bottom: 27px;
+  }
+  .mosaic-main-photo {
+    inset: 0;
+    mask-image: none;
+  }
+  .mosaic-main-photo img {
+    object-position: 15% center;
+  }
+  .mosaic-main-shade {
+    background: linear-gradient(90deg, #0c100ef2, #0c100eb0 36%, #0c100e38 76%);
+  }
+  .mosaic-eyebrow {
+    font-size: 8px;
+    letter-spacing: 0.11em;
+    padding-bottom: 15px;
+    margin-bottom: 21px;
+  }
+  .mosaic-description {
+    font-size: 12px;
+    max-width: 235px;
+    margin-bottom: 23px;
+  }
+  .button.mosaic-book {
+    font-size: 10px;
+    min-height: 53px;
+    padding: 12px 12px;
+    gap: 10px;
+  }
+  .button.mosaic-book > svg {
+    width: 16px;
+    height: 16px;
+    padding: 4px;
+  }
+  .mosaic-discover {
+    font-size: 9px;
+    letter-spacing: 0.03em;
+  }
+  .mosaic-project {
+    font-size: 8px;
+    margin-top: 22px;
+  }
+  .mosaic-tile-copy {
+    left: 13px;
+    right: 12px;
+    bottom: 23px;
+    gap: 12px;
+  }
+  .mosaic-category {
+    font-size: 9px;
+    letter-spacing: 0.08em;
+  }
+  .mosaic-tile-title {
+    font-size: 31px;
+    max-width: 160px;
+  }
+  .mosaic-tile-status {
+    font-size: 7px;
+    padding: 4px 6px;
+    top: 9px;
+    right: 8px;
+  }
+  .mosaic-disclaimer {
+    padding-inline: 20px;
+  }
+}
+@media (max-width: 700px) {
+  .hero-mosaic {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-rows: 600px;
+    grid-auto-rows: 220px;
+    gap: 9px;
+    padding: 12px 12px 14px;
+  }
+  .mosaic-main {
+    grid-column: 1/-1;
+    grid-row: auto;
+    border-radius: 7px;
+  }
+  .mosaic-main-photo {
+    inset: 0;
+    mask-image: none;
+  }
+  .mosaic-main-photo img {
+    object-position: 32% center;
+  }
+  .mosaic-main-shade {
+    background:
+      linear-gradient(90deg, #0c100ef0, #0c100eac 37%, #0c100e22 82%),
+      linear-gradient(to top, #0c100e77, transparent 35%);
+  }
+  .mosaic-main-copy {
+    padding: 35px 18px 23px 23px;
+    width: 300px;
+    max-width: 86%;
+  }
+  .mosaic-main-copy h1 {
+    font-size: 59px;
+    line-height: 0.91;
+    margin-bottom: 29px;
+  }
+  .mosaic-main-copy h1.mosaic-custom-title {
+    font-size: 43px;
+  }
+  .mosaic-signature {
+    font-size: 1.34em;
+    padding-right: 25px;
+  }
+  .mosaic-eyebrow {
+    font-size: 8px;
+    letter-spacing: 0.12em;
+    padding-bottom: 16px;
+    margin-bottom: 24px;
+  }
+  .mosaic-description {
+    font-size: 12px;
+    line-height: 1.95;
+    max-width: 235px;
+    margin-bottom: 29px;
+  }
+  .mosaic-actions {
+    gap: 20px;
+  }
+  .button.mosaic-book {
+    font-size: 10px;
+    letter-spacing: 0.015em;
+    gap: 10px;
+    padding: 12px 13px;
+    min-height: 56px;
+    max-width: 265px;
+  }
+  .button.mosaic-book > svg {
+    width: 17px;
+    height: 17px;
+    padding: 4px;
+  }
+  .mosaic-discover {
+    font-size: 9px;
+    letter-spacing: 0.035em;
+    padding-bottom: 7px;
+  }
+  .mosaic-project {
+    font-size: 8px;
+    max-width: 235px;
+    margin-top: 24px;
+  }
+  .mosaic-tile {
+    border-radius: 5px;
+  }
+  .mosaic-tile-copy {
+    left: 12px;
+    right: 11px;
+    bottom: 19px;
+    gap: 11px;
+  }
+  .mosaic-category {
+    font-size: 9px;
+    letter-spacing: 0.1em;
+  }
+  .mosaic-tile-title {
+    font-size: 32px;
+    line-height: 1;
+    max-width: 155px;
+  }
+  .mosaic-tile-status {
+    font-size: 7px;
+    top: 9px;
+    right: 8px;
+    padding: 4px 6px;
+  }
+  .mosaic-tile-arrow {
+    display: none;
+  }
+  .mosaic-disclaimer {
+    text-align: right;
+    font-size: 9px;
+    padding: 0 13px 12px;
+  }
+}
+@media (max-width: 370px) {
+  .hero-mosaic {
+    padding-inline: 9px;
+    gap: 8px;
+    grid-template-rows: 590px;
+    grid-auto-rows: 215px;
+  }
+  .mosaic-main-copy {
+    width: 285px;
+    max-width: 90%;
+    padding-left: 20px;
+  }
+  .mosaic-main-copy h1 {
+    font-size: 55px;
+  }
+  .mosaic-description {
+    font-size: 11px;
+  }
+  .mosaic-eyebrow {
+    font-size: 7px;
+  }
+  .button.mosaic-book {
+    font-size: 9px;
+  }
+  .mosaic-tile-title {
+    font-size: 29px;
+  }
+  .mosaic-category {
+    font-size: 8px;
+  }
+  .mosaic-tile-status {
+    font-size: 6.5px;
+    padding-inline: 5px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .mosaic-tile .beauty-photo img,
+  .mosaic-tile-arrow,
+  .button.mosaic-book,
+  .button.mosaic-book > svg {
+    transition: none;
+  }
+}

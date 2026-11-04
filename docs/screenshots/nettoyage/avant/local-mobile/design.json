@@ -1,0 +1,139 @@
+[
+  {
+    "className": "site-header",
+    "font": "sansFont, \"sansFont Fallback\", Arial, sans-serif",
+    "color": "rgb(255, 244, 234)",
+    "background": "rgb(23, 19, 17)",
+    "padding": "0px",
+    "gap": "18px",
+    "images": [
+      "/branding/monea-symbol.png",
+      "/branding/monea-symbol.png"
+    ]
+  },
+  {
+    "className": "brand-logo brand-logo-light  ",
+    "font": "editorialFont, \"editorialFont Fallback\", Georgia, serif",
+    "color": "rgb(255, 248, 242)",
+    "background": "rgba(0, 0, 0, 0)",
+    "padding": "0px",
+    "gap": "8px",
+    "images": [
+      "/branding/monea-symbol.png"
+    ]
+  },
+  {
+    "className": "brand-logo brand-logo-light  ",
+    "font": "editorialFont, \"editorialFont Fallback\", Georgia, serif",
+    "color": "rgb(255, 248, 242)",
+    "background": "rgba(0, 0, 0, 0)",
+    "padding": "0px",
+    "gap": "10px",
+    "images": [
+      "/branding/monea-symbol.png"
+    ]
+  },
+  {
+    "className": "hero-mosaic",
+    "font": "sansFont, \"sansFont Fallback\", Arial, sans-serif",
+    "color": "rgb(255, 247, 239)",
+    "background": "rgb(23, 19, 17)",
+    "padding": "12px 12px 14px",
+    "gap": "9px",
+    "images": [
+      "/_next/image?url=%2Fimages%2Fbeauty%2Fhero-portrait.webp&w=3840&q=75",
+      "/_next/image?url=%2Fassets%2Fbeauty%2Fregard.webp&w=3840&q=75",
+      "/_next/image?url=%2Fassets%2Fbeauty%2Fongles.webp&w=3840&q=75",
+      "/_next/image?url=%2Fassets%2Fbeauty%2Fvisage.webp&w=3840&q=75",
+      "/_next/image?url=%2Fassets%2Fbeauty%2Fpeau.webp&w=3840&q=75"
+    ]
+  },
+  {
+    "className": "care-photo-card care-card-1",
+    "font": "sansFont, \"sansFont Fallback\", Arial, sans-serif",
+    "color": "rgb(44, 33, 30)",
+    "background": "rgba(0, 0, 0, 0)",
+    "padding": "0px",
+    "gap": "normal",
+    "images": [
+      "/_next/image?url=%2Fimages%2Fbeauty%2Fcils-regard.webp&w=3840&q=75"
+    ]
+  },
+  {
+    "className": "care-photo-card care-card-2",
+    "font": "sansFont, \"sansFont Fallback\", Arial, sans-serif",
+    "color": "rgb(44, 33, 30)",
+    "background": "rgba(0, 0, 0, 0)",
+    "padding": "0px",
+    "gap": "normal",
+    "images": [
+      "/_next/image?url=%2Fimages%2Fbeauty%2Fongles-nude.webp&w=3840&q=75"
+    ]
+  },
+  {
+    "className": "care-photo-card care-card-3",
+    "font": "sansFont, \"sansFont Fallback\", Arial, sans-serif",
+    "color": "rgb(44, 33, 30)",
+    "background": "rgba(0, 0, 0, 0)",
+    "padding": "0px",
+    "gap": "normal",
+    "images": [
+      "/_next/image?url=%2Fimages%2Fbeauty%2Fsoin-visage.webp&w=3840&q=75"
+    ]
+  },
+  {
+    "className": "care-photo-card care-card-4",
+    "font": "sansFont, \"sansFont Fallback\", Arial, sans-serif",
+    "color": "rgb(44, 33, 30)",
+    "background": "rgba(0, 0, 0, 0)",
+    "padding": "0px",
+    "gap": "normal",
+    "images": [
+      "/_next/image?url=%2Fimages%2Fbeauty%2Fbronzage.webp&w=3840&q=75"
+    ]
+  },
+  {
+    "className": "care-photo-card care-card-5",
+    "font": "sansFont, \"sansFont Fallback\", Arial, sans-serif",
+    "color": "rgb(44, 33, 30)",
+    "background": "rgba(0, 0, 0, 0)",
+    "padding": "0px",
+    "gap": "normal",
+    "images": [
+      "/_next/image?url=%2Fimages%2Fbeauty%2Fepilation-cire.webp&w=3840&q=75"
+    ]
+  },
+  {
+    "className": "care-photo-card care-card-6",
+    "font": "sansFont, \"sansFont Fallback\", Arial, sans-serif",
+    "color": "rgb(44, 33, 30)",
+    "background": "rgba(0, 0, 0, 0)",
+    "padding": "0px",
+    "gap": "normal",
+    "images": [
+      "/_next/image?url=%2Fimages%2Fbeauty%2Fmaquillage.webp&w=3840&q=75"
+    ]
+  },
+  {
+    "className": "care-photo-card care-card-7",
+    "font": "sansFont, \"sansFont Fallback\", Arial, sans-serif",
+    "color": "rgb(44, 33, 30)",
+    "background": "rgba(0, 0, 0, 0)",
+    "padding": "0px",
+    "gap": "normal",
+    "images": [
+      "/_next/image?url=%2Fimages%2Fbeauty%2Fambiance-institut.webp&w=3840&q=75"
+    ]
+  },
+  {
+    "className": "brand-logo brand-logo-light  ",
+    "font": "editorialFont, \"editorialFont Fallback\", Georgia, serif",
+    "color": "rgb(255, 248, 242)",
+    "background": "rgba(0, 0, 0, 0)",
+    "padding": "0px",
+    "gap": "12px",
+    "images": [
+      "/branding/monea-symbol.png"
+    ]
+  }
+]

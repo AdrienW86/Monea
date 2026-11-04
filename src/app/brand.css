@@ -1,0 +1,117 @@
+﻿/* The supplied monogram accompanies real text; its square geometry is preserved. */
+.brand-logo {
+  --brand-symbol-size: 38px;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  max-width: 100%;
+  vertical-align: middle;
+  white-space: nowrap;
+  font:
+    300 48px/0.95 var(--font-editorial),
+    Georgia,
+    serif;
+  letter-spacing: -0.055em;
+  color: var(--night);
+}
+.brand-logo-light {
+  color: var(--cream);
+}
+.brand-logo .brand-symbol-image {
+  display: block;
+  flex: 0 0 auto;
+  width: var(--brand-symbol-size);
+  height: var(--brand-symbol-size);
+  object-fit: contain;
+}
+.brand-name {
+  display: block;
+}
+.wordmark {
+  display: block;
+  flex-shrink: 0;
+  line-height: 1;
+}
+.wordmark .brand-logo {
+  font-size: inherit;
+}
+.brand-symbol-only {
+  gap: 0;
+}
+.footer-wordmark {
+  display: block;
+  width: min(100%, 980px);
+  pointer-events: auto;
+  line-height: 1;
+}
+.footer-wordmark .brand-logo {
+  --brand-symbol-size: clamp(40px, 7vw, 100px);
+  width: 100%;
+  justify-content: center;
+  font-size: clamp(76px, 19vw, 250px);
+  gap: clamp(12px, 2vw, 28px);
+  opacity: 0.65;
+}
+.brand-wordmark-image {
+  display: block;
+  width: 170px;
+  height: auto;
+  max-width: 100%;
+}
+.management-brand .brand-logo {
+  --brand-symbol-size: 32px;
+  font-size: 36px;
+  margin-bottom: 12px;
+}
+.management-brand > .brand-logo {
+  display: inline-flex;
+  font-family: var(--font-editorial), Georgia, serif;
+  font-weight: 300;
+  line-height: 0.95;
+  letter-spacing: -0.055em;
+}
+.login > .brand-logo {
+  margin-bottom: 26px;
+}
+.management-topbar-brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.management-topbar-brand .brand-logo {
+  font-size: 22px;
+  gap: 6px;
+}
+@media (max-width: 700px) {
+  .wordmark .brand-logo {
+    --brand-symbol-size: 30px;
+    gap: 8px;
+  }
+  .mobile-menu .brand-logo {
+    --brand-symbol-size: 30px;
+    font-size: 40px;
+    margin-bottom: 8px;
+  }
+  .footer-wordmark .brand-logo {
+    font-size: 23vw;
+  }
+  .management-topbar-brand {
+    gap: 6px;
+  }
+  .management-topbar-brand > span {
+    font-size: 8px;
+  }
+}
+@media (max-width: 380px) {
+  .wordmark .brand-logo {
+    --brand-symbol-size: 28px;
+    font-size: 38px;
+    gap: 7px;
+  }
+  .header-inner {
+    gap: 12px;
+  }
+  .header-booking {
+    padding-inline: 12px;
+  }
+}

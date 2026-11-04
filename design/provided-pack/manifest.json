@@ -1,0 +1,65 @@
+[
+  {
+    "filename": "public/images/beauty/hero-portrait.webp",
+    "width": 702,
+    "height": 628,
+    "description": "Photo principale, portrait beauté doré",
+    "usage": "Hero homepage / beauty editorial"
+  },
+  {
+    "filename": "public/images/beauty/cils-regard.webp",
+    "width": 438,
+    "height": 289,
+    "description": "Gros plan regard et cils",
+    "usage": "Prestations de cils et regard"
+  },
+  {
+    "filename": "public/images/beauty/ongles-nude.webp",
+    "width": 379,
+    "height": 290,
+    "description": "Ongles nude brillants",
+    "usage": "Prothésie ongulaire"
+  },
+  {
+    "filename": "public/images/beauty/soin-visage.webp",
+    "width": 435,
+    "height": 327,
+    "description": "Soin du visage et masque",
+    "usage": "Soins visage : présentation uniquement jusqu’à qualification"
+  },
+  {
+    "filename": "public/images/beauty/bronzage.webp",
+    "width": 379,
+    "height": 327,
+    "description": "Peau hâlée et lumineuse",
+    "usage": "Bronzage : présentation ; disponibilité à valider"
+  },
+  {
+    "filename": "public/images/beauty/epilation-cire.webp",
+    "width": 304,
+    "height": 387,
+    "description": "Épilation à la cire",
+    "usage": "Épilation : présentation uniquement jusqu’à qualification"
+  },
+  {
+    "filename": "public/images/beauty/maquillage.webp",
+    "width": 326,
+    "height": 387,
+    "description": "Maquillage professionnel en gros plan",
+    "usage": "Maquillage : présentation uniquement jusqu’à qualification"
+  },
+  {
+    "filename": "public/images/beauty/ambiance-institut.webp",
+    "width": 534,
+    "height": 386,
+    "description": "Ambiance d’un institut premium (illustration fictive)",
+    "usage": "Visuel d’ambiance, ne pas présenter comme un local réel"
+  },
+  {
+    "filename": "public/images/beauty/carte-cadeau.webp",
+    "width": 296,
+    "height": 386,
+    "description": "Coffret cadeau rose",
+    "usage": "Bloc cartes cadeaux"
+  }
+]

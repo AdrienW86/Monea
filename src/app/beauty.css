@@ -1,0 +1,3673 @@
+/* Direction artistique MONÉA : photographie, collage éditorial et lumière rosée. */
+body {
+  --ink: #2c211e;
+  --muted: #73645d;
+  --line: #e9d8ce;
+  font-family: var(--font-sans), Arial, sans-serif;
+  font-size: 14px;
+  background:
+    radial-gradient(ellipse at 100% 30%, #f8dfd351, transparent 45%),
+    var(--cream);
+  color: var(--ink);
+}
+h1,
+h2,
+h3 {
+  font-family: var(--font-editorial), Georgia, serif;
+}
+h1,
+h2 {
+  font-weight: 400;
+  letter-spacing: -0.045em;
+}
+em {
+  font-family: var(--font-editorial), Georgia, serif;
+}
+.handwritten {
+  font-family: var(--font-handwritten), cursive;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 1.02;
+  color: var(--coral);
+}
+::selection {
+  background: #f1b4aa;
+  color: #211511;
+}
+.beauty-container {
+  width: calc(100% - 120px);
+  max-width: 1280px;
+  margin-inline: auto;
+}
+.eyebrow {
+  font-size: 10px;
+  line-height: 1.7;
+  font-weight: 600;
+  letter-spacing: 0.19em;
+  margin-bottom: 22px;
+}
+.help {
+  font-size: 12px;
+  line-height: 1.7;
+}
+.button {
+  min-height: 48px;
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: 12px;
+  padding: 14px 25px;
+  gap: 19px;
+  transition:
+    transform 0.22s,
+    box-shadow 0.22s,
+    background 0.22s;
+}
+.button:hover:not(:disabled) {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 24px #5128201a;
+}
+.coral-button {
+  background: var(--coral);
+  color: #fff9f4;
+  box-shadow: 0 7px 20px #943e3624;
+}
+.coral-button:hover {
+  background: #95322e;
+}
+.button.outline {
+  border-color: #98766b;
+  background: transparent;
+  color: var(--ink);
+}
+.under-link {
+  font-size: 12px;
+  font-weight: 500;
+  border-bottom-color: #b68579;
+  gap: 25px;
+  padding-bottom: 9px;
+}
+.under-link svg {
+  transition: transform 0.2s;
+}
+.under-link:hover svg {
+  transform: translate(3px, -3px);
+}
+.announcement {
+  background: var(--rose);
+  color: #492b25;
+  padding: 7px 16px;
+  font-family: var(--font-sans), sans-serif;
+  font-size: 8px;
+  letter-spacing: 0.2em;
+}
+.announcement span {
+  color: #65392f;
+  margin-inline: 25px;
+}
+.site-header {
+  max-width: none;
+  width: 100%;
+  height: 100px;
+  padding: 0;
+  margin: 0;
+  background: var(--night);
+  color: #fff4ea;
+  position: relative;
+  z-index: 30;
+  border-bottom: 1px solid #e6bd9e20;
+}
+.header-inner {
+  width: calc(100% - 120px);
+  max-width: 1280px;
+  margin-inline: auto;
+  display: flex;
+  align-items: center;
+  gap: 35px;
+  height: 100%;
+}
+.wordmark {
+  font-family: var(--font-editorial), serif;
+  font-size: 56px;
+  font-weight: 300;
+  letter-spacing: -0.055em;
+  line-height: 0.85;
+  white-space: nowrap;
+}
+.wordmark small {
+  font:
+    8px/2.8 var(--font-sans),
+    sans-serif;
+  letter-spacing: 0.46em;
+  color: #e9cabe;
+  padding-left: 4px;
+}
+.desktop-nav {
+  font-size: 11px;
+  font-weight: 400;
+  gap: 30px;
+  margin-left: auto;
+  margin-right: 6px;
+  align-items: center;
+}
+.desktop-nav a {
+  position: relative;
+  padding-block: 10px;
+}
+.desktop-nav a:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 2px;
+  width: 0;
+  height: 1px;
+  background: var(--rose);
+  transition: width 0.2s;
+}
+.desktop-nav a:hover:after {
+  width: 100%;
+}
+.header-booking {
+  min-height: 43px;
+  padding: 10px 23px;
+  color: #fff8f1;
+  border: 1px solid #c8988266;
+  background: transparent;
+  font-size: 11px;
+}
+.header-booking:hover {
+  background: #f0b3a922;
+}
+.mobile-menu {
+  display: none;
+}
+.skip-link {
+  background: var(--cream);
+  color: var(--ink);
+}
+.beauty-home {
+  overflow: clip;
+}
+.glam-hero {
+  position: relative;
+  isolation: isolate;
+  background: var(--night);
+  color: var(--cream);
+}
+.hero-glow {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background:
+    radial-gradient(ellipse at 35% 70%, #713f2833, transparent 50%),
+    linear-gradient(115deg, #1b1714 0%, #171311 60%);
+}
+.glam-hero-inner {
+  width: calc(100% - 120px);
+  max-width: 1280px;
+  margin-inline: auto;
+  display: grid;
+  grid-template-columns: 48% 52%;
+  min-height: 720px;
+  position: relative;
+}
+.glam-hero-copy {
+  position: relative;
+  z-index: 4;
+  padding: 55px 0 105px;
+}
+.glam-hero-copy > .eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #f4d6c7;
+  font-size: 9px;
+  letter-spacing: 0.22em;
+  margin-bottom: 35px;
+}
+.glam-hero-copy > .eyebrow > span {
+  height: 1px;
+  width: 25px;
+  background: var(--rose);
+}
+.glam-hero h1 {
+  font-size: 108px;
+  line-height: 0.86;
+  letter-spacing: -0.045em;
+  margin: 0 0 19px;
+  font-weight: 400;
+  position: relative;
+}
+.hero-serif {
+  display: block;
+}
+.hero-handwritten {
+  display: block;
+  color: #f4a99c;
+  font-size: 126px;
+  line-height: 0.86;
+  margin-top: 9px;
+  margin-left: 32px;
+  transform: rotate(-7deg);
+  white-space: nowrap;
+  padding-bottom: 13px;
+}
+.hero-drawn-heart {
+  position: absolute;
+  top: 280px;
+  left: 450px;
+  font-family: var(--font-handwritten), cursive;
+  color: #f4a99c;
+  font-size: 80px;
+  transform: rotate(12deg);
+  line-height: 1;
+}
+.hero-description {
+  font-size: 12px;
+  line-height: 1.9;
+  color: #e6cdc0;
+  margin: 27px 0 29px;
+  max-width: 390px;
+}
+.glam-hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 21px;
+}
+.glam-hero-actions > .button {
+  font-size: 11px;
+  padding: 16px 24px;
+  min-height: 52px;
+}
+.hero-explore {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  font-size: 10px;
+  color: #f0d4c8;
+  border-bottom: 1px solid #947467;
+  padding-bottom: 5px;
+}
+.hero-location {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  margin-top: 32px;
+  color: #e5c9bc;
+  font-size: 10px;
+  letter-spacing: 0.02em;
+}
+.hero-location-dot {
+  width: 5px;
+  height: 5px;
+  background: var(--rose);
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+.location-divider {
+  margin: 0 10px;
+  opacity: 0.5;
+}
+.glam-hero-visual {
+  position: relative;
+  min-width: 0;
+}
+.beauty-photo {
+  position: relative;
+  overflow: hidden;
+  background: #d9b19b;
+}
+.beauty-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.7s cubic-bezier(0.2, 0.6, 0.3, 1);
+}
+.hero-main-photo {
+  position: absolute;
+  width: calc(100% + 110px);
+  height: 730px;
+  right: -70px;
+  top: -30px;
+  background: transparent;
+  mask-image: linear-gradient(to right, transparent, #000 17%);
+  border-radius: 150px 0 0 35%;
+}
+.hero-main-photo img {
+  object-position: 54% 37%;
+}
+.hero-photo-shade {
+  position: absolute;
+  inset: 0 -100px -1px -20px;
+  background:
+    linear-gradient(to top, var(--night), transparent 27%),
+    linear-gradient(to right, var(--night), transparent 12%);
+  pointer-events: none;
+}
+.pink-seal {
+  position: relative;
+  width: 154px;
+  height: 154px;
+  border-radius: 50%;
+  background: #f2b1a6;
+  color: #45241d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  box-shadow: 0 10px 30px #22120925;
+  outline: 1px solid #fff5ea;
+  outline-offset: -8px;
+}
+.pink-seal > span {
+  font-family: var(--font-handwritten), cursive;
+  font-size: 31px;
+  line-height: 0.94;
+  transform: rotate(-7deg);
+}
+.pink-seal > svg {
+  margin-top: 8px;
+  width: 21px;
+  height: 21px;
+}
+.seal-small {
+  font-size: 25px;
+}
+.hero-seal {
+  position: absolute;
+  right: -17px;
+  top: 24px;
+  transform: rotate(10deg);
+  z-index: 3;
+  width: 165px;
+  height: 165px;
+}
+.hero-photo-note {
+  position: absolute;
+  top: 351px;
+  right: -13px;
+  z-index: 2;
+  writing-mode: vertical-rl;
+  color: #f4dace;
+  display: flex;
+  gap: 17px;
+  align-items: center;
+  font-size: 9px;
+  letter-spacing: 0.17em;
+}
+.hero-polaroids {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  bottom: 15px;
+  left: -16px;
+  right: -5px;
+  z-index: 5;
+  gap: 0;
+  justify-content: center;
+}
+.polaroid {
+  background: #fff8f1;
+  padding: 6px 6px 0;
+  border-radius: 11px;
+  box-shadow: 0 15px 34px #0d07094d;
+  flex: 1;
+  max-width: 190px;
+  position: relative;
+  transition: transform 0.35s;
+}
+.polaroid .beauty-photo {
+  height: 161px;
+  border-radius: 6px;
+}
+.polaroid > span {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4px 6px 6px;
+  font-family: var(--font-handwritten), cursive;
+  font-size: 23px;
+  line-height: 1;
+  color: #7e4338;
+}
+.polaroid > span > svg {
+  color: #ad4e42;
+  flex-shrink: 0;
+}
+.polaroid-eye {
+  transform: rotate(-11deg) translateY(2px);
+  z-index: 3;
+}
+.polaroid-nails {
+  transform: rotate(7deg) translateY(20px);
+  margin-left: -11px;
+  z-index: 2;
+}
+.polaroid-face {
+  transform: rotate(-6deg) translateY(-4px);
+  margin-left: -9px;
+  z-index: 1;
+}
+.polaroid:hover {
+  transform: translateY(-8px) rotate(0);
+  z-index: 6;
+}
+.hero-footnote {
+  position: relative;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 7px;
+  letter-spacing: 0.16em;
+  color: #d3b5a5;
+  z-index: 5;
+}
+.hero-footnote > span:first-child {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+.beauty-ribbon {
+  padding: 22px 35px;
+  background: linear-gradient(90deg, #f6d4c9, #f4c9bd 50%, #f9ded3);
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  color: #633c31;
+  font-size: 9px;
+  letter-spacing: 0.18em;
+  white-space: nowrap;
+  border-block: 1px solid #f7e6dc;
+}
+.beauty-ribbon > svg {
+  width: 15px;
+  height: 15px;
+  stroke-width: 1;
+  flex-shrink: 0;
+}
+.care-section {
+  padding-block: 83px 55px;
+  background: radial-gradient(ellipse at 50% 80%, #f1c6b545, transparent 65%);
+}
+.beauty-section-heading {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  margin-bottom: 42px;
+}
+.beauty-section-heading h2 {
+  font-size: 66px;
+  line-height: 0.95;
+  margin: 0;
+  letter-spacing: -0.04em;
+}
+.beauty-section-heading h2 > .handwritten {
+  font-size: 77px;
+  line-height: 1.07;
+  display: inline-block;
+  transform: rotate(-4deg);
+  margin-top: 1px;
+}
+.beauty-section-heading .eyebrow {
+  margin-bottom: 21px;
+  color: #855047;
+}
+.heading-aside {
+  padding-top: 30px;
+  margin-right: 35px;
+}
+.heading-aside > p,
+.favorites-note {
+  color: #6d554b;
+  font-size: 12px;
+  line-height: 1.9;
+}
+.heading-aside .under-link {
+  margin-top: 10px;
+}
+.heading-spark {
+  font-family: var(--font-editorial), serif;
+  position: absolute;
+  right: 39%;
+  top: 10px;
+  font-size: 85px;
+  line-height: 1;
+  color: #b65d4d;
+}
+.care-photo-grid {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  gap: 24px 23px;
+  padding: 8px 7px 12px;
+}
+.care-reveal {
+  grid-column: span 3;
+  min-width: 0;
+}
+.care-reveal:nth-child(n + 5) {
+  grid-column: span 4;
+}
+.care-photo-card {
+  display: block;
+  position: relative;
+  aspect-ratio: 0.79;
+  isolation: isolate;
+  overflow: hidden;
+  border: 6px solid #fffdf9;
+  border-radius: 7px;
+  box-shadow: 0 12px 24px #67422d20;
+  transition:
+    transform 0.4s,
+    box-shadow 0.4s;
+}
+.care-photo-card:after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    180deg,
+    #160b082b,
+    transparent 30%,
+    #1c100e15 45%,
+    #1b0a09e6
+  );
+  z-index: 1;
+}
+.care-photo-card .beauty-photo {
+  position: absolute;
+  inset: 0;
+}
+.care-photo-card .beauty-photo img {
+  object-position: center;
+}
+.care-photo-card:hover .beauty-photo img {
+  transform: scale(1.07);
+}
+.care-photo-card:hover {
+  transform: translateY(-8px) rotate(0) !important;
+  box-shadow: 0 22px 34px #67422d32;
+}
+.care-card-1 {
+  transform: rotate(-3deg);
+}
+.care-card-2 {
+  transform: rotate(2deg) translateY(11px);
+}
+.care-card-3 {
+  transform: rotate(-2deg);
+}
+.care-card-4 {
+  transform: rotate(3deg) translateY(10px);
+}
+.care-reveal:nth-child(n + 5) .care-photo-card {
+  aspect-ratio: 1.34;
+}
+.care-card-5 {
+  transform: rotate(1deg);
+  margin-top: 12px;
+}
+.care-card-6 {
+  transform: rotate(-2deg);
+  margin-top: 12px;
+}
+.care-card-7 {
+  transform: rotate(2deg);
+  margin-top: 12px;
+}
+.care-card-index {
+  position: absolute;
+  left: 17px;
+  top: 14px;
+  z-index: 2;
+  color: white;
+  font-size: 9px;
+  letter-spacing: 0.1em;
+  text-shadow: 0 1px 5px #0008;
+}
+.care-card-tag {
+  position: absolute;
+  right: 10px;
+  top: 12px;
+  z-index: 2;
+  max-width: 76%;
+  font-size: 8px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  border: 1px solid #fff9;
+  padding: 4px 8px;
+  border-radius: 20px;
+  background: #25120fe0;
+  color: #fff5ec;
+}
+.care-card-copy {
+  position: absolute;
+  left: 19px;
+  bottom: 22px;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  color: #fff7ee;
+}
+.care-card-family {
+  font-family: var(--font-editorial), serif;
+  font-size: 38px;
+  line-height: 1.1;
+  font-weight: 500;
+}
+.care-card-detail {
+  font-size: 9px;
+  color: #ffe6d6;
+  letter-spacing: 0.035em;
+}
+.care-card-arrow {
+  position: absolute;
+  right: 15px;
+  bottom: 25px;
+  z-index: 2;
+  color: #ffddce;
+  border: 1px solid #f3c2a88c;
+  border-radius: 50%;
+  padding: 7px;
+  display: grid;
+  place-items: center;
+}
+.care-card-arrow > svg {
+  width: 16px;
+  height: 16px;
+}
+.illustration-note {
+  font-size: 10px;
+  line-height: 1.8;
+  max-width: 850px;
+  margin: 24px auto 0;
+  text-align: center;
+  color: #745c51;
+}
+.beauty-experience {
+  display: grid;
+  grid-template-columns: 1.07fr 1fr;
+  gap: 10%;
+  padding-block: 100px 115px;
+  align-items: center;
+  scroll-margin-top: 30px;
+}
+.experience-collage {
+  position: relative;
+  height: 565px;
+}
+.experience-interior {
+  height: 485px;
+  width: 91%;
+  border-radius: 46% 46% 9px 9px;
+  box-shadow: 0 18px 40px #70442c26;
+}
+.experience-interior img {
+  object-position: 48%;
+}
+.experience-frame {
+  position: absolute;
+  width: 46%;
+  height: 305px;
+  bottom: 0;
+  right: -3%;
+  background: #fffdf8;
+  border-radius: 7px;
+  padding: 7px 7px 34px;
+  transform: rotate(10deg);
+  box-shadow: 0 16px 38px #63362233;
+}
+.experience-frame .beauty-photo {
+  height: 100%;
+  border-radius: 3px;
+}
+.experience-frame > .handwritten {
+  position: absolute;
+  bottom: 5px;
+  left: 12px;
+  right: 7px;
+  text-align: center;
+  font-size: 27px;
+  color: #6f4030;
+}
+.experience-heart {
+  position: absolute;
+  left: -20px;
+  bottom: 40px;
+  font-family: var(--font-handwritten), cursive;
+  font-size: 111px;
+  line-height: 1;
+  color: #ad5347;
+  transform: rotate(-17deg);
+}
+.experience-image-label {
+  font-size: 7px;
+  letter-spacing: 0.16em;
+  position: absolute;
+  bottom: 31px;
+  left: 15%;
+  color: #704f40;
+}
+.experience-vertical {
+  position: absolute;
+  right: -18px;
+  top: 50px;
+  writing-mode: vertical-rl;
+  font-size: 8px;
+  letter-spacing: 0.2em;
+  color: #966351;
+}
+.experience-copy .eyebrow {
+  font-size: 9px;
+  color: #855047;
+}
+.experience-copy h2 {
+  font-size: 62px;
+  line-height: 0.98;
+  margin-bottom: 27px;
+}
+.experience-copy h2 .handwritten {
+  display: block;
+  font-size: 68px;
+  white-space: nowrap;
+  margin-top: 4px;
+  transform: rotate(-5deg);
+  transform-origin: left center;
+}
+.experience-copy > p:not(.eyebrow):not(.help) {
+  font-size: 13px;
+  line-height: 2;
+  color: #72584b;
+  max-width: 420px;
+}
+.experience-signature {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin: 28px 0;
+}
+.experience-signature .handwritten {
+  font-size: 36px;
+  color: #a0433a;
+}
+.experience-signature svg {
+  color: #ac5343;
+  transform: rotate(12deg);
+}
+.experience-copy > .help {
+  margin-top: 26px;
+  max-width: 375px;
+  font-size: 10px;
+  color: #7b6357;
+}
+.glow-invitation {
+  position: relative;
+  background:
+    radial-gradient(ellipse at 25% 80%, #7c3f2b44, transparent 60%),
+    var(--night);
+  color: #fff5e9;
+  overflow: hidden;
+}
+.glow-invitation:before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at 85% 0, #b6754a33, transparent 50%);
+}
+.glow-invitation-inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  min-height: 585px;
+  position: relative;
+  padding-block: 55px;
+}
+.invitation-copy {
+  position: relative;
+  z-index: 2;
+}
+.invitation-copy .eyebrow {
+  font-size: 9px;
+  color: #e7c3b1;
+}
+.invitation-copy h2 {
+  font-size: 82px;
+  line-height: 0.94;
+  margin-bottom: 20px;
+}
+.invitation-copy h2 .handwritten {
+  font-size: 100px;
+  color: #f1ad9f;
+  display: inline-block;
+  transform: rotate(-5deg);
+  margin-top: 10px;
+}
+.invitation-copy > p:not(.eyebrow) {
+  font-size: 12px;
+  line-height: 1.9;
+  color: #ebcdbb;
+  margin: 25px 0 29px;
+}
+.invitation-tiny {
+  display: block;
+  font-size: 7px;
+  letter-spacing: 0.11em;
+  margin-top: 17px;
+  color: #d5ae9b;
+}
+.invitation-collage {
+  position: relative;
+  height: 480px;
+  padding-left: 40px;
+}
+.invitation-main {
+  width: 78%;
+  height: 100%;
+  border-radius: 47% 47% 8px 8px;
+  transform: rotate(6deg);
+  border: 1px solid #ffe4cf44;
+  box-shadow: 0 18px 30px #0003;
+}
+.invitation-small {
+  position: absolute;
+  width: 40%;
+  height: 225px;
+  right: 0;
+  bottom: 0;
+  background: #fff9ed;
+  padding: 6px;
+  border-radius: 6px;
+  transform: rotate(-11deg);
+  box-shadow: 0 15px 35px #0004;
+}
+.invitation-small .beauty-photo {
+  height: 100%;
+  border-radius: 3px;
+}
+.invitation-seal {
+  position: absolute;
+  right: -15px;
+  top: 13px;
+  transform: rotate(10deg);
+  width: 142px;
+  height: 142px;
+}
+.invitation-seal > span {
+  font-size: 30px;
+}
+.invitation-star {
+  position: absolute;
+  left: -25px;
+  bottom: 30px;
+  font-family: var(--font-editorial), serif;
+  font-size: 110px;
+  color: #efc3a7;
+}
+.beauty-favorites {
+  padding-block: 85px 50px;
+}
+.favorites-note {
+  margin-right: 40px;
+}
+.favorites-layout {
+  display: grid;
+  grid-template-columns: 0.83fr 1.4fr;
+  gap: 65px;
+  align-items: center;
+}
+.favorites-photo {
+  position: relative;
+  height: 430px;
+  border: 7px solid #fffdf8;
+  box-shadow: 0 15px 28px #73553c24;
+  transform: rotate(-4deg);
+  border-radius: 8px;
+}
+.favorites-photo > .beauty-photo {
+  height: 100%;
+}
+.favorites-photo .beauty-photo img {
+  object-position: 48% center;
+}
+.favorites-photo > .handwritten {
+  position: absolute;
+  bottom: 12px;
+  right: 15px;
+  font-size: 52px;
+  line-height: 1;
+  color: #fff9ec;
+  transform: rotate(-10deg);
+  text-shadow: 0 2px 15px #0008;
+}
+.beauty-service-list > a {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 22px 0;
+  border-bottom: 1px solid #dec7b9;
+  transition: padding-left 0.25s;
+}
+.beauty-service-list > a:hover {
+  padding-left: 8px;
+}
+.beauty-service-list > a:first-child {
+  border-top: 1px solid #dec7b9;
+}
+.beauty-service-index {
+  font-size: 9px;
+  color: #936655;
+  letter-spacing: 0.1em;
+}
+.beauty-service-list h3 {
+  font-size: 27px;
+  letter-spacing: -0.015em;
+  line-height: 1.2;
+  margin: 0 0 5px;
+}
+.beauty-service-list > a p {
+  font-size: 10px;
+  color: #785d50;
+  line-height: 1.6;
+  margin: 0;
+  max-width: 340px;
+}
+.beauty-service-duration {
+  margin-left: auto;
+  white-space: nowrap;
+  font-size: 9px;
+  color: #805746;
+}
+.beauty-service-list > a > svg {
+  flex-shrink: 0;
+  width: 18px;
+  color: #9d5642;
+}
+.beauty-service-list > .help {
+  font-size: 10px;
+  margin-top: 18px;
+}
+.beauty-gifts {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+  padding-block: 100px 110px;
+  position: relative;
+}
+.beauty-gifts:before {
+  content: "";
+  position: absolute;
+  inset: 30px -70px 20px;
+  background: radial-gradient(ellipse at 72% 60%, #f2c4b570, transparent 65%);
+  z-index: -1;
+}
+.gift-copy .eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #865243;
+}
+.gift-copy h2 {
+  font-size: 69px;
+  line-height: 0.95;
+  margin-bottom: 22px;
+}
+.gift-copy h2 > .handwritten {
+  font-size: 74px;
+  display: block;
+  white-space: nowrap;
+  transform: rotate(-5deg);
+  transform-origin: left;
+  margin-top: 10px;
+}
+.gift-copy > p:not(.eyebrow) {
+  font-size: 12px;
+  line-height: 1.9;
+  color: #76594b;
+}
+.gift-copy .under-link {
+  margin-top: 13px;
+}
+.gift-art {
+  position: relative;
+  min-width: 0;
+}
+.gift-scene {
+  height: 370px;
+  position: relative;
+  perspective: 1000px;
+}
+.gift-envelope {
+  position: absolute;
+  width: 86%;
+  height: 260px;
+  top: 60px;
+  left: 0;
+  background: linear-gradient(150deg, #d99e8c, #f1c3b4);
+  box-shadow: 0 20px 40px #75443130;
+  border: 1px solid #d6a08f;
+  border-radius: 7px;
+  transform: rotate(-11deg);
+}
+.gift-envelope:before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(
+      32deg,
+      transparent 49.8%,
+      #dba491 50%,
+      #f8d3c3 50.4%,
+      transparent 50.6%
+    ),
+    linear-gradient(
+      -32deg,
+      transparent 49.8%,
+      #dba491 50%,
+      #f3c8b9 50.4%,
+      transparent 50.6%
+    );
+}
+.beauty-gift-card {
+  position: absolute;
+  left: 6%;
+  top: 17px;
+  width: 87%;
+  height: 267px;
+  transform: rotate(9deg);
+  background:
+    radial-gradient(ellipse at 10% 0, #633a2b77, transparent 70%), #241a16;
+  box-shadow: 0 20px 40px #512d293b;
+  border: 1px solid #b78b6677;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  isolation: isolate;
+  color: #f8dfc8;
+}
+.beauty-gift-card:before {
+  content: "";
+  position: absolute;
+  inset: 12px;
+  border: 1px solid #cfa58755;
+  border-radius: 3px;
+  z-index: -1;
+}
+.gift-brand {
+  font-family: var(--font-editorial), serif;
+  font-size: 60px;
+  letter-spacing: -0.05em;
+  font-weight: 300;
+  line-height: 1.2;
+}
+.gift-subtitle {
+  font-size: 6px;
+  letter-spacing: 0.18em;
+}
+.beauty-gift-card > .handwritten {
+  color: #f3b1a3;
+  font-size: 40px;
+  margin-top: 18px;
+}
+.gift-caption {
+  position: absolute;
+  bottom: 22px;
+  font-size: 6px;
+  letter-spacing: 0.2em;
+}
+.beauty-gift-card > svg {
+  position: absolute;
+  top: 20px;
+  right: 22px;
+  color: #cfa184;
+}
+.gift-ribbon {
+  position: absolute;
+  left: 4%;
+  top: 135px;
+  width: 95%;
+  height: 26px;
+  background: linear-gradient(#f9d6c4, #e2a995, #f3c4b2);
+  transform: rotate(-25deg);
+  box-shadow: 0 8px 13px #73493915;
+}
+.gift-heart {
+  position: absolute;
+  bottom: -10px;
+  right: -16px;
+  font:
+    100px var(--font-handwritten),
+    cursive;
+  color: #b76550;
+  transform: rotate(20deg);
+}
+.beauty-social {
+  background:
+    radial-gradient(ellipse at 25% 35%, #f7d8cb88, transparent 65%),
+    linear-gradient(125deg, #fbeadf, #f0cfc0 90%);
+  position: relative;
+  border-top: 1px solid #f0d1c2;
+  overflow: hidden;
+}
+.social-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  min-height: 600px;
+  align-items: center;
+  padding-block: 60px;
+}
+.social-copy {
+  position: relative;
+  z-index: 2;
+}
+.social-copy .eyebrow {
+  font-size: 9px;
+  color: #875242;
+}
+.social-copy h2 {
+  font-size: 68px;
+  line-height: 0.95;
+  margin-bottom: 25px;
+}
+.social-copy h2 > .handwritten {
+  font-size: 80px;
+  line-height: 1.1;
+  display: inline-block;
+  transform: rotate(-5deg);
+}
+.social-copy > p:not(.eyebrow):not(.social-disclaimer) {
+  font-size: 12px;
+  line-height: 1.9;
+  color: #725345;
+}
+.social-platforms {
+  display: flex;
+  gap: 23px;
+  flex-wrap: wrap;
+  margin: 30px 0 15px;
+}
+.social-platforms > a,
+.social-platforms > span {
+  display: flex;
+  gap: 9px;
+  align-items: center;
+  font-size: 11px;
+  font-weight: 500;
+  color: #6f4035;
+}
+.social-disclaimer {
+  font-size: 9px;
+  color: #795749;
+  max-width: 320px;
+  line-height: 1.8;
+}
+.social-drawn-heart {
+  font-family: var(--font-handwritten), cursive;
+  font-size: 110px;
+  position: absolute;
+  right: 30px;
+  bottom: 0;
+  transform: rotate(15deg);
+  color: #a65947;
+  line-height: 1;
+}
+.social-moodboard {
+  position: relative;
+  height: 520px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.beauty-phone {
+  width: 260px;
+  height: 476px;
+  background: #fffaf3;
+  border: 8px solid #201815;
+  box-shadow:
+    0 25px 45px #5d302d42,
+    0 0 0 2px #736052;
+  transform: rotate(10deg);
+  border-radius: 36px;
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+  padding-top: 28px;
+}
+.phone-camera {
+  width: 79px;
+  height: 17px;
+  background: #201815;
+  border-radius: 0 0 14px 14px;
+  position: absolute;
+  top: -1px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.phone-profile {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  padding: 8px 9px 13px;
+  color: #41291e;
+}
+.phone-avatar {
+  font-family: var(--font-editorial), serif;
+  width: 30px;
+  height: 30px;
+  display: grid;
+  place-items: center;
+  background: #efbead;
+  border-radius: 50%;
+  font-size: 25px;
+}
+.phone-profile > div {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.phone-profile strong {
+  font-family: var(--font-editorial), serif;
+  font-size: 19px;
+  line-height: 1;
+}
+.phone-profile > div > span {
+  font-size: 5px;
+  letter-spacing: 0.1em;
+}
+.phone-profile > svg {
+  margin-left: auto;
+  color: #ab7054;
+}
+.phone-photos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2px;
+}
+.phone-photos > .beauty-photo {
+  aspect-ratio: 0.75;
+}
+.phone-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px;
+  color: #965340;
+}
+.phone-bottom > .handwritten {
+  font-size: 24px;
+}
+.social-back-photo {
+  position: absolute;
+  width: 210px;
+  height: 265px;
+  left: 0;
+  top: 22px;
+  transform: rotate(-14deg);
+  padding: 6px;
+  background: #fff9f0;
+  box-shadow: 0 12px 24px #64362633;
+  border-radius: 5px;
+}
+.social-back-photo > .beauty-photo {
+  height: 100%;
+}
+.social-front-photo {
+  position: absolute;
+  right: -4px;
+  bottom: 5px;
+  width: 165px;
+  height: 193px;
+  border: 6px solid #fff8f0;
+  border-radius: 5px;
+  transform: rotate(-10deg);
+  z-index: 3;
+  box-shadow: 0 12px 24px #633f3033;
+}
+.social-front-photo > .beauty-photo {
+  height: 100%;
+}
+.social-sticker {
+  position: absolute;
+  left: 20px;
+  bottom: 25px;
+  font-size: 41px;
+  z-index: 4;
+  transform: rotate(-12deg);
+  color: #8c4034;
+  line-height: 1;
+}
+.beauty-footer {
+  background:
+    radial-gradient(ellipse at 80% 40%, #59322733, transparent 70%),
+    var(--night);
+  padding: 65px 60px 22px;
+  position: relative;
+  color: #efcebc;
+  overflow: hidden;
+}
+.footer-upper {
+  position: relative;
+  max-width: 1280px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 0.7fr;
+  gap: 80px;
+  align-items: center;
+}
+.footer-invitation > .eyebrow {
+  font-size: 8px;
+  color: #dfa991;
+}
+.beauty-footer .footer-title {
+  font-family: var(--font-editorial), serif;
+  font-size: 61px;
+  line-height: 1;
+  margin: 0 0 30px;
+  color: #fff0e2;
+}
+.footer-title .handwritten {
+  color: #f1b1a2;
+  font-size: 65px;
+  display: inline-block;
+  line-height: 1;
+  transform: rotate(-4deg);
+  margin-top: 7px;
+}
+.footer-invitation > .button {
+  font-size: 10px;
+  min-height: 44px;
+}
+.footer-contact {
+  font-size: 11px;
+  line-height: 1.9;
+  position: relative;
+  z-index: 1;
+}
+.footer-contact > .eyebrow {
+  font-size: 9px;
+  color: #efbbaa;
+}
+.footer-contact > p:not(.eyebrow) {
+  max-width: 340px;
+}
+.footer-whatsapp {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  border-bottom: 1px solid #a57d63;
+  padding-bottom: 8px;
+  font-size: 12px;
+}
+.footer-city {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 25px;
+  color: #e1b29b;
+  font-size: 10px;
+}
+.footer-heart {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  color: #7b4a39;
+  transform: rotate(15deg);
+  pointer-events: none;
+}
+.footer-wordmark {
+  font-family: var(--font-editorial), serif;
+  font-size: clamp(150px, 26vw, 365px);
+  line-height: 0.8;
+  font-weight: 300;
+  letter-spacing: -0.06em;
+  text-align: center;
+  color: #efbe9d26;
+  margin: 50px auto 30px;
+  pointer-events: none;
+}
+.beauty-footer .footer-bottom {
+  max-width: 1280px;
+  font-size: 9px;
+  border-color: #a7805a40;
+  padding-top: 23px;
+  color: #dfbfa9;
+}
+.beauty-footer .footer-bottom > div {
+  gap: 30px;
+}
+.footer-bottom a:hover {
+  color: #fff6ee;
+}
+/* Harmonisation des parcours existants : aucune logique de réservation modifiée. */
+.section {
+  padding-top: 60px;
+  padding-bottom: 65px;
+  max-width: 1400px;
+}
+.page-intro {
+  max-width: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  position: relative;
+  border-bottom: 1px solid #e6cdc0;
+  margin-bottom: 35px;
+  padding: 10px 0 35px;
+}
+.page-intro-copy {
+  max-width: 850px;
+  position: relative;
+  z-index: 1;
+}
+.page-intro .eyebrow {
+  color: #8a4d40;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.tiny-star {
+  font-size: 23px;
+  line-height: 1;
+}
+.page-intro h1 {
+  font-size: clamp(49px, 5.2vw, 76px);
+  line-height: 1.02;
+  max-width: 850px;
+  margin-bottom: 22px;
+}
+.intro-copy {
+  font-size: 13px;
+  color: #775b4d;
+  max-width: 650px;
+}
+.intro-copy > p:last-child {
+  margin-bottom: 0;
+}
+.contact-aside-photo {
+  height: 200px;
+  border-radius: 9px;
+  margin-bottom: 24px;
+}
+.catalogue-illustration-note {
+  font-size: 10px;
+  color: #775747;
+  margin: -14px 0 28px;
+  line-height: 1.7;
+}
+.intro-portrait {
+  position: relative;
+  flex: 0 0 166px;
+  width: 166px;
+  height: 190px;
+  margin-right: 25px;
+  transform: rotate(8deg);
+}
+.intro-photo {
+  height: 100%;
+  border-radius: 48% 48% 5px 5px;
+  border: 5px solid #fffaf2;
+  box-shadow: 0 12px 28px #78423126;
+}
+.intro-heart {
+  position: absolute;
+  bottom: -9px;
+  left: -25px;
+  font:
+    65px var(--font-handwritten),
+    cursive;
+  transform: rotate(-17deg);
+  color: #a65747;
+}
+.filters {
+  gap: 8px;
+  margin-bottom: 30px;
+}
+.filters button {
+  font-size: 11px;
+  border-color: #dbb8a7;
+  padding: 9px 17px;
+  background: #fffaf5;
+  border-radius: 30px;
+  min-height: 40px;
+}
+.filters button.selected {
+  background: #39241d;
+  border-color: #39241d;
+  color: #fff8ed;
+}
+.catalogue-grid {
+  gap: 25px;
+}
+.service-card {
+  padding: 0 23px 20px;
+  border-color: #ead0c1;
+  border-radius: 8px;
+  background: #fffcf7;
+  box-shadow: 0 8px 25px #70432e0b;
+  position: relative;
+  transition:
+    transform 0.3s,
+    box-shadow 0.3s;
+  overflow: hidden;
+}
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 16px 30px #70432e18;
+}
+.service-card .service-image {
+  aspect-ratio: 1.4;
+  height: auto;
+  margin: 0 -23px 21px;
+  width: calc(100% + 46px);
+  max-width: none;
+  object-fit: cover;
+  border-radius: 7px 7px 0 0;
+}
+.service-card > .eyebrow {
+  font-size: 9px;
+  margin-bottom: 12px;
+  color: #875544;
+}
+.service-card h2 {
+  font-size: 34px;
+  letter-spacing: -0.02em;
+  margin-top: 16px;
+  line-height: 1.04;
+}
+.service-card > p:not(.eyebrow) {
+  font-size: 12px;
+  line-height: 1.8;
+  color: #775a4d;
+}
+.service-card .badge {
+  font-size: 9px;
+  background: #f5ddd0;
+  color: #7c4032;
+  padding: 4px 9px;
+}
+.service-card .badge.available {
+  background: #f4e2d0;
+  color: #5a3c21;
+}
+.service-card-bottom {
+  font-size: 13px;
+  padding-top: 17px;
+}
+.service-card-bottom > span > small {
+  font-size: 11px;
+}
+.service-card .help {
+  margin-top: 10px;
+  margin-bottom: 0;
+  font-size: 10px;
+}
+.detail-panel {
+  background:
+    radial-gradient(ellipse at 0 0, #f7d9c8aa, transparent 70%), #fffaf4;
+  border: 1px solid #e6cbb9;
+  border-radius: 12px;
+  padding: 36px;
+  box-shadow: 0 12px 35px #70432e0b;
+}
+.detail-panel .detail-price {
+  font-family: var(--font-editorial), serif;
+  font-size: 48px;
+}
+.detail-panel h2 {
+  font-size: 41px;
+}
+.notice {
+  background: #f8e4d7;
+  border-left-color: #ae403c;
+  border-radius: 0 8px 8px 0;
+  color: #623b2d;
+  font-size: 12px;
+}
+.booking-aside {
+  background: linear-gradient(145deg, #f6dfd0, #fbede2);
+  border: 1px solid #e5c4ae;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px #6e3a2912;
+}
+.booking-aside h2 {
+  font-size: 36px;
+}
+.booking-aside .eyebrow {
+  color: #83513f;
+}
+.booking-aside .help {
+  font-size: 11px;
+  color: #775844;
+}
+input,
+textarea,
+select {
+  background: #fffcf7;
+  border-color: #cfb4a3;
+  border-radius: 6px;
+  font-size: 13px;
+  padding: 12px 13px;
+}
+label {
+  font-size: 12px;
+  color: #654637;
+}
+.check {
+  font-size: 11px;
+  line-height: 1.8;
+}
+.check input {
+  accent-color: var(--coral);
+}
+.calendar-head button {
+  border-color: #d5b9a7;
+  border-radius: 20px;
+}
+.day-button {
+  border-color: #dfc5b3;
+  background: #fffaf4;
+}
+.day-button span {
+  font-family: var(--font-editorial), serif;
+  font-size: 29px;
+}
+.day-button.selected,
+.slot.selected {
+  background: #4e2b21;
+}
+.slot {
+  border-color: #d7b5a0;
+}
+.steps {
+  font-size: 10px;
+  color: #795e4e;
+}
+.panel {
+  background: #fffcf7;
+  border-color: #e6d0c1;
+  border-radius: 10px;
+}
+.stat {
+  background: linear-gradient(150deg, #fffaf3, #f5e4d4);
+  border-color: #e4cdb8;
+  border-radius: 8px;
+}
+.stat strong {
+  font-family: var(--font-editorial), serif;
+}
+.login {
+  max-width: 530px;
+}
+.login .intro-portrait {
+  display: none;
+}
+.prose h2 {
+  font-size: 35px;
+}
+.admin-section .section-heading h1 {
+  font-family: var(--font-editorial), serif;
+}
+.admin-nav a[aria-current="page"] {
+  background: #f3ddcf;
+  border-radius: 20px;
+}
+.admin-nav a:hover {
+  background: #f6e5d7;
+  border-radius: 20px;
+}
+.gift-page-scene {
+  max-width: 600px;
+  margin: 20px auto 50px;
+}
+.gift-page-scene .gift-scene {
+  height: 400px;
+}
+.gift-page-scene .beauty-gift-card {
+  height: 290px;
+}
+.service-detail .detail-panel > .service-visual-panel {
+  min-width: 0;
+}
+.service-detail .detail-panel .service-image {
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 9px;
+  margin-bottom: 25px;
+}
+.prose .intro-portrait {
+  display: none;
+}
+.reveal {
+  transition:
+    opacity 0.8s ease var(--reveal-delay, 0ms),
+    translate 0.8s cubic-bezier(0.2, 0.6, 0.3, 1) var(--reveal-delay, 0ms);
+}
+.reveal[data-reveal="waiting"] {
+  opacity: 0;
+  translate: 0 25px;
+}
+.reveal[data-reveal="visible"] {
+  opacity: 1;
+  translate: 0 0;
+}
+@media (min-width: 1500px) {
+  .glam-hero-inner {
+    min-height: 760px;
+  }
+  .glam-hero-copy {
+    padding-top: 70px;
+  }
+  .hero-main-photo {
+    height: 770px;
+  }
+  .hero-polaroids {
+    bottom: 25px;
+  }
+  .hero-footnote {
+    padding-bottom: 25px;
+  }
+}
+@media (max-width: 1150px) {
+  .beauty-container,
+  .header-inner,
+  .glam-hero-inner {
+    width: calc(100% - 80px);
+  }
+  .desktop-nav {
+    gap: 20px;
+  }
+  .header-inner {
+    gap: 25px;
+  }
+  .desktop-nav a:nth-child(2) {
+    display: none;
+  }
+  .glam-hero-inner {
+    grid-template-columns: 49% 51%;
+    min-height: 665px;
+  }
+  .glam-hero-copy {
+    padding-top: 50px;
+  }
+  .glam-hero h1 {
+    font-size: 94px;
+  }
+  .hero-handwritten {
+    font-size: 111px;
+    margin-left: 14px;
+  }
+  .hero-drawn-heart {
+    left: 340px;
+    top: 256px;
+    font-size: 65px;
+  }
+  .hero-main-photo {
+    height: 670px;
+    right: -50px;
+    width: calc(100% + 70px);
+  }
+  .hero-seal {
+    right: -17px;
+    width: 140px;
+    height: 140px;
+    top: 20px;
+  }
+  .hero-seal > span {
+    font-size: 28px;
+  }
+  .hero-polaroids {
+    left: -35px;
+    right: -10px;
+    bottom: 23px;
+  }
+  .polaroid .beauty-photo {
+    height: 135px;
+  }
+  .polaroid > span {
+    font-size: 21px;
+  }
+  .hero-description {
+    font-size: 11px;
+  }
+  .hero-footnote {
+    margin-inline: 40px;
+    font-size: 6px;
+  }
+  .glam-hero-actions {
+    gap: 17px;
+  }
+  .glam-hero-actions .button {
+    font-size: 10px;
+    padding: 14px 19px;
+  }
+  .beauty-ribbon {
+    gap: 25px;
+    font-size: 8px;
+  }
+  .care-photo-grid {
+    gap: 22px 17px;
+  }
+  .care-photo-card {
+    border-width: 5px;
+  }
+  .care-card-family {
+    font-size: 32px;
+  }
+  .care-card-copy {
+    left: 14px;
+    bottom: 16px;
+  }
+  .care-card-arrow {
+    right: 10px;
+    bottom: 18px;
+    padding: 5px;
+  }
+  .care-card-detail {
+    font-size: 8px;
+  }
+  .care-card-tag {
+    font-size: 7px;
+  }
+  .beauty-experience {
+    gap: 7%;
+    padding-block: 80px 95px;
+  }
+  .experience-collage {
+    height: 500px;
+  }
+  .experience-interior {
+    height: 430px;
+  }
+  .experience-frame {
+    height: 260px;
+    width: 48%;
+  }
+  .experience-copy h2 {
+    font-size: 53px;
+  }
+  .experience-copy h2 .handwritten {
+    font-size: 56px;
+  }
+  .experience-copy > p:not(.eyebrow):not(.help) {
+    font-size: 12px;
+  }
+  .invitation-copy h2 {
+    font-size: 72px;
+  }
+  .invitation-copy h2 .handwritten {
+    font-size: 81px;
+  }
+  .invitation-collage {
+    height: 435px;
+    padding-left: 20px;
+  }
+  .invitation-seal {
+    width: 125px;
+    height: 125px;
+  }
+  .invitation-seal > span {
+    font-size: 26px;
+  }
+  .favorites-layout {
+    gap: 40px;
+  }
+  .beauty-service-list h3 {
+    font-size: 25px;
+  }
+  .beauty-service-list > a {
+    gap: 13px;
+  }
+  .beauty-service-list > a p {
+    max-width: 270px;
+  }
+  .gift-copy h2 {
+    font-size: 61px;
+  }
+  .gift-copy h2 > .handwritten {
+    font-size: 60px;
+  }
+  .beauty-gift-card {
+    height: 235px;
+  }
+  .gift-brand {
+    font-size: 53px;
+  }
+  .gift-envelope {
+    height: 225px;
+  }
+  .beauty-gift-card > .handwritten {
+    font-size: 33px;
+  }
+  .social-copy h2 {
+    font-size: 58px;
+  }
+  .social-copy h2 > .handwritten {
+    font-size: 67px;
+  }
+  .social-front-photo {
+    right: -15px;
+    width: 140px;
+    height: 170px;
+  }
+  .social-back-photo {
+    left: -10px;
+    width: 180px;
+    height: 230px;
+  }
+  .beauty-footer {
+    padding-inline: 40px;
+  }
+}
+@media (min-width: 701px) and (max-width: 900px) {
+  .beauty-container,
+  .header-inner,
+  .glam-hero-inner {
+    width: calc(100% - 56px);
+  }
+  .site-header {
+    height: 90px;
+  }
+  .wordmark {
+    font-size: 47px;
+  }
+  .desktop-nav {
+    gap: 17px;
+    font-size: 10px;
+  }
+  .header-inner {
+    gap: 20px;
+  }
+  .header-booking {
+    padding-inline: 18px;
+    font-size: 10px;
+  }
+  .glam-hero-inner {
+    min-height: 640px;
+    grid-template-columns: 50% 50%;
+  }
+  .glam-hero-copy {
+    padding-top: 45px;
+  }
+  .glam-hero h1 {
+    font-size: 85px;
+  }
+  .hero-handwritten {
+    font-size: 100px;
+    margin-left: 3px;
+  }
+  .hero-drawn-heart {
+    left: 290px;
+    top: 244px;
+    font-size: 55px;
+  }
+  .glam-hero-copy > .eyebrow {
+    font-size: 7px;
+  }
+  .hero-main-photo {
+    height: 630px;
+    top: 0;
+    right: -50px;
+  }
+  .hero-seal {
+    width: 120px;
+    height: 120px;
+    right: -10px;
+    top: 12px;
+  }
+  .hero-seal > span {
+    font-size: 24px;
+  }
+  .hero-seal .seal-small {
+    font-size: 21px;
+  }
+  .hero-seal > svg {
+    height: 15px;
+    margin-top: 5px;
+  }
+  .hero-polaroids {
+    left: -40px;
+    right: -10px;
+    bottom: 35px;
+  }
+  .polaroid {
+    padding: 4px 4px 0;
+    border-radius: 7px;
+  }
+  .polaroid .beauty-photo {
+    height: 112px;
+    border-radius: 4px;
+  }
+  .polaroid > span {
+    font-size: 18px;
+    padding-inline: 3px;
+  }
+  .polaroid > span > svg {
+    width: 13px;
+  }
+  .hero-photo-note {
+    display: none;
+  }
+  .hero-location {
+    font-size: 8px;
+    margin-top: 25px;
+  }
+  .hero-description {
+    max-width: 305px;
+    font-size: 10px;
+  }
+  .glam-hero-actions {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .glam-hero-actions .button {
+    font-size: 10px;
+    min-height: 46px;
+  }
+  .hero-explore {
+    font-size: 9px;
+  }
+  .hero-footnote {
+    margin-inline: 28px;
+  }
+  .beauty-ribbon {
+    font-size: 7px;
+    gap: 20px;
+  }
+  .care-section {
+    padding-top: 65px;
+  }
+  .beauty-section-heading h2 {
+    font-size: 57px;
+  }
+  .beauty-section-heading h2 > .handwritten {
+    font-size: 66px;
+  }
+  .heading-aside {
+    margin-right: 0;
+  }
+  .heading-aside > p {
+    font-size: 10px;
+  }
+  .heading-spark {
+    right: 35%;
+    font-size: 70px;
+  }
+  .care-photo-grid {
+    gap: 20px 14px;
+  }
+  .care-reveal {
+    grid-column: span 6;
+  }
+  .care-reveal:nth-child(n + 5) {
+    grid-column: span 4;
+  }
+  .care-reveal:nth-child(n + 5) .care-photo-card {
+    aspect-ratio: 0.85;
+  }
+  .care-photo-card {
+    aspect-ratio: 1.05;
+  }
+  .care-card-tag {
+    font-size: 8px;
+  }
+  .care-card-family {
+    font-size: 36px;
+  }
+  .care-card-detail {
+    font-size: 9px;
+  }
+  .care-card-3 {
+    margin-top: 10px;
+  }
+  .care-reveal:nth-child(n + 5) .care-card-family {
+    font-size: 30px;
+  }
+  .care-reveal:nth-child(n + 5) .care-card-tag {
+    font-size: 7px;
+    right: 6px;
+    top: 7px;
+  }
+  .care-reveal:nth-child(n + 5) .care-card-index {
+    display: none;
+  }
+  .care-reveal:nth-child(n + 5) .care-card-detail {
+    max-width: 110px;
+  }
+  .beauty-experience {
+    gap: 7%;
+    padding-block: 75px;
+  }
+  .experience-collage {
+    height: 445px;
+  }
+  .experience-interior {
+    height: 380px;
+  }
+  .experience-frame {
+    height: 220px;
+  }
+  .experience-frame > .handwritten {
+    font-size: 22px;
+  }
+  .experience-image-label {
+    left: 0;
+    bottom: 12px;
+    font-size: 6px;
+  }
+  .experience-copy .eyebrow {
+    font-size: 7px;
+  }
+  .experience-copy h2 {
+    font-size: 43px;
+  }
+  .experience-copy h2 .handwritten {
+    font-size: 44px;
+  }
+  .experience-copy > p:not(.eyebrow):not(.help) {
+    font-size: 11px;
+    line-height: 1.85;
+  }
+  .experience-signature .handwritten {
+    font-size: 30px;
+  }
+  .experience-copy > .help {
+    font-size: 9px;
+  }
+  .glow-invitation-inner {
+    min-height: 510px;
+  }
+  .invitation-copy h2 {
+    font-size: 61px;
+  }
+  .invitation-copy h2 .handwritten {
+    font-size: 68px;
+  }
+  .invitation-copy > .eyebrow {
+    font-size: 7px;
+  }
+  .invitation-copy .button {
+    font-size: 10px;
+    padding-inline: 17px;
+  }
+  .invitation-collage {
+    height: 370px;
+  }
+  .invitation-main {
+    width: 88%;
+  }
+  .invitation-small {
+    height: 170px;
+    width: 46%;
+  }
+  .invitation-seal {
+    width: 110px;
+    height: 110px;
+    right: -15px;
+    top: -15px;
+  }
+  .invitation-seal > span {
+    font-size: 24px;
+  }
+  .invitation-tiny {
+    font-size: 6px;
+  }
+  .beauty-favorites {
+    padding-block: 65px 30px;
+  }
+  .favorites-layout {
+    grid-template-columns: 0.8fr 1.3fr;
+    gap: 30px;
+  }
+  .favorites-photo {
+    height: 390px;
+  }
+  .beauty-service-list h3 {
+    font-size: 23px;
+  }
+  .beauty-service-list > a p {
+    font-size: 9px;
+  }
+  .beauty-service-duration {
+    display: none;
+  }
+  .beauty-service-list > a {
+    gap: 12px;
+    padding-block: 17px;
+  }
+  .beauty-gifts {
+    gap: 25px;
+    padding-block: 70px;
+  }
+  .gift-copy h2 {
+    font-size: 54px;
+  }
+  .gift-copy h2 > .handwritten {
+    font-size: 53px;
+  }
+  .gift-scene {
+    height: 300px;
+  }
+  .beauty-gift-card {
+    height: 218px;
+    left: 2%;
+    width: 95%;
+  }
+  .gift-brand {
+    font-size: 48px;
+  }
+  .gift-subtitle {
+    font-size: 5px;
+  }
+  .beauty-gift-card > .handwritten {
+    font-size: 30px;
+  }
+  .gift-envelope {
+    width: 95%;
+    height: 210px;
+  }
+  .social-layout {
+    gap: 20px;
+    min-height: 560px;
+  }
+  .social-copy h2 {
+    font-size: 51px;
+  }
+  .social-copy h2 > .handwritten {
+    font-size: 60px;
+  }
+  .social-copy > .eyebrow {
+    font-size: 7px;
+  }
+  .social-copy > p:not(.eyebrow):not(.social-disclaimer) {
+    font-size: 11px;
+  }
+  .beauty-phone {
+    width: 230px;
+    height: 430px;
+  }
+  .phone-photos > .beauty-photo {
+    aspect-ratio: 0.75;
+  }
+  .phone-bottom {
+    padding: 10px;
+  }
+  .phone-bottom > .handwritten {
+    font-size: 20px;
+  }
+  .social-back-photo {
+    width: 140px;
+    height: 190px;
+    left: -12px;
+    top: 55px;
+  }
+  .social-front-photo {
+    width: 120px;
+    height: 145px;
+    bottom: 30px;
+    right: -10px;
+  }
+  .social-sticker {
+    font-size: 32px;
+    left: -5px;
+    bottom: 30px;
+  }
+  .social-drawn-heart {
+    right: 15px;
+    bottom: -60px;
+    font-size: 85px;
+  }
+  .footer-upper {
+    gap: 30px;
+  }
+  .beauty-footer .footer-title {
+    font-size: 52px;
+  }
+  .footer-title .handwritten {
+    font-size: 56px;
+  }
+  .footer-contact {
+    font-size: 10px;
+  }
+  .intro-portrait {
+    flex-basis: 130px;
+    width: 130px;
+    height: 160px;
+    margin-right: 5px;
+  }
+}
+@media (max-width: 700px) {
+  body {
+    font-size: 13px;
+  }
+  .beauty-container {
+    width: calc(100% - 40px);
+  }
+  .announcement {
+    padding: 7px 8px;
+    font-size: 6.5px;
+    letter-spacing: 0.16em;
+  }
+  .announcement span {
+    margin-inline: 12px;
+  }
+  .site-header {
+    height: 79px;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 4px 15px #160c0b13;
+  }
+  .header-inner {
+    width: calc(100% - 36px);
+    gap: 17px;
+  }
+  .wordmark {
+    font-size: 43px;
+  }
+  .wordmark small {
+    font-size: 6px;
+    line-height: 2.9;
+    letter-spacing: 0.4em;
+  }
+  .desktop-nav {
+    display: none;
+  }
+  .header-booking {
+    margin-left: auto;
+    border-color: #d58d7c80;
+    background: var(--coral);
+    min-height: 38px;
+    padding: 8px 17px;
+    font-size: 10px;
+    gap: 13px;
+  }
+  .header-booking > svg {
+    width: 15px;
+  }
+  .mobile-menu {
+    display: block;
+    position: relative;
+    color: #f8e1d0;
+  }
+  .mobile-menu summary {
+    list-style: none;
+    cursor: pointer;
+    display: grid;
+    place-items: center;
+    width: 25px;
+    height: 36px;
+  }
+  .mobile-menu summary::-webkit-details-marker {
+    display: none;
+  }
+  .mobile-menu nav {
+    top: 47px;
+    right: -13px;
+    padding: 18px 22px;
+    background: #261a15;
+    border: 1px solid #b87e5f55;
+    border-radius: 0 0 10px 10px;
+    color: #fff4e9;
+    width: 235px;
+    box-shadow: 0 15px 35px #16090940;
+  }
+  .mobile-menu nav a {
+    padding: 11px 0;
+    font-size: 12px;
+    border-bottom: 1px solid #c18b6928;
+  }
+  .glam-hero-inner {
+    width: 100%;
+    grid-template-columns: 1fr;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .glam-hero-copy {
+    padding: 30px 23px 0;
+    z-index: 5;
+    pointer-events: none;
+  }
+  .glam-hero-copy a {
+    pointer-events: auto;
+  }
+  .glam-hero-copy > .eyebrow {
+    font-size: 7px;
+    letter-spacing: 0.15em;
+    margin: 0 0 24px;
+    gap: 8px;
+  }
+  .glam-hero-copy > .eyebrow > span {
+    width: 17px;
+  }
+  .glam-hero h1 {
+    font-size: 82px;
+    line-height: 0.85;
+    letter-spacing: -0.035em;
+    margin: 0;
+    max-width: 300px;
+  }
+  .hero-handwritten {
+    font-size: 96px;
+    line-height: 0.83;
+    margin-left: 16px;
+    margin-top: 15px;
+    transform: rotate(-8deg);
+    padding-bottom: 12px;
+  }
+  .hero-drawn-heart {
+    left: 245px;
+    top: 200px;
+    font-size: 55px;
+    transform: rotate(9deg);
+  }
+  .hero-description {
+    font-size: 10px;
+    line-height: 1.9;
+    max-width: 275px;
+    margin: 20px 0 22px;
+    color: #f2dacb;
+  }
+  .glam-hero-actions {
+    position: relative;
+    z-index: 6;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .glam-hero-actions > .button {
+    font-size: 10px;
+    padding: 14px 20px;
+    min-height: 48px;
+    gap: 14px;
+  }
+  .hero-explore {
+    font-size: 9px;
+    gap: 9px;
+    color: #f4d7c7;
+  }
+  .hero-location {
+    position: absolute;
+    bottom: -359px;
+    left: 23px;
+    right: 15px;
+    font-size: 8px;
+    gap: 7px;
+    z-index: 7;
+    margin-top: 0;
+    color: #f7decf;
+    pointer-events: none;
+  }
+  .location-divider {
+    margin: 0 5px;
+  }
+  .glam-hero-visual {
+    height: 350px;
+    position: relative;
+    margin-top: 9px;
+  }
+  .hero-main-photo {
+    height: 635px;
+    width: 345px;
+    max-width: none;
+    right: -53px;
+    top: -310px;
+    border-radius: 48% 0 0 30%;
+    mask-image: linear-gradient(to right, transparent, #000 29%);
+    opacity: 0.77;
+  }
+  .hero-main-photo img {
+    object-position: 49% 40%;
+  }
+  .hero-photo-shade {
+    inset: -310px -30px 0 0;
+    background:
+      linear-gradient(to right, #171311a6, transparent 72%),
+      linear-gradient(to top, var(--night), transparent 33%);
+    pointer-events: none;
+  }
+  .hero-seal {
+    width: 108px;
+    height: 108px;
+    right: 19px;
+    top: -37px;
+    outline-offset: -6px;
+    transform: rotate(12deg);
+  }
+  .hero-seal > span {
+    font-size: 23px;
+    line-height: 0.9;
+  }
+  .hero-seal .seal-small {
+    font-size: 20px;
+  }
+  .hero-seal > svg {
+    width: 15px;
+    height: 15px;
+    margin-top: 5px;
+  }
+  .hero-photo-note {
+    display: none;
+  }
+  .hero-polaroids {
+    left: 17px;
+    right: 14px;
+    bottom: 75px;
+    justify-content: space-between;
+    gap: 0;
+  }
+  .polaroid {
+    max-width: 129px;
+    min-width: 0;
+    padding: 4px 4px 0;
+    border-radius: 7px;
+  }
+  .polaroid .beauty-photo {
+    height: 133px;
+    border-radius: 4px;
+  }
+  .polaroid > span {
+    font-size: 17px;
+    padding: 5px 3px 6px;
+    gap: 2px;
+    white-space: nowrap;
+  }
+  .polaroid > span > svg {
+    width: 12px;
+    height: 12px;
+  }
+  .polaroid-eye {
+    transform: rotate(-9deg) translateY(-5px);
+  }
+  .polaroid-nails {
+    transform: rotate(7deg) translateY(12px);
+    margin-left: -8px;
+  }
+  .polaroid-face {
+    transform: rotate(-6deg) translateY(-8px);
+    margin-left: -8px;
+  }
+  .hero-footnote {
+    margin: 0 20px;
+    max-width: none;
+    padding: 0 0 18px;
+    font-size: 5.5px;
+    letter-spacing: 0.1em;
+    color: #d8b7a0;
+    justify-content: center;
+  }
+  .hero-footnote > span:first-child {
+    display: none;
+  }
+  .beauty-ribbon {
+    padding: 17px 20px;
+    gap: 24px;
+    font-size: 7px;
+    letter-spacing: 0.12em;
+    overflow: hidden;
+    justify-content: flex-start;
+  }
+  .beauty-ribbon > svg {
+    width: 12px;
+    height: 12px;
+  }
+  .care-section {
+    padding-block: 51px 25px;
+  }
+  .beauty-section-heading {
+    gap: 20px;
+    align-items: flex-start;
+    margin-bottom: 30px;
+    display: block;
+  }
+  .beauty-section-heading h2 {
+    font-size: 52px;
+    line-height: 0.95;
+  }
+  .beauty-section-heading h2 > .handwritten {
+    font-size: 62px;
+    line-height: 1;
+    white-space: nowrap;
+    margin-top: 7px;
+  }
+  .beauty-section-heading .eyebrow {
+    font-size: 8px;
+    letter-spacing: 0.16em;
+    margin-bottom: 19px;
+  }
+  .heading-aside {
+    padding-top: 18px;
+    margin-right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+  }
+  .heading-aside > p {
+    font-size: 9px;
+    line-height: 1.8;
+    margin: 0;
+    max-width: 170px;
+  }
+  .heading-aside .under-link {
+    font-size: 9px;
+    gap: 10px;
+    margin-top: 0;
+    padding-bottom: 5px;
+    white-space: nowrap;
+  }
+  .heading-aside .under-link > svg {
+    width: 14px;
+  }
+  .heading-spark {
+    right: 9px;
+    top: 20px;
+    font-size: 62px;
+  }
+  .care-photo-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 20px 12px;
+    padding: 8px 2px 10px;
+  }
+  .care-reveal,
+  .care-reveal:nth-child(n + 5) {
+    grid-column: span 1;
+  }
+  .care-photo-card {
+    aspect-ratio: 0.74;
+    border-width: 4px;
+    border-radius: 6px;
+  }
+  .care-reveal:nth-child(n + 5) .care-photo-card {
+    aspect-ratio: 0.85;
+  }
+  .care-reveal:last-child {
+    grid-column: 1/-1;
+  }
+  .care-reveal:last-child .care-photo-card {
+    aspect-ratio: 1.75;
+    transform: rotate(-1deg);
+  }
+  .care-card-2 {
+    transform: rotate(3deg) translateY(8px);
+  }
+  .care-card-3 {
+    transform: rotate(-2deg) translateY(3px);
+  }
+  .care-card-4 {
+    transform: rotate(2deg) translateY(10px);
+  }
+  .care-card-5,
+  .care-card-6 {
+    margin-top: 3px;
+  }
+  .care-card-index {
+    left: 10px;
+    top: 10px;
+    font-size: 7px;
+  }
+  .care-card-tag {
+    font-size: 6px;
+    top: 8px;
+    right: 6px;
+    padding: 3px 5px;
+    max-width: 90%;
+    white-space: nowrap;
+  }
+  .care-card-index {
+    display: none;
+  }
+  .care-card-copy {
+    left: 10px;
+    bottom: 15px;
+    gap: 3px;
+  }
+  .care-card-family {
+    font-size: 31px;
+  }
+  .care-card-detail {
+    font-size: 7px;
+    letter-spacing: 0;
+    max-width: 120px;
+  }
+  .care-card-arrow {
+    right: 8px;
+    bottom: 19px;
+    padding: 4px;
+  }
+  .care-card-arrow > svg {
+    width: 12px;
+    height: 12px;
+  }
+  .care-card-6 .care-card-family {
+    font-size: 27px;
+  }
+  .care-card-6 .care-card-arrow {
+    bottom: 52px;
+  }
+  .illustration-note {
+    font-size: 9px;
+    line-height: 1.8;
+    text-align: left;
+    margin-top: 20px;
+  }
+  .beauty-experience {
+    grid-template-columns: 1fr;
+    gap: 41px;
+    padding-block: 55px 58px;
+    scroll-margin-top: 95px;
+  }
+  .experience-collage {
+    height: 420px;
+    width: calc(100% - 10px);
+    margin-left: 3px;
+  }
+  .experience-interior {
+    height: 355px;
+    width: 89%;
+    border-radius: 45% 45% 5px 5px;
+  }
+  .experience-frame {
+    width: 48%;
+    height: 234px;
+    right: -1%;
+    padding: 5px 5px 31px;
+    bottom: 0;
+    transform: rotate(10deg);
+  }
+  .experience-frame > .handwritten {
+    font-size: 24px;
+    bottom: 4px;
+  }
+  .experience-heart {
+    font-size: 90px;
+    left: -7px;
+    bottom: 13px;
+  }
+  .experience-image-label {
+    font-size: 6px;
+    left: 11%;
+    bottom: 31px;
+    max-width: 105px;
+    line-height: 1.7;
+  }
+  .experience-vertical {
+    right: -9px;
+    top: 35px;
+    font-size: 6px;
+  }
+  .experience-copy .eyebrow {
+    font-size: 8px;
+    letter-spacing: 0.13em;
+  }
+  .experience-copy h2 {
+    font-size: 55px;
+    line-height: 0.95;
+    margin-bottom: 26px;
+  }
+  .experience-copy h2 .handwritten {
+    font-size: 57px;
+    white-space: normal;
+    line-height: 1;
+    margin-top: 11px;
+    max-width: 340px;
+  }
+  .experience-copy > p:not(.eyebrow):not(.help) {
+    font-size: 12px;
+    line-height: 1.95;
+    max-width: none;
+  }
+  .experience-signature {
+    margin-block: 23px;
+    gap: 15px;
+  }
+  .experience-signature .handwritten {
+    font-size: 35px;
+  }
+  .experience-copy > .help {
+    font-size: 10px;
+    margin-top: 21px;
+    max-width: none;
+  }
+  .glow-invitation-inner {
+    grid-template-columns: 1fr;
+    gap: 40px;
+    padding-block: 45px 40px;
+    min-height: 0;
+  }
+  .invitation-copy .eyebrow {
+    font-size: 7px;
+    letter-spacing: 0.13em;
+  }
+  .invitation-copy h2 {
+    font-size: 71px;
+    line-height: 0.94;
+    margin-bottom: 15px;
+  }
+  .invitation-copy h2 .handwritten {
+    font-size: 83px;
+    line-height: 1;
+    margin-top: 0;
+  }
+  .invitation-copy > p:not(.eyebrow) {
+    font-size: 11px;
+    margin: 20px 0 23px;
+  }
+  .invitation-copy > .button {
+    font-size: 10px;
+    min-height: 48px;
+  }
+  .invitation-tiny {
+    font-size: 6px;
+    letter-spacing: 0.1em;
+    margin-top: 15px;
+  }
+  .invitation-collage {
+    height: 360px;
+    width: calc(100% - 18px);
+    margin: 0 6px;
+    padding-left: 22px;
+  }
+  .invitation-main {
+    width: 75%;
+    border-radius: 46% 46% 5px 5px;
+  }
+  .invitation-small {
+    width: 42%;
+    height: 172px;
+    right: -4px;
+    bottom: -4px;
+    padding: 5px;
+  }
+  .invitation-seal {
+    width: 116px;
+    height: 116px;
+    right: -3px;
+    top: 0;
+    outline-offset: -6px;
+  }
+  .invitation-seal > span {
+    font-size: 26px;
+  }
+  .invitation-seal > svg {
+    height: 17px;
+  }
+  .invitation-star {
+    font-size: 85px;
+    left: -9px;
+    bottom: 30px;
+  }
+  .beauty-favorites {
+    padding-block: 54px 20px;
+  }
+  .beauty-favorites .beauty-section-heading h2 > .handwritten {
+    font-size: 55px;
+  }
+  .favorites-note {
+    font-size: 10px;
+    margin-top: 20px;
+    margin-bottom: 0;
+  }
+  .favorites-layout {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+  .favorites-photo {
+    height: 270px;
+    width: calc(100% - 12px);
+    margin-inline: 6px;
+    border-width: 5px;
+    transform: rotate(-3deg);
+  }
+  .favorites-photo .beauty-photo img {
+    object-position: center 48%;
+  }
+  .favorites-photo > .handwritten {
+    font-size: 45px;
+    bottom: 6px;
+  }
+  .beauty-service-list > a {
+    padding-block: 18px;
+    gap: 13px;
+  }
+  .beauty-service-list h3 {
+    font-size: 26px;
+    line-height: 1.1;
+    margin-bottom: 5px;
+  }
+  .beauty-service-list > a p {
+    font-size: 9px;
+    line-height: 1.7;
+    max-width: 235px;
+  }
+  .beauty-service-index {
+    font-size: 8px;
+  }
+  .beauty-service-duration {
+    display: none;
+  }
+  .beauty-service-list > a > svg {
+    width: 17px;
+    margin-left: auto;
+  }
+  .beauty-service-list > .help {
+    font-size: 9px;
+  }
+  .beauty-gifts {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    padding-block: 45px 50px;
+  }
+  .gift-copy .eyebrow {
+    font-size: 8px;
+    margin-bottom: 20px;
+  }
+  .gift-copy h2 {
+    font-size: 61px;
+    line-height: 0.94;
+  }
+  .gift-copy h2 > .handwritten {
+    font-size: 61px;
+    white-space: normal;
+    margin-top: 9px;
+  }
+  .gift-copy > p:not(.eyebrow) {
+    font-size: 11px;
+  }
+  .gift-copy .under-link {
+    font-size: 11px;
+  }
+  .gift-art {
+    margin: 12px 8px 0;
+  }
+  .gift-scene {
+    height: 290px;
+  }
+  .beauty-gift-card {
+    height: 221px;
+    left: 4%;
+    top: 12px;
+    width: 90%;
+  }
+  .gift-brand {
+    font-size: 51px;
+  }
+  .gift-subtitle {
+    font-size: 5px;
+  }
+  .beauty-gift-card > .handwritten {
+    font-size: 34px;
+    margin-top: 14px;
+  }
+  .gift-caption {
+    font-size: 5px;
+    bottom: 17px;
+  }
+  .gift-envelope {
+    top: 55px;
+    height: 212px;
+    width: 90%;
+  }
+  .gift-ribbon {
+    height: 22px;
+    top: 130px;
+  }
+  .gift-heart {
+    font-size: 80px;
+    right: -9px;
+    bottom: -6px;
+  }
+  .social-layout {
+    grid-template-columns: 1fr;
+    gap: 25px;
+    padding-block: 45px 37px;
+    min-height: 0;
+  }
+  .social-copy > .eyebrow {
+    font-size: 7px;
+  }
+  .social-copy h2 {
+    font-size: 55px;
+    line-height: 0.95;
+  }
+  .social-copy h2 > .handwritten {
+    font-size: 67px;
+    line-height: 1;
+    margin-top: 8px;
+  }
+  .social-copy > p:not(.eyebrow):not(.social-disclaimer) {
+    font-size: 11px;
+  }
+  .social-platforms {
+    gap: 20px;
+    margin-top: 24px;
+  }
+  .social-platforms > a,
+  .social-platforms > span {
+    font-size: 10px;
+    gap: 7px;
+  }
+  .social-platforms svg {
+    width: 18px;
+  }
+  .social-disclaimer {
+    font-size: 9px;
+    max-width: 280px;
+  }
+  .social-drawn-heart {
+    font-size: 75px;
+    right: 1px;
+    bottom: 19px;
+  }
+  .social-moodboard {
+    height: 475px;
+    margin-inline: 10px;
+  }
+  .beauty-phone {
+    width: 239px;
+    height: 445px;
+    border-width: 7px;
+    transform: rotate(8deg);
+  }
+  .phone-profile {
+    padding-top: 7px;
+    padding-bottom: 12px;
+  }
+  .phone-profile strong {
+    font-size: 18px;
+  }
+  .phone-bottom {
+    padding: 10px;
+  }
+  .phone-bottom > .handwritten {
+    font-size: 23px;
+  }
+  .social-back-photo {
+    width: 140px;
+    height: 195px;
+    top: 25px;
+    left: -8px;
+    transform: rotate(-13deg);
+    padding: 5px;
+  }
+  .social-front-photo {
+    right: -7px;
+    bottom: 3px;
+    width: 129px;
+    height: 157px;
+    border-width: 5px;
+  }
+  .social-sticker {
+    font-size: 33px;
+    left: -5px;
+    bottom: 20px;
+  }
+  .beauty-footer {
+    padding: 43px 22px 23px;
+  }
+  .footer-upper {
+    grid-template-columns: 1fr;
+    gap: 37px;
+  }
+  .footer-invitation > .eyebrow {
+    font-size: 7px;
+    margin-bottom: 21px;
+  }
+  .beauty-footer .footer-title {
+    font-size: 51px;
+    line-height: 0.97;
+    margin-bottom: 28px;
+  }
+  .footer-title .handwritten {
+    font-size: 54px;
+    margin-top: 8px;
+  }
+  .footer-invitation > .button {
+    font-size: 10px;
+    min-height: 43px;
+  }
+  .footer-contact > .eyebrow {
+    font-size: 8px;
+    margin-bottom: 16px;
+  }
+  .footer-contact {
+    font-size: 11px;
+  }
+  .footer-contact > .footer-city {
+    font-size: 9px;
+    margin-top: 20px;
+    max-width: none;
+  }
+  .footer-heart {
+    right: 0;
+    bottom: 17px;
+    width: 75px;
+  }
+  .footer-wordmark {
+    font-size: 26vw;
+    line-height: 0.95;
+    margin: 30px -5px 23px;
+    letter-spacing: -0.065em;
+  }
+  .beauty-footer .footer-bottom {
+    padding-top: 21px;
+    gap: 17px;
+    font-size: 8px;
+    flex-direction: column;
+  }
+  .beauty-footer .footer-bottom > div {
+    gap: 21px;
+    flex-wrap: wrap;
+  }
+  .section {
+    padding: 37px 20px 45px;
+  }
+  .page-intro {
+    align-items: center;
+    gap: 8px;
+    padding: 3px 0 25px;
+    margin-bottom: 25px;
+  }
+  .page-intro h1 {
+    font-size: 47px;
+    line-height: 1.02;
+    margin-bottom: 20px;
+    overflow-wrap: anywhere;
+  }
+  .page-intro .eyebrow {
+    font-size: 8px;
+    letter-spacing: 0.11em;
+    margin-bottom: 19px;
+  }
+  .intro-copy {
+    font-size: 12px;
+    line-height: 1.85;
+  }
+  .intro-portrait {
+    flex: 0 0 82px;
+    width: 82px;
+    height: 118px;
+    margin-right: 1px;
+    align-self: flex-start;
+    margin-top: 45px;
+  }
+  .intro-photo {
+    border-width: 3px;
+  }
+  .intro-heart {
+    font-size: 41px;
+    left: -16px;
+    bottom: -8px;
+  }
+  .page-intro-copy {
+    min-width: 0;
+  }
+  .booking-layout .intro-portrait {
+    display: none;
+  }
+  .filters {
+    gap: 7px;
+    margin-bottom: 24px;
+  }
+  .filters button {
+    font-size: 10px;
+    padding: 8px 13px;
+    min-height: 37px;
+  }
+  .catalogue-grid {
+    grid-template-columns: 1fr;
+    gap: 22px;
+  }
+  .service-card {
+    padding: 0 22px 22px;
+  }
+  .service-card .service-image {
+    margin-inline: -22px;
+    width: calc(100% + 44px);
+    aspect-ratio: 1.45;
+  }
+  .service-card h2 {
+    font-size: 36px;
+  }
+  .service-card > .eyebrow {
+    font-size: 9px;
+  }
+  .service-card > p:not(.eyebrow) {
+    font-size: 12px;
+  }
+  .service-card .badge {
+    font-size: 9px;
+  }
+  .service-card-bottom {
+    font-size: 14px;
+  }
+  .detail-panel {
+    padding: 25px;
+    gap: 30px;
+  }
+  .detail-panel h2 {
+    font-size: 38px;
+  }
+  .detail-panel p {
+    font-size: 12px;
+  }
+  .booking-aside {
+    padding: 24px;
+  }
+  .booking-aside h2 {
+    font-size: 32px;
+  }
+  .booking-aside .help {
+    font-size: 10px;
+  }
+  .booking-layout {
+    gap: 25px;
+  }
+  .steps {
+    gap: 11px;
+    font-size: 9px;
+    flex-wrap: wrap;
+  }
+  input,
+  select,
+  textarea {
+    font-size: 16px;
+  }
+  .form-grid {
+    gap: 17px;
+  }
+  .check {
+    font-size: 11px;
+  }
+  .notice {
+    font-size: 11px;
+    line-height: 1.85;
+    padding: 17px;
+  }
+  .login .page-intro h1 {
+    font-size: 56px;
+  }
+  .prose h2 {
+    font-size: 32px;
+  }
+  .gift-page-scene {
+    margin: 10px -3px 25px;
+  }
+  .gift-page-scene .gift-scene {
+    height: 300px;
+  }
+  .gift-page-scene .beauty-gift-card {
+    height: 225px;
+  }
+  .admin-grid {
+    gap: 20px;
+  }
+  .panel {
+    padding: 20px;
+  }
+  .admin-section h1 {
+    font-size: 43px;
+  }
+  .stats {
+    gap: 10px;
+  }
+  .stat {
+    padding: 15px;
+  }
+  .stat strong {
+    font-size: 29px;
+  }
+  .small-text {
+    font-size: 12px;
+  }
+}
+@media (max-width: 370px) {
+  .glam-hero h1 {
+    font-size: 74px;
+  }
+  .hero-handwritten {
+    font-size: 88px;
+  }
+  .hero-drawn-heart {
+    left: 226px;
+    top: 194px;
+  }
+  .hero-main-photo {
+    right: -77px;
+  }
+  .glam-hero-copy {
+    padding-inline: 19px;
+  }
+  .glam-hero-copy > .eyebrow {
+    font-size: 6.5px;
+  }
+  .hero-description {
+    font-size: 9px;
+  }
+  .polaroid .beauty-photo {
+    height: 116px;
+  }
+  .polaroid > span {
+    font-size: 15px;
+  }
+  .hero-polaroids {
+    left: 14px;
+    right: 14px;
+  }
+  .hero-seal {
+    right: 14px;
+    top: -40px;
+    width: 100px;
+    height: 100px;
+  }
+  .hero-location {
+    left: 19px;
+    font-size: 7px;
+  }
+  .beauty-section-heading h2 {
+    font-size: 48px;
+  }
+  .beauty-section-heading h2 > .handwritten {
+    font-size: 56px;
+  }
+  .heading-aside > p {
+    font-size: 8px;
+  }
+  .care-card-family {
+    font-size: 28px;
+  }
+  .care-card-detail {
+    font-size: 6.5px;
+  }
+  .experience-copy h2 .handwritten {
+    font-size: 51px;
+  }
+  .invitation-copy h2 .handwritten {
+    font-size: 76px;
+  }
+  .gift-copy h2 > .handwritten {
+    font-size: 55px;
+  }
+  .social-copy h2 > .handwritten {
+    font-size: 60px;
+  }
+  .page-intro h1 {
+    font-size: 43px;
+  }
+  .intro-portrait {
+    flex-basis: 70px;
+    width: 70px;
+    height: 100px;
+  }
+  .header-inner {
+    gap: 12px;
+  }
+  .header-booking {
+    padding-inline: 13px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .reveal[data-reveal] {
+    opacity: 1;
+    translate: none;
+  }
+  .reveal,
+  .beauty-photo img,
+  .care-photo-card,
+  .button,
+  .polaroid {
+    transition: none !important;
+    animation: none !important;
+  }
+  .reveal {
+    translate: none !important;
+  }
+}
+/* Ajustements après comparaison des captures 1440 / 820 / 390 avec le flyer. */
+.service-detail-layout {
+  display: grid;
+  grid-template-columns: 1.05fr 1fr;
+  gap: 70px;
+  align-items: center;
+  padding-top: 10px;
+}
+.service-feature-photo {
+  position: relative;
+  margin: 0 5px 0 0;
+  transform: rotate(-2deg);
+  padding: 7px 7px 33px;
+  background: #fffcf7;
+  border-radius: 8px;
+  box-shadow: 0 15px 35px #633d2726;
+}
+.service-feature-photo > img {
+  width: 100%;
+  height: 510px;
+  object-fit: cover;
+  display: block;
+  border-radius: 4px;
+}
+.service-feature-photo > figcaption {
+  position: absolute;
+  left: 10px;
+  right: 10px;
+  bottom: 9px;
+  font-size: 8px;
+  line-height: 1.6;
+  color: #77513c;
+  text-align: center;
+}
+.service-photo-heart {
+  position: absolute;
+  bottom: -15px;
+  right: -20px;
+  font:
+    92px var(--font-handwritten),
+    cursive;
+  color: #ac5345;
+  transform: rotate(16deg);
+}
+.service-detail-info > .eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 9px;
+  color: #875244;
+}
+.service-detail-info > h2 {
+  font-size: 58px;
+  line-height: 0.97;
+  margin-bottom: 26px;
+}
+.service-detail-info > h2 > .handwritten {
+  font-size: 66px;
+  line-height: 1.2;
+  display: inline-block;
+  transform: rotate(-5deg);
+}
+.service-feature-price {
+  font:
+    55px/1 var(--font-editorial),
+    serif;
+  color: #422a20;
+  margin: 0 0 16px;
+}
+.service-feature-price > span {
+  font:
+    10px var(--font-sans),
+    sans-serif;
+  margin-left: 4px;
+}
+.service-feature-duration {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  font-size: 11px;
+  color: #7c5b49;
+  line-height: 1.7;
+}
+.service-feature-status {
+  font-size: 12px;
+  line-height: 1.9;
+  color: #795845;
+  max-width: 400px;
+  margin-block: 20px 24px;
+}
+.service-detail-info > .button {
+  font-size: 11px;
+}
+.service-question {
+  border-top: 1px solid #dec2b0;
+  margin-top: 32px;
+  padding-top: 23px;
+}
+.service-question > h3 {
+  font-size: 28px;
+  line-height: 1.2;
+  margin-bottom: 8px;
+}
+.service-question > p {
+  font-size: 11px;
+  color: #7b5946;
+  margin-bottom: 16px;
+}
+.service-question .button {
+  font-size: 10px;
+  min-height: 41px;
+}
+.service-question .help {
+  font-size: 10px;
+}
+.contact-ambiance-caption {
+  font-size: 10px !important;
+  margin-top: -12px;
+  margin-bottom: 20px;
+}
+@media (min-width: 701px) and (max-width: 900px) {
+  .service-detail-layout {
+    gap: 35px;
+  }
+  .service-feature-photo > img {
+    height: 440px;
+  }
+  .service-feature-photo > figcaption {
+    font-size: 7px;
+  }
+  .service-detail-info > h2 {
+    font-size: 45px;
+  }
+  .service-detail-info > h2 > .handwritten {
+    font-size: 52px;
+  }
+  .service-feature-price {
+    font-size: 47px;
+  }
+  .service-feature-duration {
+    font-size: 10px;
+  }
+  .service-feature-status {
+    font-size: 11px;
+  }
+}
+@media (max-width: 700px) {
+  .service-detail-layout {
+    grid-template-columns: 1fr;
+    gap: 36px;
+    padding-top: 5px;
+  }
+  .service-feature-photo {
+    margin-inline: 5px;
+    padding: 5px 5px 30px;
+  }
+  .service-feature-photo > img {
+    height: 335px;
+  }
+  .service-feature-photo > figcaption {
+    font-size: 7px;
+    bottom: 9px;
+  }
+  .service-photo-heart {
+    font-size: 73px;
+    right: -10px;
+    bottom: -13px;
+  }
+  .service-detail-info > h2 {
+    font-size: 53px;
+    line-height: 0.95;
+  }
+  .service-detail-info > h2 > .handwritten {
+    font-size: 61px;
+  }
+  .service-feature-price {
+    font-size: 49px;
+  }
+  .service-feature-duration {
+    font-size: 10px;
+  }
+  .service-feature-status {
+    font-size: 12px;
+  }
+  .service-question {
+    margin-top: 28px;
+    padding-top: 25px;
+  }
+  .service-question > h3 {
+    font-size: 28px;
+  }
+}
+@media (min-width: 701px) and (max-width: 900px) {
+  .gift-copy h2 > .handwritten {
+    font-size: 47px;
+    white-space: normal;
+    max-width: 330px;
+  }
+  .beauty-gifts {
+    gap: 40px;
+  }
+  .beauty-favorites .beauty-section-heading h2 > .handwritten {
+    font-size: 58px;
+    max-width: 420px;
+  }
+}
+@media (max-width: 700px) {
+  .care-card-tag {
+    font-size: 8px;
+    padding: 4px 7px;
+  }
+  .care-card-detail {
+    font-size: 9px;
+    max-width: 140px;
+    line-height: 1.5;
+  }
+  .care-card-arrow {
+    display: none;
+  }
+  .hero-description {
+    font-size: 11px;
+  }
+  .beauty-favorites .beauty-section-heading h2 > .handwritten {
+    font-size: 51px;
+    white-space: normal;
+    max-width: 100%;
+  }
+  .invitation-copy h2 > .handwritten {
+    font-size: 76px;
+    white-space: nowrap;
+  }
+  .heading-aside > p {
+    font-size: 10px;
+    max-width: 165px;
+  }
+}
