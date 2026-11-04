@@ -1,38 +1,10 @@
 import Link from "next/link";
-import { ArrowRight, ArrowUpRight } from "lucide-react";
+import { ArrowRight, Leaf, MapPin } from "lucide-react";
 import type { Brand } from "@/config/brand";
-import { heroEditorial } from "@/config/editorial";
 import { Photo } from "@/components/beauty-art";
-const tiles = [
-  {
-    label: "Le regard",
-    title: "Sublimez votre regard",
-    image: heroEditorial.regard,
-    href: "/prestations/extensions-cils",
-    status: "Cils & sourcils",
-  },
-  {
-    label: "Les ongles",
-    title: "Les jolis détails",
-    image: heroEditorial.ongles,
-    href: "/prestations/prothesie-ongulaire",
-    status: "Prothésie ongulaire",
-  },
-  {
-    label: "Le soin de soi",
-    title: "Une pause pour vous",
-    image: heroEditorial.visage,
-    href: "/prestations/soin-visage",
-    status: "Soins du visage",
-  },
-  {
-    label: "Bronzage",
-    title: "L’envie de lumière",
-    image: heroEditorial.peau,
-    href: "/prestations/spray-tan",
-    status: "Spray tan",
-  },
-];
+import { BotanicalSprig } from "@/components/botanical-sprig";
+
+// Preserve the public component contract with a new spa composition.
 export function HeroMosaic({
   settings: s,
   portrait,
@@ -41,87 +13,82 @@ export function HeroMosaic({
   portrait: string;
 }) {
   return (
-    <section className="hero-mosaic-section" aria-labelledby="hero-title">
-      <div className="hero-mosaic">
-        <div className="mosaic-main">
-          <Photo
-            src={portrait}
-            alt="Portrait beauté d’illustration fourni pour l’univers du site"
-            preload
-            className="mosaic-main-photo"
-            sizes="(max-width: 700px) 100vw, 65vw"
-          />
-          <div className="mosaic-main-shade" aria-hidden="true" />
-          <div className="mosaic-main-copy">
-            <h1
-              id="hero-title"
-              className={
-                s.slogan === "Prenez du temps pour vous."
-                  ? undefined
-                  : "mosaic-custom-title"
+    <section
+      className="spa-hero hero-mosaic-section"
+      aria-labelledby="hero-title"
+    >
+      <div className="spa-hero-inner beauty-container">
+        <div className="spa-hero-copy">
+          <p className="eyebrow">
+            <span className="spa-rule" /> MONÉA · INSTITUT DE BEAUTÉ
+          </p>
+          <h1 id="hero-title">
+            {s.slogan === "Prenez du temps pour vous." ? (
+              <>
+                {"Prenez du temps, "}
+                <br />
+                <span className="handwritten">rien que pour vous.</span>
+              </>
+            ) : (
+              s.slogan
+            )}
+          </h1>
+          <p className="spa-hero-description">
+            Un instant de calme. Des gestes attentionnés.
+            <br />
+            Une parenthèse de beauté, dans un univers doux et naturel.
+          </p>
+          <div className="spa-hero-actions">
+            <Link className="button coral-button" href="/reservation">
+              Réserver mon rendez-vous <ArrowRight size={18} />
+            </Link>
+            <Link className="under-link" href="/prestations">
+              Explorer les prestations <ArrowRight size={16} />
+            </Link>
+          </div>
+          <p className="spa-location">
+            <MapPin size={14} strokeWidth={1.3} /> Votre parenthèse beauté à{" "}
+            {s.city}
+          </p>
+          <BotanicalSprig className="spa-hero-sprig" />
+        </div>
+        <div className="spa-hero-art">
+          <div className="spa-hero-image-frame">
+            <Photo
+              src={
+                s.heroImage && !s.heroImage.includes("reference-flyer")
+                  ? s.heroImage
+                  : "/images/spa/rituel-naturel.webp"
               }
-            >
-              {s.slogan === "Prenez du temps pour vous." ? (
-                <>
-                  {"Prenez "}
-                  <br />
-                  {"du temps "}
-                  <br />
-                  pour{" "}
-                  <span className="handwritten mosaic-signature">
-                    vous<span aria-hidden="true">♡</span>
-                  </span>
-                </>
-              ) : (
-                s.slogan
-              )}
-            </h1>
-            <p className="mosaic-eyebrow">BEAUTÉ · SOINS · BIEN-ÊTRE</p>
-            <p className="mosaic-description">
-              Un regard sublimé. Des mains soignées. Et ce plaisir de s’accorder
-              une parenthèse.
-            </p>
-            <div className="mosaic-actions">
-              <Link className="button mosaic-book" href="/reservation">
-                <span>Réserver mon rendez-vous</span>
-                <ArrowRight size={20} />
-              </Link>
-              <Link className="mosaic-discover" href="/prestations">
-                Découvrir nos prestations
-              </Link>
-            </div>
-            <p className="mosaic-project">
-              MONÉA · Institut de beauté · {s.city}
-            </p>
+              alt="Composition d’ambiance : eucalyptus, bougie et linge ivoire sur du bois clair"
+              className="spa-hero-image"
+              preload
+              sizes="(max-width: 700px) 92vw, 50vw"
+            />
+          </div>
+          <div className="spa-hero-inset spa-hero-care-detail">
+            <Photo
+              src={portrait}
+              alt="Photographie d’illustration de l’univers beauté MONÉA"
+              sizes="(max-width: 700px) 30vw, 190px"
+            />
+            <span className="handwritten">L’art de prendre soin.</span>
+          </div>
+          <span className="spa-hero-caption">
+            MATIÈRES NATURELLES · INSPIRATION MONÉA
+          </span>
+          <div className="spa-hero-seal">
+            <Leaf size={26} strokeWidth={1} />
+            <span>Beauté & douceur</span>
+            <small>UN TEMPS POUR SOI</small>
           </div>
         </div>
-        {tiles.map((tile, i) => (
-          <Link
-            className={`mosaic-tile mosaic-tile-${i + 1}`}
-            href={tile.href}
-            key={tile.label}
-          >
-            <Photo
-              src={tile.image}
-              alt={`Illustration — ${tile.label.toLowerCase()}`}
-              sizes="(max-width: 700px) 50vw, 20vw"
-            />
-            <span className="mosaic-tile-shade" aria-hidden="true" />
-            <span className="mosaic-tile-status">{tile.status}</span>
-            <span className="mosaic-tile-copy">
-              <span className="mosaic-category">{tile.label}</span>
-              <span className="handwritten mosaic-tile-title">
-                {tile.title}
-                <span aria-hidden="true">{"\u00a0♡"}</span>
-              </span>
-            </span>
-            <ArrowUpRight
-              className="mosaic-tile-arrow"
-              size={18}
-              aria-hidden="true"
-            />
-          </Link>
-        ))}
+      </div>
+      <div className="spa-hero-bottom beauty-container">
+        <span>Beauté du regard</span>
+        <span>Ongles & jolis détails</span>
+        <span>Soins & bien-être</span>
+        <span>Une attention pour vous</span>
       </div>
     </section>
   );

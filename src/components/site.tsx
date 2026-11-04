@@ -10,7 +10,7 @@ export function Header({ settings: s }: { settings: Brand }) {
     <header className="site-header">
       <div className="header-inner">
         <Link href="/" className="wordmark" aria-label={`${s.name} · accueil`}>
-          <BrandLogo light />
+          <BrandLogo />
         </Link>
         <nav aria-label="Navigation principale" className="desktop-nav">
           <Link href="/prestations">Les prestations</Link>
@@ -90,7 +90,7 @@ export function Footer({ settings: s }: { settings: Brand }) {
         />
       </div>
       <Link href="/" className="footer-wordmark" aria-label="MONÉA · accueil">
-        <BrandLogo light />
+        <BrandLogo />
       </Link>
       <div className="footer-bottom">
         <span>

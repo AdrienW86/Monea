@@ -1,0 +1,1002 @@
+[
+  {
+    "tag": "A",
+    "class": "skip-link",
+    "box": [
+      15,
+      -60,
+      128.4,
+      47.8
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "announcement",
+    "box": [
+      0,
+      0,
+      1440,
+      29.6
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": null,
+    "box": [
+      787.8,
+      9,
+      8.1,
+      11
+    ]
+  },
+  {
+    "tag": "HEADER",
+    "class": "site-header",
+    "box": [
+      0,
+      29.6,
+      1440,
+      105
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "header-inner",
+    "box": [
+      80,
+      29.6,
+      1280,
+      104
+    ]
+  },
+  {
+    "tag": "A",
+    "class": "wordmark",
+    "box": [
+      80,
+      53.9,
+      215.1,
+      55.4
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": "brand-logo brand-logo-dark  ",
+    "box": [
+      80,
+      60.8,
+      215.1,
+      48.4
+    ]
+  },
+  {
+    "tag": "IMG",
+    "class": "brand-symbol-image",
+    "box": [
+      80,
+      66.1,
+      38,
+      38
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": "brand-name ",
+    "box": [
+      128,
+      60.8,
+      167.1,
+      48.4
+    ]
+  },
+  {
+    "tag": "NAV",
+    "class": "desktop-nav",
+    "box": [
+      807.8,
+      62.3,
+      376,
+      38.7
+    ]
+  },
+  {
+    "tag": "A",
+    "class": null,
+    "box": [
+      807.8,
+      62.3,
+      78.9,
+      38.7
+    ]
+  },
+  {
+    "tag": "A",
+    "class": null,
+    "box": [
+      917.8,
+      62.3,
+      82.2,
+      38.7
+    ]
+  },
+  {
+    "tag": "A",
+    "class": null,
+    "box": [
+      1031,
+      62.3,
+      80,
+      38.7
+    ]
+  },
+  {
+    "tag": "A",
+    "class": null,
+    "box": [
+      1141.9,
+      62.3,
+      41.9,
+      38.7
+    ]
+  },
+  {
+    "tag": "A",
+    "class": "button header-booking",
+    "box": [
+      1224.9,
+      56.3,
+      135.1,
+      50.7
+    ]
+  },
+  {
+    "tag": "svg",
+    "class": "lucide lucide-arrow-up-right",
+    "box": [
+      1318,
+      73.1,
+      17,
+      17
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      1323,
+      78.1,
+      7.1,
+      7.1
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      1323,
+      78.1,
+      7.1,
+      7.1
+    ]
+  },
+  {
+    "tag": "MAIN",
+    "class": null,
+    "box": [
+      0,
+      134.6,
+      1440,
+      1042.8
+    ]
+  },
+  {
+    "tag": "SECTION",
+    "class": "section service-detail",
+    "box": [
+      24,
+      134.6,
+      1392,
+      1042.8
+    ]
+  },
+  {
+    "tag": "A",
+    "class": "under-link",
+    "box": [
+      80,
+      193.6,
+      93.5,
+      28.7
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "page-intro",
+    "box": [
+      80,
+      242.3,
+      1280,
+      229.4
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "page-intro-copy",
+    "box": [
+      80,
+      270.3,
+      391.5,
+      155.4
+    ]
+  },
+  {
+    "tag": "P",
+    "class": "eyebrow",
+    "box": [
+      80,
+      270.3,
+      391.5,
+      23
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": "tiny-star",
+    "box": [
+      80,
+      270.3,
+      20.5,
+      23
+    ]
+  },
+  {
+    "tag": "H1",
+    "class": null,
+    "box": [
+      80,
+      315.3,
+      391.5,
+      68
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "intro-copy",
+    "box": [
+      80,
+      405.3,
+      391.5,
+      20.4
+    ]
+  },
+  {
+    "tag": "P",
+    "class": null,
+    "box": [
+      80,
+      405.3,
+      391.5,
+      20.4
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "service-detail-layout",
+    "box": [
+      80,
+      506.7,
+      1280,
+      585.7
+    ]
+  },
+  {
+    "tag": "FIGURE",
+    "class": "service-feature-photo",
+    "box": [
+      80,
+      516.7,
+      619.8,
+      530
+    ]
+  },
+  {
+    "tag": "IMG",
+    "class": null,
+    "box": [
+      80,
+      516.7,
+      619.8,
+      530
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "service-detail-info",
+    "box": [
+      769.8,
+      516.7,
+      590.2,
+      575.7
+    ]
+  },
+  {
+    "tag": "P",
+    "class": "eyebrow",
+    "box": [
+      769.8,
+      546.7,
+      590.2,
+      16
+    ]
+  },
+  {
+    "tag": "svg",
+    "class": "lucide lucide-sparkles",
+    "box": [
+      769.8,
+      546.7,
+      16,
+      16
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      771.1,
+      548,
+      13.3,
+      13.3
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      783.1,
+      548,
+      0,
+      2.7
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      781.8,
+      549.4,
+      2.7,
+      0
+    ]
+  },
+  {
+    "tag": "circle",
+    "class": null,
+    "box": [
+      771.1,
+      558.7,
+      2.7,
+      2.7
+    ]
+  },
+  {
+    "tag": "H2",
+    "class": null,
+    "box": [
+      769.8,
+      584.7,
+      590.2,
+      109.3
+    ]
+  },
+  {
+    "tag": "BR",
+    "class": null,
+    "box": [
+      1030,
+      578.7,
+      0,
+      59
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": "handwritten",
+    "box": [
+      769.8,
+      632.2,
+      253.7,
+      61.7
+    ]
+  },
+  {
+    "tag": "P",
+    "class": "service-feature-price",
+    "box": [
+      769.8,
+      720,
+      590.2,
+      52
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": null,
+    "box": [
+      935.5,
+      751,
+      19.7,
+      14
+    ]
+  },
+  {
+    "tag": "P",
+    "class": "service-feature-duration",
+    "box": [
+      769.8,
+      788,
+      590.2,
+      18.7
+    ]
+  },
+  {
+    "tag": "svg",
+    "class": "lucide lucide-clock3 lucide-clock-3",
+    "box": [
+      769.8,
+      789.8,
+      15,
+      15
+    ]
+  },
+  {
+    "tag": "circle",
+    "class": null,
+    "box": [
+      771,
+      791,
+      12.5,
+      12.5
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      777.3,
+      793.5,
+      2.5,
+      3.8
+    ]
+  },
+  {
+    "tag": "P",
+    "class": "service-feature-status",
+    "box": [
+      769.8,
+      826.6,
+      400,
+      58.8
+    ]
+  },
+  {
+    "tag": "A",
+    "class": "button coral-button",
+    "box": [
+      769.8,
+      909.4,
+      204.3,
+      50.7
+    ]
+  },
+  {
+    "tag": "svg",
+    "class": "lucide lucide-arrow-up-right",
+    "box": [
+      931.1,
+      925.8,
+      18,
+      18
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      936.3,
+      931,
+      7.5,
+      7.5
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      936.3,
+      931,
+      7.5,
+      7.5
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "service-question",
+    "box": [
+      769.8,
+      992.1,
+      590.2,
+      84.3
+    ]
+  },
+  {
+    "tag": "H3",
+    "class": null,
+    "box": [
+      769.8,
+      1016.1,
+      590.2,
+      33.6
+    ]
+  },
+  {
+    "tag": "P",
+    "class": null,
+    "box": [
+      769.8,
+      1057.7,
+      590.2,
+      18.7
+    ]
+  },
+  {
+    "tag": "FOOTER",
+    "class": "beauty-footer",
+    "box": [
+      0,
+      1177.4,
+      1440,
+      787.5
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "footer-upper",
+    "box": [
+      80,
+      1236.4,
+      1280,
+      217.2
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "footer-invitation",
+    "box": [
+      80,
+      1236.4,
+      705.9,
+      217.2
+    ]
+  },
+  {
+    "tag": "P",
+    "class": "eyebrow",
+    "box": [
+      80,
+      1236.4,
+      705.9,
+      13.6
+    ]
+  },
+  {
+    "tag": "P",
+    "class": "footer-title",
+    "box": [
+      80,
+      1272,
+      705.9,
+      101.6
+    ]
+  },
+  {
+    "tag": "BR",
+    "class": null,
+    "box": [
+      302.5,
+      1267,
+      0,
+      52
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": "handwritten",
+    "box": [
+      78.6,
+      1310.4,
+      336.6,
+      74.8
+    ]
+  },
+  {
+    "tag": "A",
+    "class": "button coral-button",
+    "box": [
+      80,
+      1403.6,
+      205.3,
+      50
+    ]
+  },
+  {
+    "tag": "svg",
+    "class": "lucide lucide-arrow-up-right",
+    "box": [
+      242.3,
+      1419.6,
+      18,
+      18
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      247.6,
+      1424.8,
+      7.5,
+      7.5
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      247.6,
+      1424.8,
+      7.5,
+      7.5
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "footer-contact",
+    "box": [
+      865.9,
+      1304.3,
+      494.1,
+      81.3
+    ]
+  },
+  {
+    "tag": "P",
+    "class": "eyebrow",
+    "box": [
+      865.9,
+      1304.3,
+      494.1,
+      15.3
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "inline-links",
+    "box": [
+      865.9,
+      1341.6,
+      494.1,
+      0
+    ]
+  },
+  {
+    "tag": "P",
+    "class": "footer-city",
+    "box": [
+      865.9,
+      1366.6,
+      340,
+      19
+    ]
+  },
+  {
+    "tag": "svg",
+    "class": "lucide lucide-sparkles",
+    "box": [
+      865.9,
+      1368.6,
+      15,
+      15
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      867.1,
+      1369.9,
+      12.5,
+      12.5
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      878.4,
+      1369.9,
+      0,
+      2.5
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      877.1,
+      1371.1,
+      2.5,
+      0
+    ]
+  },
+  {
+    "tag": "circle",
+    "class": null,
+    "box": [
+      867.1,
+      1379.9,
+      2.5,
+      2.5
+    ]
+  },
+  {
+    "tag": "svg",
+    "class": "lucide lucide-heart footer-heart",
+    "box": [
+      1248.8,
+      1342.4,
+      122.5,
+      122.5
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      1260,
+      1360.5,
+      98.8,
+      90.1
+    ]
+  },
+  {
+    "tag": "A",
+    "class": "footer-wordmark",
+    "box": [
+      310,
+      1503.6,
+      820,
+      365
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": "brand-logo brand-logo-dark  ",
+    "box": [
+      310,
+      1640.9,
+      820,
+      180.5
+    ]
+  },
+  {
+    "tag": "IMG",
+    "class": "brand-symbol-image",
+    "box": [
+      344.7,
+      1681.2,
+      100,
+      100
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": "brand-name ",
+    "box": [
+      472.7,
+      1640.9,
+      622.6,
+      180.5
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "footer-bottom",
+    "box": [
+      80,
+      1903.6,
+      1280,
+      39.3
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": null,
+    "box": [
+      80,
+      1927.6,
+      111.1,
+      15.3
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": null,
+    "box": [
+      1114.5,
+      1927.6,
+      245.5,
+      15.3
+    ]
+  },
+  {
+    "tag": "A",
+    "class": null,
+    "box": [
+      1114.5,
+      1927.6,
+      70.7,
+      15.3
+    ]
+  },
+  {
+    "tag": "A",
+    "class": null,
+    "box": [
+      1215.3,
+      1927.6,
+      62.1,
+      15.3
+    ]
+  },
+  {
+    "tag": "A",
+    "class": null,
+    "box": [
+      1307.4,
+      1927.6,
+      52.6,
+      15.3
+    ]
+  },
+  {
+    "tag": "NEXT-ROUTE-ANNOUNCER",
+    "class": null,
+    "box": [
+      0,
+      1964.9,
+      0,
+      0
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "nextjs-toast",
+    "box": [
+      20,
+      944,
+      36,
+      36
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": null,
+    "box": [
+      20,
+      944,
+      36,
+      36
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": null,
+    "box": [
+      20,
+      944,
+      36,
+      36
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": null,
+    "box": [
+      20,
+      944,
+      36,
+      36
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": null,
+    "box": [
+      20,
+      946,
+      36,
+      32
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": null,
+    "box": [
+      22,
+      946,
+      32,
+      32
+    ]
+  },
+  {
+    "tag": "svg",
+    "class": null,
+    "box": [
+      22,
+      942,
+      40,
+      40
+    ]
+  },
+  {
+    "tag": "g",
+    "class": null,
+    "box": [
+      32.8,
+      956,
+      11,
+      14.2
+    ]
+  },
+  {
+    "tag": "path",
+    "class": "paused",
+    "box": [
+      32.8,
+      956,
+      11,
+      14.2
+    ]
+  },
+  {
+    "tag": "path",
+    "class": "paused",
+    "box": [
+      42.3,
+      956.5,
+      0,
+      11.6
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": null,
+    "box": [
+      52,
+      950,
+      0,
+      0
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": null,
+    "box": [
+      -1,
+      1963.9,
+      1,
+      1
+    ]
+  }
+]

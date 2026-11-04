@@ -1,0 +1,2972 @@
+[
+  {
+    "tag": "A",
+    "class": "skip-link",
+    "box": [
+      15,
+      -60,
+      121,
+      46.1
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "announcement",
+    "box": [
+      0,
+      0,
+      390,
+      27
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": null,
+    "box": [
+      246.8,
+      9,
+      6.3,
+      9
+    ]
+  },
+  {
+    "tag": "HEADER",
+    "class": "site-header",
+    "box": [
+      0,
+      27,
+      390,
+      82
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "header-inner",
+    "box": [
+      20,
+      27,
+      350,
+      81
+    ]
+  },
+  {
+    "tag": "A",
+    "class": "wordmark",
+    "box": [
+      20,
+      44.6,
+      175.6,
+      45.8
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": "brand-logo brand-logo-dark  ",
+    "box": [
+      20,
+      50.6,
+      175.6,
+      39.9
+    ]
+  },
+  {
+    "tag": "IMG",
+    "class": "brand-symbol-image",
+    "box": [
+      20,
+      55.5,
+      30,
+      30
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": "brand-name ",
+    "box": [
+      58,
+      50.6,
+      137.6,
+      39.9
+    ]
+  },
+  {
+    "tag": "A",
+    "class": "button header-booking",
+    "box": [
+      228.3,
+      48,
+      102.7,
+      39
+    ]
+  },
+  {
+    "tag": "svg",
+    "class": "lucide lucide-arrow-up-right",
+    "box": [
+      301,
+      59,
+      15,
+      17
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      305.4,
+      64.4,
+      6.3,
+      6.3
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      305.4,
+      64.4,
+      6.3,
+      6.3
+    ]
+  },
+  {
+    "tag": "DETAILS",
+    "class": "mobile-menu",
+    "box": [
+      345,
+      49.5,
+      25,
+      36
+    ]
+  },
+  {
+    "tag": "SUMMARY",
+    "class": null,
+    "box": [
+      345,
+      49.5,
+      25,
+      36
+    ]
+  },
+  {
+    "tag": "svg",
+    "class": "lucide lucide-menu",
+    "box": [
+      346,
+      56,
+      23,
+      23
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      349.8,
+      60.8,
+      15.3,
+      0
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      349.8,
+      67.5,
+      15.3,
+      0
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      349.8,
+      74.3,
+      15.3,
+      0
+    ]
+  },
+  {
+    "tag": "NAV",
+    "class": null,
+    "box": [
+      148,
+      132.5,
+      235,
+      280.6
+    ]
+  },
+  {
+    "tag": "A",
+    "class": null,
+    "box": [
+      171,
+      151.5,
+      189,
+      69
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": "brand-logo brand-logo-dark  ",
+    "box": [
+      171,
+      162.5,
+      171.1,
+      38
+    ]
+  },
+  {
+    "tag": "IMG",
+    "class": "brand-symbol-image",
+    "box": [
+      171,
+      166.5,
+      30,
+      30
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": "brand-name ",
+    "box": [
+      211,
+      162.5,
+      131.1,
+      38
+    ]
+  },
+  {
+    "tag": "A",
+    "class": null,
+    "box": [
+      171,
+      220.5,
+      189,
+      43.4
+    ]
+  },
+  {
+    "tag": "A",
+    "class": null,
+    "box": [
+      171,
+      263.9,
+      189,
+      43.4
+    ]
+  },
+  {
+    "tag": "A",
+    "class": null,
+    "box": [
+      171,
+      307.3,
+      189,
+      43.4
+    ]
+  },
+  {
+    "tag": "A",
+    "class": null,
+    "box": [
+      171,
+      350.7,
+      189,
+      43.4
+    ]
+  },
+  {
+    "tag": "MAIN",
+    "class": null,
+    "box": [
+      0,
+      109,
+      390,
+      8401.4
+    ]
+  },
+  {
+    "tag": "SECTION",
+    "class": "section",
+    "box": [
+      0,
+      109,
+      390,
+      8401.4
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "page-intro",
+    "box": [
+      20,
+      139,
+      350,
+      283
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "page-intro-copy",
+    "box": [
+      41,
+      162,
+      207,
+      226
+    ]
+  },
+  {
+    "tag": "P",
+    "class": "eyebrow",
+    "box": [
+      41,
+      162,
+      207,
+      23
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": "tiny-star",
+    "box": [
+      41,
+      162,
+      19.7,
+      23
+    ]
+  },
+  {
+    "tag": "H1",
+    "class": null,
+    "box": [
+      41,
+      204,
+      207,
+      119.7
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "intro-copy",
+    "box": [
+      41,
+      343.7,
+      207,
+      44.4
+    ]
+  },
+  {
+    "tag": "P",
+    "class": null,
+    "box": [
+      41,
+      343.7,
+      207,
+      44.4
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "intro-portrait",
+    "box": [
+      263,
+      207,
+      85,
+      125
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "beauty-photo intro-photo",
+    "box": [
+      263,
+      207,
+      85,
+      125
+    ]
+  },
+  {
+    "tag": "IMG",
+    "class": null,
+    "box": [
+      263,
+      207,
+      85,
+      125
+    ]
+  },
+  {
+    "tag": "svg",
+    "class": "botanical-sprig intro-sprig",
+    "box": [
+      236.4,
+      266.5,
+      66.2,
+      81.2
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      244.7,
+      276.8,
+      50.7,
+      66.6
+    ]
+  },
+  {
+    "tag": "g",
+    "class": null,
+    "box": [
+      237.2,
+      268.2,
+      59.7,
+      65.3
+    ]
+  },
+  {
+    "tag": "ellipse",
+    "class": null,
+    "box": [
+      253,
+      312.6,
+      17.1,
+      14.4
+    ]
+  },
+  {
+    "tag": "ellipse",
+    "class": null,
+    "box": [
+      245.7,
+      302,
+      14.3,
+      15.2
+    ]
+  },
+  {
+    "tag": "ellipse",
+    "class": null,
+    "box": [
+      267.7,
+      309.8,
+      9.8,
+      16.2
+    ]
+  },
+  {
+    "tag": "ellipse",
+    "class": null,
+    "box": [
+      270.2,
+      295.2,
+      14,
+      16.6
+    ]
+  },
+  {
+    "tag": "ellipse",
+    "class": null,
+    "box": [
+      274.8,
+      283,
+      9.7,
+      14.6
+    ]
+  },
+  {
+    "tag": "ellipse",
+    "class": null,
+    "box": [
+      254.7,
+      286.3,
+      15.6,
+      13.1
+    ]
+  },
+  {
+    "tag": "ellipse",
+    "class": null,
+    "box": [
+      263,
+      272.6,
+      10.2,
+      16.1
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "filters",
+    "box": [
+      20,
+      447.1,
+      350,
+      165
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "selected",
+    "box": [
+      20,
+      465.1,
+      47,
+      37
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "",
+    "box": [
+      74,
+      465.1,
+      69.2,
+      37
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "",
+    "box": [
+      150.3,
+      465.1,
+      75.4,
+      37
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "",
+    "box": [
+      232.7,
+      465.1,
+      89.3,
+      37
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "",
+    "box": [
+      20,
+      509.1,
+      68.9,
+      37
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "",
+    "box": [
+      95.9,
+      509.1,
+      65,
+      37
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "",
+    "box": [
+      167.9,
+      509.1,
+      89.2,
+      37
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "",
+    "box": [
+      20,
+      553.1,
+      146.1,
+      37
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "catalogue-grid",
+    "box": [
+      20,
+      627.1,
+      350,
+      7828.4
+    ]
+  },
+  {
+    "tag": "ARTICLE",
+    "class": "service-card",
+    "box": [
+      20,
+      627.1,
+      350,
+      451.9
+    ]
+  },
+  {
+    "tag": "IMG",
+    "class": "service-image",
+    "box": [
+      22,
+      628.1,
+      346,
+      230.7
+    ]
+  },
+  {
+    "tag": "P",
+    "class": "eyebrow",
+    "box": [
+      44,
+      880.8,
+      302,
+      15.3
+    ]
+  },
+  {
+    "tag": "H2",
+    "class": null,
+    "box": [
+      44,
+      923,
+      302,
+      34.3
+    ]
+  },
+  {
+    "tag": "A",
+    "class": null,
+    "box": [
+      44,
+      920,
+      214.3,
+      39
+    ]
+  },
+  {
+    "tag": "P",
+    "class": null,
+    "box": [
+      44,
+      972.4,
+      302,
+      21.6
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "service-card-bottom",
+    "box": [
+      44,
+      994,
+      302,
+      61
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": null,
+    "box": [
+      44,
+      1021.2,
+      85.3,
+      25.5
+    ]
+  },
+  {
+    "tag": "A",
+    "class": null,
+    "box": [
+      304,
+      1013,
+      42,
+      42
+    ]
+  },
+  {
+    "tag": "svg",
+    "class": "lucide lucide-arrow-up-right",
+    "box": [
+      313,
+      1022,
+      24,
+      24
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      320,
+      1029,
+      10,
+      10
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      320,
+      1029,
+      10,
+      10
+    ]
+  },
+  {
+    "tag": "ARTICLE",
+    "class": "service-card",
+    "box": [
+      20,
+      1104,
+      350,
+      451.9
+    ]
+  },
+  {
+    "tag": "IMG",
+    "class": "service-image",
+    "box": [
+      22,
+      1105,
+      346,
+      230.7
+    ]
+  },
+  {
+    "tag": "P",
+    "class": "eyebrow",
+    "box": [
+      44,
+      1357.6,
+      302,
+      15.3
+    ]
+  },
+  {
+    "tag": "H2",
+    "class": null,
+    "box": [
+      44,
+      1399.9,
+      302,
+      34.3
+    ]
+  },
+  {
+    "tag": "A",
+    "class": null,
+    "box": [
+      44,
+      1396.9,
+      258.9,
+      39
+    ]
+  },
+  {
+    "tag": "P",
+    "class": null,
+    "box": [
+      44,
+      1449.2,
+      302,
+      21.6
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "service-card-bottom",
+    "box": [
+      44,
+      1470.8,
+      302,
+      61
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": null,
+    "box": [
+      44,
+      1498.1,
+      85.3,
+      25.5
+    ]
+  },
+  {
+    "tag": "A",
+    "class": null,
+    "box": [
+      304,
+      1489.8,
+      42,
+      42
+    ]
+  },
+  {
+    "tag": "svg",
+    "class": "lucide lucide-arrow-up-right",
+    "box": [
+      313,
+      1498.8,
+      24,
+      24
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      320,
+      1505.8,
+      10,
+      10
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      320,
+      1505.8,
+      10,
+      10
+    ]
+  },
+  {
+    "tag": "ARTICLE",
+    "class": "service-card",
+    "box": [
+      20,
+      1580.8,
+      350,
+      451.9
+    ]
+  },
+  {
+    "tag": "IMG",
+    "class": "service-image",
+    "box": [
+      22,
+      1581.8,
+      346,
+      230.7
+    ]
+  },
+  {
+    "tag": "P",
+    "class": "eyebrow",
+    "box": [
+      44,
+      1834.5,
+      302,
+      15.3
+    ]
+  },
+  {
+    "tag": "H2",
+    "class": null,
+    "box": [
+      44,
+      1876.8,
+      302,
+      34.3
+    ]
+  },
+  {
+    "tag": "A",
+    "class": null,
+    "box": [
+      44,
+      1873.8,
+      101.5,
+      39
+    ]
+  },
+  {
+    "tag": "P",
+    "class": null,
+    "box": [
+      44,
+      1926.1,
+      302,
+      21.6
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "service-card-bottom",
+    "box": [
+      44,
+      1947.7,
+      302,
+      61
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": null,
+    "box": [
+      44,
+      1974.9,
+      85.3,
+      25.5
+    ]
+  },
+  {
+    "tag": "A",
+    "class": null,
+    "box": [
+      304,
+      1966.7,
+      42,
+      42
+    ]
+  },
+  {
+    "tag": "svg",
+    "class": "lucide lucide-arrow-up-right",
+    "box": [
+      313,
+      1975.7,
+      24,
+      24
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      320,
+      1982.7,
+      10,
+      10
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      320,
+      1982.7,
+      10,
+      10
+    ]
+  },
+  {
+    "tag": "ARTICLE",
+    "class": "service-card",
+    "box": [
+      20,
+      2057.7,
+      350,
+      486.2
+    ]
+  },
+  {
+    "tag": "IMG",
+    "class": "service-image",
+    "box": [
+      22,
+      2058.7,
+      346,
+      230.7
+    ]
+  },
+  {
+    "tag": "P",
+    "class": "eyebrow",
+    "box": [
+      44,
+      2311.3,
+      302,
+      15.3
+    ]
+  },
+  {
+    "tag": "H2",
+    "class": null,
+    "box": [
+      44,
+      2353.6,
+      302,
+      68.6
+    ]
+  },
+  {
+    "tag": "A",
+    "class": null,
+    "box": [
+      44,
+      2350.6,
+      275.2,
+      73.3
+    ]
+  },
+  {
+    "tag": "P",
+    "class": null,
+    "box": [
+      44,
+      2437.3,
+      302,
+      21.6
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "service-card-bottom",
+    "box": [
+      44,
+      2458.8,
+      302,
+      61
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": null,
+    "box": [
+      44,
+      2486.1,
+      85.3,
+      25.5
+    ]
+  },
+  {
+    "tag": "A",
+    "class": null,
+    "box": [
+      304,
+      2477.8,
+      42,
+      42
+    ]
+  },
+  {
+    "tag": "svg",
+    "class": "lucide lucide-arrow-up-right",
+    "box": [
+      313,
+      2486.8,
+      24,
+      24
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      320,
+      2493.8,
+      10,
+      10
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      320,
+      2493.8,
+      10,
+      10
+    ]
+  },
+  {
+    "tag": "ARTICLE",
+    "class": "service-card",
+    "box": [
+      20,
+      2568.8,
+      350,
+      451.9
+    ]
+  },
+  {
+    "tag": "IMG",
+    "class": "service-image",
+    "box": [
+      22,
+      2569.8,
+      346,
+      230.7
+    ]
+  },
+  {
+    "tag": "P",
+    "class": "eyebrow",
+    "box": [
+      44,
+      2822.5,
+      302,
+      15.3
+    ]
+  },
+  {
+    "tag": "H2",
+    "class": null,
+    "box": [
+      44,
+      2864.8,
+      302,
+      34.3
+    ]
+  },
+  {
+    "tag": "A",
+    "class": null,
+    "box": [
+      44,
+      2861.8,
+      235.4,
+      39
+    ]
+  },
+  {
+    "tag": "P",
+    "class": null,
+    "box": [
+      44,
+      2914.1,
+      302,
+      21.6
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "service-card-bottom",
+    "box": [
+      44,
+      2935.7,
+      302,
+      61
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": null,
+    "box": [
+      44,
+      2963,
+      85.3,
+      25.5
+    ]
+  },
+  {
+    "tag": "A",
+    "class": null,
+    "box": [
+      304,
+      2954.7,
+      42,
+      42
+    ]
+  },
+  {
+    "tag": "svg",
+    "class": "lucide lucide-arrow-up-right",
+    "box": [
+      313,
+      2963.7,
+      24,
+      24
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      320,
+      2970.7,
+      10,
+      10
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      320,
+      2970.7,
+      10,
+      10
+    ]
+  },
+  {
+    "tag": "ARTICLE",
+    "class": "service-card",
+    "box": [
+      20,
+      3045.7,
+      350,
+      486.2
+    ]
+  },
+  {
+    "tag": "IMG",
+    "class": "service-image",
+    "box": [
+      22,
+      3046.7,
+      346,
+      230.7
+    ]
+  },
+  {
+    "tag": "P",
+    "class": "eyebrow",
+    "box": [
+      44,
+      3299.4,
+      302,
+      15.3
+    ]
+  },
+  {
+    "tag": "H2",
+    "class": null,
+    "box": [
+      44,
+      3341.7,
+      302,
+      68.6
+    ]
+  },
+  {
+    "tag": "A",
+    "class": null,
+    "box": [
+      44,
+      3338.7,
+      271.7,
+      73.3
+    ]
+  },
+  {
+    "tag": "P",
+    "class": null,
+    "box": [
+      44,
+      3425.3,
+      302,
+      21.6
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "service-card-bottom",
+    "box": [
+      44,
+      3446.9,
+      302,
+      61
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": null,
+    "box": [
+      44,
+      3474.1,
+      85.3,
+      25.5
+    ]
+  },
+  {
+    "tag": "A",
+    "class": null,
+    "box": [
+      304,
+      3465.9,
+      42,
+      42
+    ]
+  },
+  {
+    "tag": "svg",
+    "class": "lucide lucide-arrow-up-right",
+    "box": [
+      313,
+      3474.9,
+      24,
+      24
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      320,
+      3481.9,
+      10,
+      10
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      320,
+      3481.9,
+      10,
+      10
+    ]
+  },
+  {
+    "tag": "ARTICLE",
+    "class": "service-card",
+    "box": [
+      20,
+      3556.9,
+      350,
+      451.9
+    ]
+  },
+  {
+    "tag": "IMG",
+    "class": "service-image",
+    "box": [
+      22,
+      3557.9,
+      346,
+      230.7
+    ]
+  },
+  {
+    "tag": "P",
+    "class": "eyebrow",
+    "box": [
+      44,
+      3810.5,
+      302,
+      15.3
+    ]
+  },
+  {
+    "tag": "H2",
+    "class": null,
+    "box": [
+      44,
+      3852.8,
+      302,
+      34.3
+    ]
+  },
+  {
+    "tag": "A",
+    "class": null,
+    "box": [
+      44,
+      3849.8,
+      200,
+      39
+    ]
+  },
+  {
+    "tag": "P",
+    "class": null,
+    "box": [
+      44,
+      3902.1,
+      302,
+      21.6
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "service-card-bottom",
+    "box": [
+      44,
+      3923.7,
+      302,
+      61
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": null,
+    "box": [
+      44,
+      3951,
+      85.3,
+      25.5
+    ]
+  },
+  {
+    "tag": "A",
+    "class": null,
+    "box": [
+      304,
+      3942.7,
+      42,
+      42
+    ]
+  },
+  {
+    "tag": "svg",
+    "class": "lucide lucide-arrow-up-right",
+    "box": [
+      313,
+      3951.7,
+      24,
+      24
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      320,
+      3958.7,
+      10,
+      10
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      320,
+      3958.7,
+      10,
+      10
+    ]
+  },
+  {
+    "tag": "ARTICLE",
+    "class": "service-card",
+    "box": [
+      20,
+      4033.7,
+      350,
+      451.9
+    ]
+  },
+  {
+    "tag": "IMG",
+    "class": "service-image",
+    "box": [
+      22,
+      4034.7,
+      346,
+      230.7
+    ]
+  },
+  {
+    "tag": "P",
+    "class": "eyebrow",
+    "box": [
+      44,
+      4287.4,
+      302,
+      15.3
+    ]
+  },
+  {
+    "tag": "H2",
+    "class": null,
+    "box": [
+      44,
+      4329.7,
+      302,
+      34.3
+    ]
+  },
+  {
+    "tag": "A",
+    "class": null,
+    "box": [
+      44,
+      4326.7,
+      226,
+      39
+    ]
+  },
+  {
+    "tag": "P",
+    "class": null,
+    "box": [
+      44,
+      4379,
+      302,
+      21.6
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "service-card-bottom",
+    "box": [
+      44,
+      4400.6,
+      302,
+      61
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": null,
+    "box": [
+      44,
+      4427.8,
+      85.3,
+      25.5
+    ]
+  },
+  {
+    "tag": "A",
+    "class": null,
+    "box": [
+      304,
+      4419.6,
+      42,
+      42
+    ]
+  },
+  {
+    "tag": "svg",
+    "class": "lucide lucide-arrow-up-right",
+    "box": [
+      313,
+      4428.6,
+      24,
+      24
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      320,
+      4435.6,
+      10,
+      10
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      320,
+      4435.6,
+      10,
+      10
+    ]
+  },
+  {
+    "tag": "ARTICLE",
+    "class": "service-card",
+    "box": [
+      20,
+      4510.6,
+      350,
+      451.9
+    ]
+  },
+  {
+    "tag": "IMG",
+    "class": "service-image",
+    "box": [
+      22,
+      4511.6,
+      346,
+      230.7
+    ]
+  },
+  {
+    "tag": "P",
+    "class": "eyebrow",
+    "box": [
+      44,
+      4764.3,
+      302,
+      15.3
+    ]
+  },
+  {
+    "tag": "H2",
+    "class": null,
+    "box": [
+      44,
+      4806.5,
+      302,
+      34.3
+    ]
+  },
+  {
+    "tag": "A",
+    "class": null,
+    "box": [
+      44,
+      4803.5,
+      184,
+      39
+    ]
+  },
+  {
+    "tag": "P",
+    "class": null,
+    "box": [
+      44,
+      4855.9,
+      302,
+      21.6
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "service-card-bottom",
+    "box": [
+      44,
+      4877.5,
+      302,
+      61
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": null,
+    "box": [
+      44,
+      4904.7,
+      85.3,
+      25.5
+    ]
+  },
+  {
+    "tag": "A",
+    "class": null,
+    "box": [
+      304,
+      4896.5,
+      42,
+      42
+    ]
+  },
+  {
+    "tag": "svg",
+    "class": "lucide lucide-arrow-up-right",
+    "box": [
+      313,
+      4905.5,
+      24,
+      24
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      320,
+      4912.5,
+      10,
+      10
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      320,
+      4912.5,
+      10,
+      10
+    ]
+  },
+  {
+    "tag": "ARTICLE",
+    "class": "service-card",
+    "box": [
+      20,
+      4987.5,
+      350,
+      451.9
+    ]
+  },
+  {
+    "tag": "IMG",
+    "class": "service-image",
+    "box": [
+      22,
+      4988.5,
+      346,
+      230.7
+    ]
+  },
+  {
+    "tag": "P",
+    "class": "eyebrow",
+    "box": [
+      44,
+      5241.1,
+      302,
+      15.3
+    ]
+  },
+  {
+    "tag": "H2",
+    "class": null,
+    "box": [
+      44,
+      5283.4,
+      302,
+      34.3
+    ]
+  },
+  {
+    "tag": "A",
+    "class": null,
+    "box": [
+      44,
+      5280.4,
+      277.1,
+      39
+    ]
+  },
+  {
+    "tag": "P",
+    "class": null,
+    "box": [
+      44,
+      5332.7,
+      302,
+      21.6
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "service-card-bottom",
+    "box": [
+      44,
+      5354.3,
+      302,
+      61
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": null,
+    "box": [
+      44,
+      5381.6,
+      85.3,
+      25.5
+    ]
+  },
+  {
+    "tag": "A",
+    "class": null,
+    "box": [
+      304,
+      5373.3,
+      42,
+      42
+    ]
+  },
+  {
+    "tag": "svg",
+    "class": "lucide lucide-arrow-up-right",
+    "box": [
+      313,
+      5382.3,
+      24,
+      24
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      320,
+      5389.3,
+      10,
+      10
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      320,
+      5389.3,
+      10,
+      10
+    ]
+  },
+  {
+    "tag": "ARTICLE",
+    "class": "service-card",
+    "box": [
+      20,
+      5464.3,
+      350,
+      473.5
+    ]
+  },
+  {
+    "tag": "IMG",
+    "class": "service-image",
+    "box": [
+      22,
+      5465.3,
+      346,
+      230.7
+    ]
+  },
+  {
+    "tag": "P",
+    "class": "eyebrow",
+    "box": [
+      44,
+      5718,
+      302,
+      15.3
+    ]
+  },
+  {
+    "tag": "H2",
+    "class": null,
+    "box": [
+      44,
+      5760.3,
+      302,
+      34.3
+    ]
+  },
+  {
+    "tag": "A",
+    "class": null,
+    "box": [
+      44,
+      5757.3,
+      250.7,
+      39
+    ]
+  },
+  {
+    "tag": "P",
+    "class": null,
+    "box": [
+      44,
+      5809.6,
+      302,
+      43.2
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "service-card-bottom",
+    "box": [
+      44,
+      5852.8,
+      302,
+      61
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": null,
+    "box": [
+      44,
+      5880,
+      85.3,
+      25.5
+    ]
+  },
+  {
+    "tag": "A",
+    "class": null,
+    "box": [
+      304,
+      5871.8,
+      42,
+      42
+    ]
+  },
+  {
+    "tag": "svg",
+    "class": "lucide lucide-arrow-up-right",
+    "box": [
+      313,
+      5880.8,
+      24,
+      24
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      320,
+      5887.8,
+      10,
+      10
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      320,
+      5887.8,
+      10,
+      10
+    ]
+  },
+  {
+    "tag": "ARTICLE",
+    "class": "service-card",
+    "box": [
+      20,
+      5962.8,
+      350,
+      451.9
+    ]
+  },
+  {
+    "tag": "IMG",
+    "class": "service-image",
+    "box": [
+      22,
+      5963.8,
+      346,
+      230.7
+    ]
+  },
+  {
+    "tag": "P",
+    "class": "eyebrow",
+    "box": [
+      44,
+      6216.4,
+      302,
+      15.3
+    ]
+  },
+  {
+    "tag": "H2",
+    "class": null,
+    "box": [
+      44,
+      6258.7,
+      302,
+      34.3
+    ]
+  },
+  {
+    "tag": "A",
+    "class": null,
+    "box": [
+      44,
+      6255.7,
+      213.4,
+      39
+    ]
+  },
+  {
+    "tag": "P",
+    "class": null,
+    "box": [
+      44,
+      6308,
+      302,
+      21.6
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "service-card-bottom",
+    "box": [
+      44,
+      6329.6,
+      302,
+      61
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": null,
+    "box": [
+      44,
+      6356.9,
+      85.3,
+      25.5
+    ]
+  },
+  {
+    "tag": "A",
+    "class": null,
+    "box": [
+      304,
+      6348.6,
+      42,
+      42
+    ]
+  },
+  {
+    "tag": "svg",
+    "class": "lucide lucide-arrow-up-right",
+    "box": [
+      313,
+      6357.6,
+      24,
+      24
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      320,
+      6364.6,
+      10,
+      10
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      320,
+      6364.6,
+      10,
+      10
+    ]
+  },
+  {
+    "tag": "ARTICLE",
+    "class": "service-card",
+    "box": [
+      20,
+      6439.6,
+      350,
+      507.8
+    ]
+  },
+  {
+    "tag": "IMG",
+    "class": "service-image",
+    "box": [
+      22,
+      6440.6,
+      346,
+      230.7
+    ]
+  },
+  {
+    "tag": "P",
+    "class": "eyebrow",
+    "box": [
+      44,
+      6693.3,
+      302,
+      15.3
+    ]
+  },
+  {
+    "tag": "H2",
+    "class": null,
+    "box": [
+      44,
+      6735.6,
+      302,
+      68.6
+    ]
+  },
+  {
+    "tag": "A",
+    "class": null,
+    "box": [
+      44,
+      6732.6,
+      224.6,
+      73.3
+    ]
+  },
+  {
+    "tag": "P",
+    "class": null,
+    "box": [
+      44,
+      6819.2,
+      302,
+      43.2
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "service-card-bottom",
+    "box": [
+      44,
+      6862.4,
+      302,
+      61
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": null,
+    "box": [
+      44,
+      6889.6,
+      85.3,
+      25.5
+    ]
+  },
+  {
+    "tag": "A",
+    "class": null,
+    "box": [
+      304,
+      6881.4,
+      42,
+      42
+    ]
+  },
+  {
+    "tag": "svg",
+    "class": "lucide lucide-arrow-up-right",
+    "box": [
+      313,
+      6890.4,
+      24,
+      24
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      320,
+      6897.4,
+      10,
+      10
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      320,
+      6897.4,
+      10,
+      10
+    ]
+  },
+  {
+    "tag": "ARTICLE",
+    "class": "service-card",
+    "box": [
+      20,
+      6972.4,
+      350,
+      451.9
+    ]
+  },
+  {
+    "tag": "IMG",
+    "class": "service-image",
+    "box": [
+      22,
+      6973.4,
+      346,
+      230.7
+    ]
+  },
+  {
+    "tag": "P",
+    "class": "eyebrow",
+    "box": [
+      44,
+      7226,
+      302,
+      15.3
+    ]
+  },
+  {
+    "tag": "H2",
+    "class": null,
+    "box": [
+      44,
+      7268.3,
+      302,
+      34.3
+    ]
+  },
+  {
+    "tag": "A",
+    "class": null,
+    "box": [
+      44,
+      7265.3,
+      266.9,
+      39
+    ]
+  },
+  {
+    "tag": "P",
+    "class": null,
+    "box": [
+      44,
+      7317.7,
+      302,
+      21.6
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "service-card-bottom",
+    "box": [
+      44,
+      7339.3,
+      302,
+      61
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": null,
+    "box": [
+      44,
+      7366.5,
+      85.3,
+      25.5
+    ]
+  },
+  {
+    "tag": "A",
+    "class": null,
+    "box": [
+      304,
+      7358.3,
+      42,
+      42
+    ]
+  },
+  {
+    "tag": "svg",
+    "class": "lucide lucide-arrow-up-right",
+    "box": [
+      313,
+      7367.3,
+      24,
+      24
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      320,
+      7374.3,
+      10,
+      10
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      320,
+      7374.3,
+      10,
+      10
+    ]
+  },
+  {
+    "tag": "ARTICLE",
+    "class": "service-card",
+    "box": [
+      20,
+      7449.3,
+      350,
+      473.5
+    ]
+  },
+  {
+    "tag": "IMG",
+    "class": "service-image",
+    "box": [
+      22,
+      7450.3,
+      346,
+      230.7
+    ]
+  },
+  {
+    "tag": "P",
+    "class": "eyebrow",
+    "box": [
+      44,
+      7702.9,
+      302,
+      15.3
+    ]
+  },
+  {
+    "tag": "H2",
+    "class": null,
+    "box": [
+      44,
+      7745.2,
+      302,
+      34.3
+    ]
+  },
+  {
+    "tag": "A",
+    "class": null,
+    "box": [
+      44,
+      7742.2,
+      197.4,
+      39
+    ]
+  },
+  {
+    "tag": "P",
+    "class": null,
+    "box": [
+      44,
+      7794.5,
+      302,
+      43.2
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "service-card-bottom",
+    "box": [
+      44,
+      7837.7,
+      302,
+      61
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": null,
+    "box": [
+      44,
+      7865,
+      91.6,
+      25.5
+    ]
+  },
+  {
+    "tag": "A",
+    "class": null,
+    "box": [
+      304,
+      7856.7,
+      42,
+      42
+    ]
+  },
+  {
+    "tag": "svg",
+    "class": "lucide lucide-arrow-up-right",
+    "box": [
+      313,
+      7865.7,
+      24,
+      24
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      320,
+      7872.7,
+      10,
+      10
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      320,
+      7872.7,
+      10,
+      10
+    ]
+  },
+  {
+    "tag": "ARTICLE",
+    "class": "service-card",
+    "box": [
+      20,
+      7947.7,
+      350,
+      507.8
+    ]
+  },
+  {
+    "tag": "IMG",
+    "class": "service-image",
+    "box": [
+      22,
+      7948.7,
+      346,
+      230.7
+    ]
+  },
+  {
+    "tag": "P",
+    "class": "eyebrow",
+    "box": [
+      44,
+      8201.4,
+      302,
+      15.3
+    ]
+  },
+  {
+    "tag": "H2",
+    "class": null,
+    "box": [
+      44,
+      8243.7,
+      302,
+      68.6
+    ]
+  },
+  {
+    "tag": "A",
+    "class": null,
+    "box": [
+      44,
+      8240.7,
+      262.2,
+      73.3
+    ]
+  },
+  {
+    "tag": "P",
+    "class": null,
+    "box": [
+      44,
+      8327.3,
+      302,
+      43.2
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "service-card-bottom",
+    "box": [
+      44,
+      8370.5,
+      302,
+      61
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": null,
+    "box": [
+      44,
+      8397.7,
+      91.6,
+      25.5
+    ]
+  },
+  {
+    "tag": "A",
+    "class": null,
+    "box": [
+      304,
+      8389.5,
+      42,
+      42
+    ]
+  },
+  {
+    "tag": "svg",
+    "class": "lucide lucide-arrow-up-right",
+    "box": [
+      313,
+      8398.5,
+      24,
+      24
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      320,
+      8405.5,
+      10,
+      10
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      320,
+      8405.5,
+      10,
+      10
+    ]
+  },
+  {
+    "tag": "FOOTER",
+    "class": "beauty-footer",
+    "box": [
+      0,
+      8510.5,
+      390,
+      615.4
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "footer-upper",
+    "box": [
+      20,
+      8556.5,
+      350,
+      308.9
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "footer-invitation",
+    "box": [
+      20,
+      8556.5,
+      350,
+      212.2
+    ]
+  },
+  {
+    "tag": "P",
+    "class": "eyebrow",
+    "box": [
+      20,
+      8556.5,
+      350,
+      11.9
+    ]
+  },
+  {
+    "tag": "P",
+    "class": "footer-title",
+    "box": [
+      20,
+      8589.4,
+      350,
+      101.3
+    ]
+  },
+  {
+    "tag": "BR",
+    "class": null,
+    "box": [
+      242.5,
+      8583.4,
+      0,
+      52
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": "handwritten",
+    "box": [
+      18.6,
+      8627.5,
+      336.6,
+      74.8
+    ]
+  },
+  {
+    "tag": "A",
+    "class": "button coral-button",
+    "box": [
+      20,
+      8718.7,
+      205.3,
+      50
+    ]
+  },
+  {
+    "tag": "svg",
+    "class": "lucide lucide-arrow-up-right",
+    "box": [
+      182.3,
+      8734.7,
+      18,
+      18
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      187.6,
+      8739.9,
+      7.5,
+      7.5
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      187.6,
+      8739.9,
+      7.5,
+      7.5
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "footer-contact",
+    "box": [
+      20,
+      8798.7,
+      350,
+      66.7
+    ]
+  },
+  {
+    "tag": "P",
+    "class": "eyebrow",
+    "box": [
+      20,
+      8798.7,
+      350,
+      13.6
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "inline-links",
+    "box": [
+      20,
+      8828.3,
+      350,
+      0
+    ]
+  },
+  {
+    "tag": "P",
+    "class": "footer-city",
+    "box": [
+      20,
+      8848.3,
+      340,
+      17.1
+    ]
+  },
+  {
+    "tag": "svg",
+    "class": "lucide lucide-sparkles",
+    "box": [
+      20,
+      8849.3,
+      15,
+      15
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      21.2,
+      8850.5,
+      12.5,
+      12.5
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      32.5,
+      8850.5,
+      0,
+      2.5
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      31.3,
+      8851.8,
+      2.5,
+      0
+    ]
+  },
+  {
+    "tag": "circle",
+    "class": null,
+    "box": [
+      21.3,
+      8860.5,
+      2.5,
+      2.5
+    ]
+  },
+  {
+    "tag": "svg",
+    "class": "lucide lucide-heart footer-heart",
+    "box": [
+      283.3,
+      8740.3,
+      98.3,
+      116
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      295,
+      8766.1,
+      74.1,
+      67.5
+    ]
+  },
+  {
+    "tag": "A",
+    "class": "footer-wordmark",
+    "box": [
+      15,
+      8905.3,
+      350,
+      102.3
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": "brand-logo brand-logo-dark  ",
+    "box": [
+      15,
+      8929.9,
+      350,
+      77.8
+    ]
+  },
+  {
+    "tag": "IMG",
+    "class": "brand-symbol-image",
+    "box": [
+      29.8,
+      8948.8,
+      40,
+      40
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": "brand-name ",
+    "box": [
+      81.8,
+      8929.9,
+      268.4,
+      77.8
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "footer-bottom",
+    "box": [
+      20,
+      9037.7,
+      350,
+      66.2
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": null,
+    "box": [
+      20,
+      9059.7,
+      350,
+      13.6
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": null,
+    "box": [
+      20,
+      9090.3,
+      350,
+      13.6
+    ]
+  },
+  {
+    "tag": "A",
+    "class": null,
+    "box": [
+      20,
+      9090.3,
+      62.9,
+      13.6
+    ]
+  },
+  {
+    "tag": "A",
+    "class": null,
+    "box": [
+      103.9,
+      9090.3,
+      55.2,
+      13.6
+    ]
+  },
+  {
+    "tag": "A",
+    "class": null,
+    "box": [
+      180.1,
+      9090.3,
+      46.8,
+      13.6
+    ]
+  },
+  {
+    "tag": "NEXT-ROUTE-ANNOUNCER",
+    "class": null,
+    "box": [
+      0,
+      9125.9,
+      0,
+      0
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "nextjs-toast",
+    "box": [
+      20,
+      608,
+      36,
+      36
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": null,
+    "box": [
+      20,
+      608,
+      36,
+      36
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": null,
+    "box": [
+      20,
+      608,
+      36,
+      36
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": null,
+    "box": [
+      20,
+      608,
+      36,
+      36
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": null,
+    "box": [
+      20,
+      610,
+      36,
+      32
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": null,
+    "box": [
+      22,
+      610,
+      32,
+      32
+    ]
+  },
+  {
+    "tag": "svg",
+    "class": null,
+    "box": [
+      22,
+      606,
+      40,
+      40
+    ]
+  },
+  {
+    "tag": "g",
+    "class": null,
+    "box": [
+      32.8,
+      620,
+      11,
+      14.2
+    ]
+  },
+  {
+    "tag": "path",
+    "class": "paused",
+    "box": [
+      32.8,
+      620,
+      11,
+      14.2
+    ]
+  },
+  {
+    "tag": "path",
+    "class": "paused",
+    "box": [
+      42.3,
+      620.5,
+      0,
+      11.6
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": null,
+    "box": [
+      52,
+      614,
+      0,
+      0
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": null,
+    "box": [
+      -1,
+      9124.9,
+      1,
+      1
+    ]
+  }
+]

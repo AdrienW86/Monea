@@ -17,7 +17,7 @@ export function MobileMenu() {
         }}
       >
         <Link href="/" aria-label="MONÉA · accueil">
-          <BrandLogo light />
+          <BrandLogo />
         </Link>
         <Link href="/prestations">Les prestations</Link>
         <Link href="/#univers">L’univers beauté</Link>

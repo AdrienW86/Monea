@@ -1,27 +1,44 @@
-// Photographies d'illustration fournies dans MONEA_PACK_9_VISUELS_SITE.zip.
-// Elles ne sont ni des portraits de Monica ni des preuves de réalisations ou du local.
+// Illustrations éditoriales : série spa générée, sources et prompts dans design/generated-prestations.json.
+// Les photos ne représentent ni Monica, ni des clientes ou réalisations réelles de l’institut.
 export const editorial = {
-  portrait: "/images/beauty/hero-portrait.webp",
-  regard: "/images/beauty/cils-regard.webp",
-  ongles: "/images/beauty/ongles-nude.webp",
-  visage: "/images/beauty/soin-visage.webp",
-  peau: "/images/beauty/bronzage.webp",
-  maquillage: "/images/beauty/maquillage.webp",
-  ambiance: "/images/beauty/ambiance-institut.webp",
-  epilation: "/images/beauty/epilation-cire.webp",
-  cadeau: "/images/beauty/carte-cadeau.webp",
+  portrait: "/images/beauty/spa-soin-visage-v2.webp",
+  regard: "/images/beauty/spa-extensions-cils-v2.webp",
+  ongles: "/images/beauty/spa-prothesie-ongulaire-v2.webp",
+  visage: "/images/beauty/spa-soin-visage-v2.webp",
+  peau: "/images/beauty/spa-spray-tan-v2.webp",
+  maquillage: "/images/beauty/spa-maquillage-v2.webp",
+  ambiance: "/images/spa/rituel-naturel.webp",
+  epilation: "/images/beauty/spa-epilation-v2.webp",
 };
-// Variantes éditoriales réservées au hero : les photos du catalogue restent inchangées.
-export const heroEditorial = {
-  regard: "/assets/beauty/regard.webp",
-  ongles: "/assets/beauty/ongles.webp",
-  visage: "/assets/beauty/visage.webp",
-  peau: "/assets/beauty/peau.webp",
+// Une photo propre à chaque prestation du catalogue, y compris au sein d’une catégorie.
+const servicePhotos: Record<string, string> = {
+  "extensions-cils": editorial.regard,
+  "rehaussement-cils": "/images/beauty/spa-regard-v2.webp",
+  browlift: "/images/beauty/spa-browlift-v2.webp",
+  teinture: "/images/beauty/spa-teinture-cils-sourcils-v2.webp",
+  "prothesie-ongulaire": editorial.ongles,
+  manucure: "/images/beauty/spa-ongles-v2.webp",
+  "beaute-pieds": "/images/beauty/spa-pedicure-v2.webp",
+  "nettoyage-peau": "/images/beauty/spa-nettoyage-peau-v2.webp",
+  "soin-visage": editorial.visage,
+  "gommages-masques": "/images/beauty/spa-visage-v2.webp",
+  modelage: "/images/beauty/spa-modelage-v2.webp",
+  epilation: editorial.epilation,
+  "spray-tan": editorial.peau,
+  maquillage: editorial.maquillage,
+  luminotherapie: "/images/beauty/spa-luminotherapie-v2.webp",
+  uv: "/images/beauty/spa-uv-v2.webp",
 };
-export function serviceVisual(slug: string, category: string) {
-  if (slug === "epilation") return editorial.epilation;
-  if (slug === "spray-tan" || slug === "uv" || category === "Le corps")
-    return editorial.peau;
+export function serviceVisual(
+  slug: string,
+  category: string,
+  image?: string | null,
+) {
+  const legacy =
+    /^(\/images\/beauty\/(hero-portrait|cils-regard|ongles-nude|soin-visage|bronzage|maquillage|ambiance-institut|epilation-cire)\.webp|\/assets\/beauty\/)/;
+  if (image && !legacy.test(image)) return image;
+  if (servicePhotos[slug]) return servicePhotos[slug];
+  if (slug === "spray-tan" || category === "Le corps") return editorial.peau;
   if (category === "Le regard") return editorial.regard;
   if (category === "Les ongles" || category === "Mains & pieds")
     return editorial.ongles;
@@ -83,7 +100,7 @@ export const careFamilies = [
     name: "Bien-être",
     detail: "Le temps de ralentir",
     category: "Le corps",
-    image: editorial.ambiance,
+    image: "/images/beauty/spa-modelage-v2.webp",
     label: "Votre moment à vous",
     slug: "modelage",
   },

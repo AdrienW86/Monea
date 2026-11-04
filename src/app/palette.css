@@ -1,0 +1,55 @@
+/* Carte cadeau MONÉA : source unique des couleurs de présentation.
+   Les anciens noms restent des alias pour préserver les composants existants.
+   Aucun réglage commercial enregistré n'est modifié. */
+:root {
+  --palette-olive: #656b35;
+  --palette-olive-deep: #454c28;
+  --palette-olive-mist: #e4e6d6;
+  --palette-cream: #f8f3ea;
+  --palette-beige: #ede1d0;
+  --palette-ivory: #fff9f1;
+  --palette-wood: #d9c5aa;
+  --palette-brown: #38291f;
+  --palette-taupe: #796653;
+  --palette-copper: #b77c62;
+  --palette-copper-text: #85533e;
+  --palette-success: #454c28;
+  --palette-success-bg: #e4e6d6;
+  --palette-error: #8d3834;
+  --palette-error-bg: #fae5e2;
+  --palette-warning: #785216;
+  --palette-warning-bg: #fff0c8;
+  --palette-info: #494a87;
+  --palette-info-bg: #e5e6f6;
+  --spa-honey: #dfc7a5;
+  --spa-wood-photo: url("/images/spa/rituel-naturel.webp");
+  --spa-wood-veil: linear-gradient(90deg, #fff9f18c, #ede1d04d);
+  --spa-print-shadow: 0 18px 35px #38291f29;
+  --spa-linen: #f1e8da;
+  --spa-paper: #fcf9f3;
+  --spa-copper-line: #b77c6266;
+  --spa-shadow: 0 20px 55px #38291f12;
+  --spa-grain: url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='g'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.76' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Cpath fill='%23796653' opacity='.055' filter='url(%23g)' d='M0 0h180v180H0z'/%3E%3C/svg%3E");
+  --spa-wood:
+    repeating-linear-gradient(
+      92deg,
+      transparent 0 29px,
+      #79665304 30px,
+      transparent 32px 95px
+    ),
+    linear-gradient(110deg, #dfc7a530, #ede1d0b3 48%, #dfc7a566);
+}
+body {
+  /* Override saved legacy pink settings in presentation only. */
+  --night: var(--palette-olive-deep) !important;
+  --cream: var(--palette-cream) !important;
+  --rose: var(--palette-beige) !important;
+  --coral: var(--palette-olive) !important;
+  --ink: var(--palette-brown);
+  --muted: var(--palette-taupe);
+  --line: var(--palette-wood);
+  --nude: var(--palette-beige) !important;
+  --powder: var(--palette-ivory) !important;
+  --bronze: var(--palette-wood) !important;
+  --copper: var(--palette-copper) !important;
+}

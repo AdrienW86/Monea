@@ -1,0 +1,3372 @@
+[
+  {
+    "tag": "A",
+    "class": "skip-link",
+    "box": [
+      15,
+      -60,
+      121,
+      46.1
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "announcement",
+    "box": [
+      0,
+      0,
+      390,
+      27
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": null,
+    "box": [
+      246.8,
+      9,
+      6.3,
+      9
+    ]
+  },
+  {
+    "tag": "HEADER",
+    "class": "site-header",
+    "box": [
+      0,
+      27,
+      390,
+      82
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "header-inner",
+    "box": [
+      20,
+      27,
+      350,
+      81
+    ]
+  },
+  {
+    "tag": "A",
+    "class": "wordmark",
+    "box": [
+      20,
+      44.6,
+      175.6,
+      45.8
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": "brand-logo brand-logo-dark  ",
+    "box": [
+      20,
+      50.6,
+      175.6,
+      39.9
+    ]
+  },
+  {
+    "tag": "IMG",
+    "class": "brand-symbol-image",
+    "box": [
+      20,
+      55.5,
+      30,
+      30
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": "brand-name ",
+    "box": [
+      58,
+      50.6,
+      137.6,
+      39.9
+    ]
+  },
+  {
+    "tag": "A",
+    "class": "button header-booking",
+    "box": [
+      228.3,
+      48,
+      102.7,
+      39
+    ]
+  },
+  {
+    "tag": "svg",
+    "class": "lucide lucide-arrow-up-right",
+    "box": [
+      301,
+      59,
+      15,
+      17
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      305.4,
+      64.4,
+      6.3,
+      6.3
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      305.4,
+      64.4,
+      6.3,
+      6.3
+    ]
+  },
+  {
+    "tag": "DETAILS",
+    "class": "mobile-menu",
+    "box": [
+      345,
+      49.5,
+      25,
+      36
+    ]
+  },
+  {
+    "tag": "SUMMARY",
+    "class": null,
+    "box": [
+      345,
+      49.5,
+      25,
+      36
+    ]
+  },
+  {
+    "tag": "svg",
+    "class": "lucide lucide-menu",
+    "box": [
+      346,
+      56,
+      23,
+      23
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      349.8,
+      60.8,
+      15.3,
+      0
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      349.8,
+      67.5,
+      15.3,
+      0
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      349.8,
+      74.3,
+      15.3,
+      0
+    ]
+  },
+  {
+    "tag": "NAV",
+    "class": null,
+    "box": [
+      148,
+      132.5,
+      235,
+      280.6
+    ]
+  },
+  {
+    "tag": "A",
+    "class": null,
+    "box": [
+      171,
+      151.5,
+      189,
+      69
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": "brand-logo brand-logo-dark  ",
+    "box": [
+      171,
+      162.5,
+      171.1,
+      38
+    ]
+  },
+  {
+    "tag": "IMG",
+    "class": "brand-symbol-image",
+    "box": [
+      171,
+      166.5,
+      30,
+      30
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": "brand-name ",
+    "box": [
+      211,
+      162.5,
+      131.1,
+      38
+    ]
+  },
+  {
+    "tag": "A",
+    "class": null,
+    "box": [
+      171,
+      220.5,
+      189,
+      43.4
+    ]
+  },
+  {
+    "tag": "A",
+    "class": null,
+    "box": [
+      171,
+      263.9,
+      189,
+      43.4
+    ]
+  },
+  {
+    "tag": "A",
+    "class": null,
+    "box": [
+      171,
+      307.3,
+      189,
+      43.4
+    ]
+  },
+  {
+    "tag": "A",
+    "class": null,
+    "box": [
+      171,
+      350.7,
+      189,
+      43.4
+    ]
+  },
+  {
+    "tag": "MAIN",
+    "class": null,
+    "box": [
+      0,
+      109,
+      390,
+      5455
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "beauty-home spa-home",
+    "box": [
+      0,
+      109,
+      390,
+      5455
+    ]
+  },
+  {
+    "tag": "SECTION",
+    "class": "spa-hero hero-mosaic-section",
+    "box": [
+      0,
+      109,
+      390,
+      961.4
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "spa-hero-inner beauty-container",
+    "box": [
+      20,
+      109,
+      350,
+      878.2
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "spa-hero-copy",
+    "box": [
+      20,
+      143,
+      350,
+      375.7
+    ]
+  },
+  {
+    "tag": "P",
+    "class": "eyebrow",
+    "box": [
+      23,
+      143,
+      344,
+      13.6
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": "spa-rule",
+    "box": [
+      23,
+      149.3,
+      32,
+      1
+    ]
+  },
+  {
+    "tag": "H1",
+    "class": null,
+    "box": [
+      23,
+      178.6,
+      344,
+      106.6
+    ]
+  },
+  {
+    "tag": "BR",
+    "class": null,
+    "box": [
+      297.5,
+      173.6,
+      0,
+      56
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": "handwritten",
+    "box": [
+      23,
+      228.7,
+      302,
+      56.6
+    ]
+  },
+  {
+    "tag": "P",
+    "class": "spa-hero-description",
+    "box": [
+      23,
+      308.3,
+      344,
+      46.8
+    ]
+  },
+  {
+    "tag": "BR",
+    "class": null,
+    "box": [
+      277.3,
+      311.3,
+      0,
+      17
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "spa-hero-actions",
+    "box": [
+      23,
+      380,
+      344,
+      98.4
+    ]
+  },
+  {
+    "tag": "A",
+    "class": "button coral-button",
+    "box": [
+      23,
+      380,
+      234.1,
+      50.7
+    ]
+  },
+  {
+    "tag": "svg",
+    "class": "lucide lucide-arrow-right",
+    "box": [
+      214.1,
+      396.4,
+      18,
+      18
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      217.8,
+      405.4,
+      10.5,
+      0
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      223.1,
+      400.1,
+      5.3,
+      10.5
+    ]
+  },
+  {
+    "tag": "A",
+    "class": "under-link",
+    "box": [
+      23,
+      449.7,
+      158.3,
+      28.7
+    ]
+  },
+  {
+    "tag": "svg",
+    "class": "lucide lucide-arrow-right",
+    "box": [
+      165.3,
+      451.1,
+      16,
+      16
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      168.6,
+      459.1,
+      9.3,
+      0
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      173.3,
+      454.4,
+      4.7,
+      9.3
+    ]
+  },
+  {
+    "tag": "P",
+    "class": "spa-location",
+    "box": [
+      23,
+      503.4,
+      344,
+      15.3
+    ]
+  },
+  {
+    "tag": "svg",
+    "class": "lucide lucide-map-pin",
+    "box": [
+      23,
+      504.1,
+      14,
+      14
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      25.3,
+      505.2,
+      9.3,
+      11.7
+    ]
+  },
+  {
+    "tag": "circle",
+    "class": null,
+    "box": [
+      28.3,
+      508.1,
+      3.5,
+      3.5
+    ]
+  },
+  {
+    "tag": "svg",
+    "class": "botanical-sprig spa-hero-sprig",
+    "box": [
+      253.1,
+      360.9,
+      143.7,
+      165.6
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      265.6,
+      381.3,
+      111.5,
+      134.6
+    ]
+  },
+  {
+    "tag": "g",
+    "class": null,
+    "box": [
+      267.1,
+      364,
+      127.1,
+      135.3
+    ]
+  },
+  {
+    "tag": "ellipse",
+    "class": null,
+    "box": [
+      285.1,
+      432.8,
+      21.1,
+      33.4
+    ]
+  },
+  {
+    "tag": "ellipse",
+    "class": null,
+    "box": [
+      289.2,
+      408.5,
+      18.6,
+      28.8
+    ]
+  },
+  {
+    "tag": "ellipse",
+    "class": null,
+    "box": [
+      296,
+      446.8,
+      34.9,
+      32.5
+    ]
+  },
+  {
+    "tag": "ellipse",
+    "class": null,
+    "box": [
+      324.8,
+      438.8,
+      32,
+      22.5
+    ]
+  },
+  {
+    "tag": "ellipse",
+    "class": null,
+    "box": [
+      347.9,
+      422.1,
+      30.8,
+      27.3
+    ]
+  },
+  {
+    "tag": "ellipse",
+    "class": null,
+    "box": [
+      326.2,
+      398.8,
+      19.9,
+      30.4
+    ]
+  },
+  {
+    "tag": "ellipse",
+    "class": null,
+    "box": [
+      346.2,
+      389,
+      31.1,
+      33.5
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "spa-hero-art",
+    "box": [
+      20,
+      548.7,
+      350,
+      408.5
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "spa-hero-image-frame",
+    "box": [
+      60,
+      548.7,
+      300,
+      352
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "beauty-photo spa-hero-image",
+    "box": [
+      71,
+      559.7,
+      278,
+      330
+    ]
+  },
+  {
+    "tag": "IMG",
+    "class": null,
+    "box": [
+      71,
+      559.7,
+      278,
+      330
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "spa-hero-inset",
+    "box": [
+      10.4,
+      753.4,
+      145.1,
+      201.9
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "beauty-photo ",
+    "box": [
+      18.1,
+      761.1,
+      123.9,
+      131
+    ]
+  },
+  {
+    "tag": "IMG",
+    "class": null,
+    "box": [
+      18.1,
+      761.1,
+      123.9,
+      131
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": "handwritten",
+    "box": [
+      30.7,
+      880.4,
+      116.6,
+      61.2
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": "spa-hero-caption",
+    "box": [
+      60,
+      913.7,
+      300,
+      8.5
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "spa-hero-seal",
+    "box": [
+      274.2,
+      558.9,
+      101.6,
+      101.6
+    ]
+  },
+  {
+    "tag": "svg",
+    "class": "lucide lucide-leaf",
+    "box": [
+      314.4,
+      566.2,
+      29.4,
+      29.4
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      319.2,
+      569,
+      21,
+      21.9
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      317,
+      579.4,
+      13.2,
+      11.3
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": null,
+    "box": [
+      277.8,
+      593.6,
+      92.2,
+      47.9
+    ]
+  },
+  {
+    "tag": "SMALL",
+    "class": null,
+    "box": [
+      284,
+      636.4,
+      71.7,
+      20
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "spa-hero-bottom beauty-container",
+    "box": [
+      20,
+      987.2,
+      350,
+      83.2
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": null,
+    "box": [
+      20,
+      1008.2,
+      167.5,
+      13.6
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": null,
+    "box": [
+      202.5,
+      1008.2,
+      167.5,
+      13.6
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": null,
+    "box": [
+      20,
+      1036.8,
+      167.5,
+      13.6
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": null,
+    "box": [
+      202.5,
+      1036.8,
+      167.5,
+      13.6
+    ]
+  },
+  {
+    "tag": "SECTION",
+    "class": "care-section beauty-container",
+    "box": [
+      20,
+      1070.4,
+      350,
+      1470.5
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "reveal beauty-section-heading",
+    "box": [
+      20,
+      1128.4,
+      350,
+      223.6
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": null,
+    "box": [
+      20,
+      1128.4,
+      350,
+      117.4
+    ]
+  },
+  {
+    "tag": "P",
+    "class": "eyebrow",
+    "box": [
+      20,
+      1128.4,
+      350,
+      13.6
+    ]
+  },
+  {
+    "tag": "H2",
+    "class": null,
+    "box": [
+      20,
+      1161,
+      350,
+      84.8
+    ]
+  },
+  {
+    "tag": "BR",
+    "class": null,
+    "box": [
+      230.9,
+      1157,
+      0,
+      46
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": "handwritten",
+    "box": [
+      20,
+      1204.8,
+      310.4,
+      41
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "heading-aside",
+    "box": [
+      20,
+      1245.8,
+      350,
+      106.2
+    ]
+  },
+  {
+    "tag": "P",
+    "class": null,
+    "box": [
+      20,
+      1265.8,
+      165,
+      79.2
+    ]
+  },
+  {
+    "tag": "BR",
+    "class": null,
+    "box": [
+      69.9,
+      1287.6,
+      0,
+      15
+    ]
+  },
+  {
+    "tag": "A",
+    "class": "under-link",
+    "box": [
+      273,
+      1297.4,
+      97,
+      23
+    ]
+  },
+  {
+    "tag": "svg",
+    "class": "lucide lucide-arrow-up-right",
+    "box": [
+      356,
+      1297.4,
+      14,
+      17
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      360.1,
+      1303,
+      5.8,
+      5.8
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      360.1,
+      1303,
+      5.8,
+      5.8
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "care-photo-grid",
+    "box": [
+      20,
+      1382,
+      350,
+      1100.9
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "reveal care-reveal care-reveal-1",
+    "box": [
+      20,
+      1382,
+      167.5,
+      258
+    ]
+  },
+  {
+    "tag": "A",
+    "class": "care-photo-card care-card-1",
+    "box": [
+      20,
+      1382,
+      167.5,
+      258
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "beauty-photo ",
+    "box": [
+      20,
+      1382,
+      167.5,
+      176.3
+    ]
+  },
+  {
+    "tag": "IMG",
+    "class": null,
+    "box": [
+      20,
+      1382,
+      167.5,
+      176.3
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "care-card-copy",
+    "box": [
+      20,
+      1571.3,
+      167.5,
+      47.7
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": "care-card-family",
+    "box": [
+      20,
+      1571.3,
+      147.5,
+      29.7
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": "care-card-detail",
+    "box": [
+      20,
+      1607,
+      140,
+      12
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "reveal care-reveal care-reveal-2",
+    "box": [
+      202.5,
+      1382,
+      167.5,
+      258
+    ]
+  },
+  {
+    "tag": "A",
+    "class": "care-photo-card care-card-2",
+    "box": [
+      202.5,
+      1382,
+      167.5,
+      258
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "beauty-photo ",
+    "box": [
+      202.5,
+      1382,
+      167.5,
+      176.3
+    ]
+  },
+  {
+    "tag": "IMG",
+    "class": null,
+    "box": [
+      202.5,
+      1382,
+      167.5,
+      176.3
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "care-card-copy",
+    "box": [
+      202.5,
+      1571.3,
+      167.5,
+      47.7
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": "care-card-family",
+    "box": [
+      202.5,
+      1571.3,
+      147.5,
+      29.7
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": "care-card-detail",
+    "box": [
+      202.5,
+      1607,
+      140,
+      12
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "reveal care-reveal care-reveal-3",
+    "box": [
+      20,
+      1665,
+      167.5,
+      258
+    ]
+  },
+  {
+    "tag": "A",
+    "class": "care-photo-card care-card-3",
+    "box": [
+      20,
+      1665,
+      167.5,
+      258
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "beauty-photo ",
+    "box": [
+      20,
+      1665,
+      167.5,
+      176.3
+    ]
+  },
+  {
+    "tag": "IMG",
+    "class": null,
+    "box": [
+      20,
+      1665,
+      167.5,
+      176.3
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "care-card-copy",
+    "box": [
+      20,
+      1854.3,
+      167.5,
+      47.7
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": "care-card-family",
+    "box": [
+      20,
+      1854.3,
+      147.5,
+      29.7
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": "care-card-detail",
+    "box": [
+      20,
+      1890,
+      140,
+      12
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "reveal care-reveal care-reveal-4",
+    "box": [
+      202.5,
+      1665,
+      167.5,
+      258
+    ]
+  },
+  {
+    "tag": "A",
+    "class": "care-photo-card care-card-4",
+    "box": [
+      202.5,
+      1665,
+      167.5,
+      249.2
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "beauty-photo ",
+    "box": [
+      202.5,
+      1665,
+      167.5,
+      167.5
+    ]
+  },
+  {
+    "tag": "IMG",
+    "class": null,
+    "box": [
+      202.5,
+      1665,
+      167.5,
+      167.5
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "care-card-copy",
+    "box": [
+      202.5,
+      1845.5,
+      167.5,
+      47.7
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": "care-card-family",
+    "box": [
+      202.5,
+      1845.5,
+      147.5,
+      29.7
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": "care-card-detail",
+    "box": [
+      202.5,
+      1881.2,
+      140,
+      12
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "reveal care-reveal care-reveal-5",
+    "box": [
+      20,
+      1948,
+      167.5,
+      251.2
+    ]
+  },
+  {
+    "tag": "A",
+    "class": "care-photo-card care-card-5",
+    "box": [
+      20,
+      1948,
+      167.5,
+      251.2
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "beauty-photo ",
+    "box": [
+      20,
+      1948,
+      167.5,
+      167.5
+    ]
+  },
+  {
+    "tag": "IMG",
+    "class": null,
+    "box": [
+      20,
+      1948,
+      167.5,
+      167.5
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "care-card-copy",
+    "box": [
+      20,
+      2128.5,
+      167.5,
+      47.7
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": "care-card-family",
+    "box": [
+      20,
+      2128.5,
+      147.5,
+      29.7
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": "care-card-detail",
+    "box": [
+      20,
+      2164.2,
+      140,
+      12
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "reveal care-reveal care-reveal-6",
+    "box": [
+      202.5,
+      1948,
+      167.5,
+      251.2
+    ]
+  },
+  {
+    "tag": "A",
+    "class": "care-photo-card care-card-6",
+    "box": [
+      202.5,
+      1948,
+      167.5,
+      251.2
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "beauty-photo ",
+    "box": [
+      202.5,
+      1948,
+      167.5,
+      167.5
+    ]
+  },
+  {
+    "tag": "IMG",
+    "class": null,
+    "box": [
+      202.5,
+      1948,
+      167.5,
+      167.5
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "care-card-copy",
+    "box": [
+      202.5,
+      2128.5,
+      167.5,
+      47.7
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": "care-card-family",
+    "box": [
+      202.5,
+      2128.5,
+      147.5,
+      29.7
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": "care-card-detail",
+    "box": [
+      202.5,
+      2164.2,
+      140,
+      12
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "reveal care-reveal care-reveal-7",
+    "box": [
+      20,
+      2224.2,
+      350,
+      258.7
+    ]
+  },
+  {
+    "tag": "A",
+    "class": "care-photo-card care-card-7",
+    "box": [
+      20,
+      2224.2,
+      350,
+      258.7
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "beauty-photo ",
+    "box": [
+      20,
+      2224.2,
+      350,
+      175
+    ]
+  },
+  {
+    "tag": "IMG",
+    "class": null,
+    "box": [
+      20,
+      2224.2,
+      350,
+      175
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "care-card-copy",
+    "box": [
+      20,
+      2412.2,
+      350,
+      47.7
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": "care-card-family",
+    "box": [
+      20,
+      2412.2,
+      330,
+      29.7
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": "care-card-detail",
+    "box": [
+      20,
+      2447.9,
+      140,
+      12
+    ]
+  },
+  {
+    "tag": "SECTION",
+    "class": "spa-universe",
+    "box": [
+      0,
+      2540.9,
+      390,
+      928.1
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "beauty-experience beauty-container",
+    "box": [
+      20,
+      2541.9,
+      350,
+      926.1
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "reveal experience-collage",
+    "box": [
+      23,
+      2591.9,
+      340,
+      375
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "beauty-photo experience-interior",
+    "box": [
+      23,
+      2591.9,
+      325,
+      350
+    ]
+  },
+  {
+    "tag": "IMG",
+    "class": null,
+    "box": [
+      23,
+      2591.9,
+      325,
+      350
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "spa-material-note",
+    "box": [
+      121.1,
+      2876.5,
+      241.9,
+      90.4
+    ]
+  },
+  {
+    "tag": "svg",
+    "class": "lucide lucide-leaf",
+    "box": [
+      144.1,
+      2909.7,
+      24,
+      24
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      148.1,
+      2911.7,
+      17,
+      18
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      146.1,
+      2921.7,
+      11,
+      9
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": null,
+    "box": [
+      185.1,
+      2896.5,
+      154.9,
+      50.4
+    ]
+  },
+  {
+    "tag": "BR",
+    "class": null,
+    "box": [
+      302.3,
+      2896.5,
+      0,
+      25
+    ]
+  },
+  {
+    "tag": "EM",
+    "class": null,
+    "box": [
+      185.1,
+      2921.7,
+      154.9,
+      25
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "reveal experience-copy",
+    "box": [
+      20,
+      3006.9,
+      350,
+      411.1
+    ]
+  },
+  {
+    "tag": "P",
+    "class": "eyebrow",
+    "box": [
+      20,
+      3006.9,
+      350,
+      13.6
+    ]
+  },
+  {
+    "tag": "H2",
+    "class": null,
+    "box": [
+      20,
+      3042.5,
+      350,
+      100.4
+    ]
+  },
+  {
+    "tag": "BR",
+    "class": null,
+    "box": [
+      250,
+      3039.5,
+      0,
+      46
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": "handwritten",
+    "box": [
+      20,
+      3094.1,
+      340,
+      48.8
+    ]
+  },
+  {
+    "tag": "P",
+    "class": null,
+    "box": [
+      20,
+      3168.9,
+      350,
+      48
+    ]
+  },
+  {
+    "tag": "P",
+    "class": null,
+    "box": [
+      20,
+      3216.9,
+      350,
+      96
+    ]
+  },
+  {
+    "tag": "P",
+    "class": "experience-signature handwritten",
+    "box": [
+      20,
+      3340.9,
+      350,
+      23.4
+    ]
+  },
+  {
+    "tag": "A",
+    "class": "under-link",
+    "box": [
+      20,
+      3389.3,
+      150.2,
+      28.7
+    ]
+  },
+  {
+    "tag": "svg",
+    "class": "lucide lucide-arrow-up-right",
+    "box": [
+      153.2,
+      3390.1,
+      17,
+      17
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      158.2,
+      3395.1,
+      7.1,
+      7.1
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      158.2,
+      3395.1,
+      7.1,
+      7.1
+    ]
+  },
+  {
+    "tag": "svg",
+    "class": "botanical-sprig spa-universe-sprig",
+    "box": [
+      269.6,
+      3303.1,
+      120.8,
+      145.3
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      280.7,
+      3320.9,
+      92.9,
+      118.9
+    ]
+  },
+  {
+    "tag": "g",
+    "class": null,
+    "box": [
+      280,
+      3305.9,
+      108.3,
+      117.5
+    ]
+  },
+  {
+    "tag": "ellipse",
+    "class": null,
+    "box": [
+      294.1,
+      3368,
+      20.8,
+      30.2
+    ]
+  },
+  {
+    "tag": "ellipse",
+    "class": null,
+    "box": [
+      297.7,
+      3347.1,
+      14.6,
+      24.7
+    ]
+  },
+  {
+    "tag": "ellipse",
+    "class": null,
+    "box": [
+      306,
+      3378.9,
+      30.5,
+      29.8
+    ]
+  },
+  {
+    "tag": "ellipse",
+    "class": null,
+    "box": [
+      330,
+      3369.3,
+      29,
+      21.8
+    ]
+  },
+  {
+    "tag": "ellipse",
+    "class": null,
+    "box": [
+      349.7,
+      3353.1,
+      27.1,
+      25.3
+    ]
+  },
+  {
+    "tag": "ellipse",
+    "class": null,
+    "box": [
+      327.8,
+      3334.9,
+      19.5,
+      27.5
+    ]
+  },
+  {
+    "tag": "ellipse",
+    "class": null,
+    "box": [
+      346.4,
+      3324.2,
+      26.4,
+      30.1
+    ]
+  },
+  {
+    "tag": "SECTION",
+    "class": "beauty-favorites beauty-container",
+    "box": [
+      20,
+      3469,
+      350,
+      1069.1
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "reveal beauty-section-heading",
+    "box": [
+      20,
+      3527,
+      350,
+      189.1
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": null,
+    "box": [
+      20,
+      3527,
+      350,
+      127.3
+    ]
+  },
+  {
+    "tag": "P",
+    "class": "eyebrow",
+    "box": [
+      20,
+      3527,
+      350,
+      13.6
+    ]
+  },
+  {
+    "tag": "H2",
+    "class": null,
+    "box": [
+      20,
+      3559.6,
+      350,
+      94.8
+    ]
+  },
+  {
+    "tag": "BR",
+    "class": null,
+    "box": [
+      266.9,
+      3555.6,
+      0,
+      46
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": "handwritten",
+    "box": [
+      20,
+      3603.3,
+      261.3,
+      51
+    ]
+  },
+  {
+    "tag": "P",
+    "class": "favorites-note",
+    "box": [
+      20,
+      3674.3,
+      310,
+      41.8
+    ]
+  },
+  {
+    "tag": "BR",
+    "class": null,
+    "box": [
+      129.8,
+      3676.3,
+      0,
+      15
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "favorites-layout",
+    "box": [
+      20,
+      3746.1,
+      350,
+      734
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "reveal favorites-photo",
+    "box": [
+      35,
+      3746.1,
+      320,
+      270
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "beauty-photo ",
+    "box": [
+      35,
+      3746.1,
+      320,
+      280
+    ]
+  },
+  {
+    "tag": "IMG",
+    "class": null,
+    "box": [
+      35,
+      3746.1,
+      320,
+      280
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": "handwritten",
+    "box": [
+      35.3,
+      4012.5,
+      319.5,
+      80.2
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "reveal beauty-service-list",
+    "box": [
+      20,
+      4046.1,
+      350,
+      434
+    ]
+  },
+  {
+    "tag": "A",
+    "class": null,
+    "box": [
+      20,
+      4046.1,
+      350,
+      87.6
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": "beauty-service-index",
+    "box": [
+      20,
+      4083.1,
+      9.6,
+      13.6
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": null,
+    "box": [
+      41.6,
+      4067.1,
+      207.4,
+      45.6
+    ]
+  },
+  {
+    "tag": "H3",
+    "class": null,
+    "box": [
+      41.6,
+      4067.1,
+      207.4,
+      25.3
+    ]
+  },
+  {
+    "tag": "P",
+    "class": null,
+    "box": [
+      41.6,
+      4097.4,
+      207.4,
+      15.3
+    ]
+  },
+  {
+    "tag": "svg",
+    "class": "lucide lucide-arrow-up-right",
+    "box": [
+      353,
+      4079.9,
+      17,
+      20
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      358,
+      4086.3,
+      7.1,
+      7.1
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      358,
+      4086.3,
+      7.1,
+      7.1
+    ]
+  },
+  {
+    "tag": "A",
+    "class": null,
+    "box": [
+      20,
+      4133.7,
+      350,
+      86.6
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": "beauty-service-index",
+    "box": [
+      20,
+      4169.7,
+      11.1,
+      13.6
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": null,
+    "box": [
+      43.1,
+      4153.7,
+      212.9,
+      45.6
+    ]
+  },
+  {
+    "tag": "H3",
+    "class": null,
+    "box": [
+      43.1,
+      4153.7,
+      212.9,
+      25.3
+    ]
+  },
+  {
+    "tag": "P",
+    "class": null,
+    "box": [
+      43.1,
+      4184,
+      212.9,
+      15.3
+    ]
+  },
+  {
+    "tag": "svg",
+    "class": "lucide lucide-arrow-up-right",
+    "box": [
+      353,
+      4166.5,
+      17,
+      20
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      358,
+      4172.9,
+      7.1,
+      7.1
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      358,
+      4172.9,
+      7.1,
+      7.1
+    ]
+  },
+  {
+    "tag": "A",
+    "class": null,
+    "box": [
+      20,
+      4220.3,
+      350,
+      86.6
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": "beauty-service-index",
+    "box": [
+      20,
+      4256.3,
+      10.9,
+      13.6
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": null,
+    "box": [
+      42.9,
+      4240.3,
+      208.8,
+      45.6
+    ]
+  },
+  {
+    "tag": "H3",
+    "class": null,
+    "box": [
+      42.9,
+      4240.3,
+      208.8,
+      25.3
+    ]
+  },
+  {
+    "tag": "P",
+    "class": null,
+    "box": [
+      42.9,
+      4270.6,
+      208.8,
+      15.3
+    ]
+  },
+  {
+    "tag": "svg",
+    "class": "lucide lucide-arrow-up-right",
+    "box": [
+      353,
+      4253.1,
+      17,
+      20
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      358,
+      4259.5,
+      7.1,
+      7.1
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      358,
+      4259.5,
+      7.1,
+      7.1
+    ]
+  },
+  {
+    "tag": "A",
+    "class": null,
+    "box": [
+      20,
+      4306.9,
+      350,
+      86.6
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": "beauty-service-index",
+    "box": [
+      20,
+      4342.9,
+      11.2,
+      13.6
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": null,
+    "box": [
+      43.2,
+      4326.9,
+      264.5,
+      45.6
+    ]
+  },
+  {
+    "tag": "H3",
+    "class": null,
+    "box": [
+      43.2,
+      4326.9,
+      264.5,
+      25.3
+    ]
+  },
+  {
+    "tag": "P",
+    "class": null,
+    "box": [
+      43.2,
+      4357.2,
+      235,
+      15.3
+    ]
+  },
+  {
+    "tag": "svg",
+    "class": "lucide lucide-arrow-up-right",
+    "box": [
+      353,
+      4339.7,
+      17,
+      20
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      358,
+      4346.1,
+      7.1,
+      7.1
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      358,
+      4346.1,
+      7.1,
+      7.1
+    ]
+  },
+  {
+    "tag": "A",
+    "class": null,
+    "box": [
+      20,
+      4393.5,
+      350,
+      86.6
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": "beauty-service-index",
+    "box": [
+      20,
+      4429.5,
+      11.1,
+      13.6
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": null,
+    "box": [
+      43.1,
+      4413.5,
+      193.2,
+      45.6
+    ]
+  },
+  {
+    "tag": "H3",
+    "class": null,
+    "box": [
+      43.1,
+      4413.5,
+      193.2,
+      25.3
+    ]
+  },
+  {
+    "tag": "P",
+    "class": null,
+    "box": [
+      43.1,
+      4443.8,
+      193.2,
+      15.3
+    ]
+  },
+  {
+    "tag": "svg",
+    "class": "lucide lucide-arrow-up-right",
+    "box": [
+      353,
+      4426.3,
+      17,
+      20
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      358,
+      4432.7,
+      7.1,
+      7.1
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      358,
+      4432.7,
+      7.1,
+      7.1
+    ]
+  },
+  {
+    "tag": "SECTION",
+    "class": "spa-gift-wrap",
+    "box": [
+      0,
+      4538.1,
+      390,
+      647.9
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "beauty-gifts beauty-container",
+    "box": [
+      20,
+      4539.1,
+      350,
+      645.9
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "reveal gift-copy",
+    "box": [
+      20,
+      4589.1,
+      350,
+      228.9
+    ]
+  },
+  {
+    "tag": "P",
+    "class": "eyebrow",
+    "box": [
+      20,
+      4589.1,
+      350,
+      15
+    ]
+  },
+  {
+    "tag": "svg",
+    "class": "lucide lucide-gift",
+    "box": [
+      20,
+      4589.1,
+      15,
+      15
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      27.5,
+      4593.4,
+      0,
+      8.8
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      22.5,
+      4595.9,
+      10,
+      6.3
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      23.1,
+      4590.3,
+      8.8,
+      3.1
+    ]
+  },
+  {
+    "tag": "rect",
+    "class": null,
+    "box": [
+      21.9,
+      4593.4,
+      11.3,
+      2.5
+    ]
+  },
+  {
+    "tag": "H2",
+    "class": null,
+    "box": [
+      20,
+      4624.1,
+      350,
+      84.6
+    ]
+  },
+  {
+    "tag": "BR",
+    "class": null,
+    "box": [
+      250.6,
+      4618.1,
+      0,
+      46
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": "handwritten",
+    "box": [
+      20,
+      4668.8,
+      350,
+      39.9
+    ]
+  },
+  {
+    "tag": "P",
+    "class": null,
+    "box": [
+      20,
+      4730.7,
+      350,
+      45.6
+    ]
+  },
+  {
+    "tag": "BR",
+    "class": null,
+    "box": [
+      296,
+      4732.7,
+      0,
+      17
+    ]
+  },
+  {
+    "tag": "A",
+    "class": "under-link",
+    "box": [
+      20,
+      4789.3,
+      186.7,
+      28.7
+    ]
+  },
+  {
+    "tag": "svg",
+    "class": "lucide lucide-arrow-up-right",
+    "box": [
+      188.7,
+      4789.6,
+      18,
+      18
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      193.9,
+      4794.9,
+      7.5,
+      7.5
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      193.9,
+      4794.9,
+      7.5,
+      7.5
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "reveal gift-art",
+    "box": [
+      28,
+      4855,
+      350,
+      280
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "gift-scene",
+    "box": [
+      28,
+      4855,
+      350,
+      280
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "gift-envelope",
+    "box": [
+      9.4,
+      4862,
+      352.1,
+      281
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "gift-ribbon",
+    "box": [
+      52.9,
+      4895.8,
+      310.6,
+      160.5
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "beauty-gift-card",
+    "box": [
+      40.2,
+      4856,
+      325.6,
+      241
+    ]
+  },
+  {
+    "tag": "svg",
+    "class": "lucide lucide-sparkles",
+    "box": [
+      317.2,
+      4899.8,
+      23.8,
+      23.8
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      319.2,
+      4901.8,
+      19.9,
+      19.9
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      336.9,
+      4903.2,
+      0.3,
+      3.7
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      335.2,
+      4904.9,
+      3.7,
+      0.3
+    ]
+  },
+  {
+    "tag": "circle",
+    "class": null,
+    "box": [
+      319.2,
+      4916.4,
+      4,
+      4
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": "gift-brand",
+    "box": [
+      131.2,
+      4923,
+      148.2,
+      55.1
+    ]
+  },
+  {
+    "tag": "IMG",
+    "class": "brand-wordmark-image",
+    "box": [
+      131.2,
+      4923,
+      148.2,
+      55.1
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": "gift-subtitle",
+    "box": [
+      139.5,
+      4966.3,
+      127,
+      19.5
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": "handwritten",
+    "box": [
+      110.3,
+      4986.4,
+      179.7,
+      45
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": "gift-caption",
+    "box": [
+      166.5,
+      5053,
+      58.4,
+      15.2
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": "gift-heart",
+    "box": [
+      318.7,
+      5038.4,
+      74.7,
+      107.1
+    ]
+  },
+  {
+    "tag": "svg",
+    "class": "botanical-sprig spa-gift-sprig",
+    "box": [
+      261.9,
+      4496.1,
+      156.1,
+      166
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      281.3,
+      4517.8,
+      122.9,
+      133.4
+    ]
+  },
+  {
+    "tag": "g",
+    "class": null,
+    "box": [
+      264.3,
+      4499.4,
+      134.8,
+      138.5
+    ]
+  },
+  {
+    "tag": "ellipse",
+    "class": null,
+    "box": [
+      315.5,
+      4597,
+      33.7,
+      22.1
+    ]
+  },
+  {
+    "tag": "ellipse",
+    "class": null,
+    "box": [
+      294.3,
+      4580,
+      30.8,
+      27.5
+    ]
+  },
+  {
+    "tag": "ellipse",
+    "class": null,
+    "box": [
+      340.8,
+      4581,
+      23.1,
+      33.9
+    ]
+  },
+  {
+    "tag": "ellipse",
+    "class": null,
+    "box": [
+      341.8,
+      4551.8,
+      21.7,
+      31.7
+    ]
+  },
+  {
+    "tag": "ellipse",
+    "class": null,
+    "box": [
+      340.5,
+      4526.8,
+      18.2,
+      28.6
+    ]
+  },
+  {
+    "tag": "ellipse",
+    "class": null,
+    "box": [
+      303,
+      4546,
+      30.4,
+      19.9
+    ]
+  },
+  {
+    "tag": "ellipse",
+    "class": null,
+    "box": [
+      308.2,
+      4512.4,
+      27.5,
+      34
+    ]
+  },
+  {
+    "tag": "SECTION",
+    "class": "spa-closing beauty-container",
+    "box": [
+      20,
+      5186,
+      350,
+      378
+    ]
+  },
+  {
+    "tag": "svg",
+    "class": "lucide lucide-leaf",
+    "box": [
+      181,
+      5241,
+      28,
+      28
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      185.6,
+      5243.3,
+      19.9,
+      21
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      183.3,
+      5255,
+      12.8,
+      10.5
+    ]
+  },
+  {
+    "tag": "P",
+    "class": "eyebrow",
+    "box": [
+      20,
+      5287,
+      350,
+      15.3
+    ]
+  },
+  {
+    "tag": "H2",
+    "class": null,
+    "box": [
+      20,
+      5320.3,
+      350,
+      77.8
+    ]
+  },
+  {
+    "tag": "EM",
+    "class": null,
+    "box": [
+      158.3,
+      5317.3,
+      202.1,
+      81.9
+    ]
+  },
+  {
+    "tag": "A",
+    "class": "button coral-button",
+    "box": [
+      68.6,
+      5425,
+      252.8,
+      50.7
+    ]
+  },
+  {
+    "tag": "svg",
+    "class": "lucide lucide-arrow-right",
+    "box": [
+      278.4,
+      5441.4,
+      18,
+      18
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      282.2,
+      5450.4,
+      10.5,
+      0
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      287.4,
+      5445.1,
+      5.3,
+      10.5
+    ]
+  },
+  {
+    "tag": "P",
+    "class": "help",
+    "box": [
+      20,
+      5493.7,
+      350,
+      15.3
+    ]
+  },
+  {
+    "tag": "FOOTER",
+    "class": "beauty-footer",
+    "box": [
+      0,
+      5564,
+      390,
+      615.4
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "footer-upper",
+    "box": [
+      20,
+      5610,
+      350,
+      308.9
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "footer-invitation",
+    "box": [
+      20,
+      5610,
+      350,
+      212.2
+    ]
+  },
+  {
+    "tag": "P",
+    "class": "eyebrow",
+    "box": [
+      20,
+      5610,
+      350,
+      11.9
+    ]
+  },
+  {
+    "tag": "P",
+    "class": "footer-title",
+    "box": [
+      20,
+      5642.9,
+      350,
+      101.3
+    ]
+  },
+  {
+    "tag": "BR",
+    "class": null,
+    "box": [
+      242.5,
+      5636.9,
+      0,
+      52
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": "handwritten",
+    "box": [
+      18.6,
+      5681,
+      336.6,
+      74.8
+    ]
+  },
+  {
+    "tag": "A",
+    "class": "button coral-button",
+    "box": [
+      20,
+      5772.2,
+      205.3,
+      50
+    ]
+  },
+  {
+    "tag": "svg",
+    "class": "lucide lucide-arrow-up-right",
+    "box": [
+      182.3,
+      5788.2,
+      18,
+      18
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      187.6,
+      5793.5,
+      7.5,
+      7.5
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      187.6,
+      5793.5,
+      7.5,
+      7.5
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "footer-contact",
+    "box": [
+      20,
+      5852.2,
+      350,
+      66.7
+    ]
+  },
+  {
+    "tag": "P",
+    "class": "eyebrow",
+    "box": [
+      20,
+      5852.2,
+      350,
+      13.6
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "inline-links",
+    "box": [
+      20,
+      5881.8,
+      350,
+      0
+    ]
+  },
+  {
+    "tag": "P",
+    "class": "footer-city",
+    "box": [
+      20,
+      5901.8,
+      340,
+      17.1
+    ]
+  },
+  {
+    "tag": "svg",
+    "class": "lucide lucide-sparkles",
+    "box": [
+      20,
+      5902.8,
+      15,
+      15
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      21.2,
+      5904.1,
+      12.5,
+      12.5
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      32.5,
+      5904.1,
+      0,
+      2.5
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      31.3,
+      5905.3,
+      2.5,
+      0
+    ]
+  },
+  {
+    "tag": "circle",
+    "class": null,
+    "box": [
+      21.3,
+      5914.1,
+      2.5,
+      2.5
+    ]
+  },
+  {
+    "tag": "svg",
+    "class": "lucide lucide-heart footer-heart",
+    "box": [
+      283.3,
+      5793.9,
+      98.3,
+      116
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      295,
+      5819.6,
+      74.1,
+      67.5
+    ]
+  },
+  {
+    "tag": "A",
+    "class": "footer-wordmark",
+    "box": [
+      15,
+      5958.9,
+      350,
+      102.3
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": "brand-logo brand-logo-dark  ",
+    "box": [
+      15,
+      5983.4,
+      350,
+      77.8
+    ]
+  },
+  {
+    "tag": "IMG",
+    "class": "brand-symbol-image",
+    "box": [
+      29.8,
+      6002.3,
+      40,
+      40
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": "brand-name ",
+    "box": [
+      81.8,
+      5983.4,
+      268.4,
+      77.8
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "footer-bottom",
+    "box": [
+      20,
+      6091.2,
+      350,
+      66.2
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": null,
+    "box": [
+      20,
+      6113.2,
+      350,
+      13.6
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": null,
+    "box": [
+      20,
+      6143.8,
+      350,
+      13.6
+    ]
+  },
+  {
+    "tag": "A",
+    "class": null,
+    "box": [
+      20,
+      6143.8,
+      62.9,
+      13.6
+    ]
+  },
+  {
+    "tag": "A",
+    "class": null,
+    "box": [
+      103.9,
+      6143.8,
+      55.2,
+      13.6
+    ]
+  },
+  {
+    "tag": "A",
+    "class": null,
+    "box": [
+      180.1,
+      6143.8,
+      46.8,
+      13.6
+    ]
+  },
+  {
+    "tag": "NEXT-ROUTE-ANNOUNCER",
+    "class": null,
+    "box": [
+      0,
+      6179.4,
+      0,
+      0
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "nextjs-toast",
+    "box": [
+      20,
+      608,
+      36,
+      36
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": null,
+    "box": [
+      20,
+      608,
+      36,
+      36
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": null,
+    "box": [
+      20,
+      608,
+      36,
+      36
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": null,
+    "box": [
+      20,
+      608,
+      36,
+      36
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": null,
+    "box": [
+      20,
+      610,
+      36,
+      32
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": null,
+    "box": [
+      22,
+      610,
+      32,
+      32
+    ]
+  },
+  {
+    "tag": "svg",
+    "class": null,
+    "box": [
+      22,
+      606,
+      40,
+      40
+    ]
+  },
+  {
+    "tag": "g",
+    "class": null,
+    "box": [
+      32.8,
+      620,
+      11,
+      14.2
+    ]
+  },
+  {
+    "tag": "path",
+    "class": "paused",
+    "box": [
+      32.8,
+      620,
+      11,
+      14.2
+    ]
+  },
+  {
+    "tag": "path",
+    "class": "paused",
+    "box": [
+      42.3,
+      620.5,
+      0,
+      11.6
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": null,
+    "box": [
+      52,
+      614,
+      0,
+      0
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": null,
+    "box": [
+      -1,
+      6178.4,
+      1,
+      1
+    ]
+  }
+]

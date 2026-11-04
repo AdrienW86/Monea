@@ -15,10 +15,7 @@ export default async function Services({
   return (
     <section className="section">
       <PageIntro eyebrow="LE CATALOGUE" title="À chaque envie, sa parenthèse.">
-        <p>
-          Explorez les prestations et retrouvez leurs détails, tarifs et
-          conditions de réservation.
-        </p>
+        <p>Découvrez nos univers de beauté, nos prestations et leurs tarifs.</p>
       </PageIntro>
       <Catalogue services={services} initial={params.categorie} />
     </section>

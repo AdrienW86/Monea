@@ -1,0 +1,822 @@
+[
+  {
+    "tag": "A",
+    "class": "skip-link",
+    "box": [
+      15,
+      -60,
+      128.4,
+      47.8
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "announcement",
+    "box": [
+      0,
+      0,
+      820,
+      29.6
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": null,
+    "box": [
+      477.8,
+      9,
+      8.1,
+      11
+    ]
+  },
+  {
+    "tag": "HEADER",
+    "class": "site-header",
+    "box": [
+      0,
+      29.6,
+      820,
+      105
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "header-inner",
+    "box": [
+      36,
+      29.6,
+      748,
+      104
+    ]
+  },
+  {
+    "tag": "A",
+    "class": "wordmark",
+    "box": [
+      36,
+      58,
+      188.9,
+      47.1
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": "brand-logo brand-logo-dark  ",
+    "box": [
+      36,
+      64.3,
+      188.9,
+      40.8
+    ]
+  },
+  {
+    "tag": "IMG",
+    "class": "brand-symbol-image",
+    "box": [
+      36,
+      65.7,
+      38,
+      38
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": "brand-name ",
+    "box": [
+      84,
+      64.3,
+      140.9,
+      40.8
+    ]
+  },
+  {
+    "tag": "NAV",
+    "class": "desktop-nav",
+    "box": [
+      428.3,
+      63.1,
+      212.6,
+      37
+    ]
+  },
+  {
+    "tag": "A",
+    "class": null,
+    "box": [
+      428.3,
+      63.1,
+      71.7,
+      37
+    ]
+  },
+  {
+    "tag": "A",
+    "class": null,
+    "box": [
+      515,
+      63.1,
+      72.7,
+      37
+    ]
+  },
+  {
+    "tag": "A",
+    "class": null,
+    "box": [
+      602.7,
+      63.1,
+      38.1,
+      37
+    ]
+  },
+  {
+    "tag": "A",
+    "class": "button header-booking",
+    "box": [
+      666.9,
+      56.3,
+      117.1,
+      50.7
+    ]
+  },
+  {
+    "tag": "svg",
+    "class": "lucide lucide-arrow-up-right",
+    "box": [
+      751,
+      73.1,
+      17,
+      17
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      756,
+      78.1,
+      7.1,
+      7.1
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      756,
+      78.1,
+      7.1,
+      7.1
+    ]
+  },
+  {
+    "tag": "MAIN",
+    "class": null,
+    "box": [
+      0,
+      134.6,
+      820,
+      1196.7
+    ]
+  },
+  {
+    "tag": "SECTION",
+    "class": "section narrow prose",
+    "box": [
+      0,
+      134.6,
+      820,
+      1196.7
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "page-intro",
+    "box": [
+      36,
+      189.6,
+      748,
+      188
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "page-intro-copy",
+    "box": [
+      36,
+      217.6,
+      234.5,
+      114
+    ]
+  },
+  {
+    "tag": "P",
+    "class": "eyebrow",
+    "box": [
+      36,
+      217.6,
+      234.5,
+      23.8
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": "tiny-star",
+    "box": [
+      36,
+      218,
+      21.4,
+      23
+    ]
+  },
+  {
+    "tag": "H1",
+    "class": null,
+    "box": [
+      36,
+      263.4,
+      234.5,
+      46.2
+    ]
+  },
+  {
+    "tag": "P",
+    "class": "notice",
+    "box": [
+      36,
+      412.6,
+      748,
+      87.6
+    ]
+  },
+  {
+    "tag": "H2",
+    "class": null,
+    "box": [
+      36,
+      535.2,
+      748,
+      37.8
+    ]
+  },
+  {
+    "tag": "P",
+    "class": null,
+    "box": [
+      36,
+      573,
+      748,
+      23.8
+    ]
+  },
+  {
+    "tag": "H2",
+    "class": null,
+    "box": [
+      36,
+      631.8,
+      748,
+      37.8
+    ]
+  },
+  {
+    "tag": "P",
+    "class": null,
+    "box": [
+      36,
+      669.6,
+      748,
+      47.6
+    ]
+  },
+  {
+    "tag": "H2",
+    "class": null,
+    "box": [
+      36,
+      752.2,
+      748,
+      37.8
+    ]
+  },
+  {
+    "tag": "P",
+    "class": null,
+    "box": [
+      36,
+      790,
+      748,
+      47.6
+    ]
+  },
+  {
+    "tag": "H2",
+    "class": null,
+    "box": [
+      36,
+      872.5,
+      748,
+      37.8
+    ]
+  },
+  {
+    "tag": "P",
+    "class": null,
+    "box": [
+      36,
+      910.3,
+      748,
+      71.4
+    ]
+  },
+  {
+    "tag": "H2",
+    "class": null,
+    "box": [
+      36,
+      1016.7,
+      748,
+      37.8
+    ]
+  },
+  {
+    "tag": "P",
+    "class": null,
+    "box": [
+      36,
+      1054.5,
+      748,
+      47.6
+    ]
+  },
+  {
+    "tag": "H2",
+    "class": null,
+    "box": [
+      36,
+      1137.1,
+      748,
+      37.8
+    ]
+  },
+  {
+    "tag": "P",
+    "class": null,
+    "box": [
+      36,
+      1174.9,
+      748,
+      71.4
+    ]
+  },
+  {
+    "tag": "FOOTER",
+    "class": "beauty-footer",
+    "box": [
+      0,
+      1331.3,
+      820,
+      635.7
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "footer-upper",
+    "box": [
+      40,
+      1390.3,
+      740,
+      217.2
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "footer-invitation",
+    "box": [
+      40,
+      1390.3,
+      417.6,
+      217.2
+    ]
+  },
+  {
+    "tag": "P",
+    "class": "eyebrow",
+    "box": [
+      40,
+      1390.3,
+      417.6,
+      13.6
+    ]
+  },
+  {
+    "tag": "P",
+    "class": "footer-title",
+    "box": [
+      40,
+      1425.9,
+      417.6,
+      101.6
+    ]
+  },
+  {
+    "tag": "BR",
+    "class": null,
+    "box": [
+      262.5,
+      1420.9,
+      0,
+      52
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": "handwritten",
+    "box": [
+      38.6,
+      1464.3,
+      336.6,
+      74.8
+    ]
+  },
+  {
+    "tag": "A",
+    "class": "button coral-button",
+    "box": [
+      40,
+      1557.5,
+      205.3,
+      50
+    ]
+  },
+  {
+    "tag": "svg",
+    "class": "lucide lucide-arrow-up-right",
+    "box": [
+      202.3,
+      1573.5,
+      18,
+      18
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      207.6,
+      1578.8,
+      7.5,
+      7.5
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      207.6,
+      1578.8,
+      7.5,
+      7.5
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "footer-contact",
+    "box": [
+      487.6,
+      1458.3,
+      292.3,
+      81.3
+    ]
+  },
+  {
+    "tag": "P",
+    "class": "eyebrow",
+    "box": [
+      487.6,
+      1458.3,
+      292.3,
+      15.3
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "inline-links",
+    "box": [
+      487.6,
+      1495.5,
+      292.3,
+      0
+    ]
+  },
+  {
+    "tag": "P",
+    "class": "footer-city",
+    "box": [
+      487.6,
+      1520.5,
+      292.3,
+      19
+    ]
+  },
+  {
+    "tag": "svg",
+    "class": "lucide lucide-sparkles",
+    "box": [
+      487.6,
+      1522.5,
+      15,
+      15
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      488.9,
+      1523.8,
+      12.5,
+      12.5
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      500.1,
+      1523.8,
+      0,
+      2.5
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      498.9,
+      1525,
+      2.5,
+      0
+    ]
+  },
+  {
+    "tag": "circle",
+    "class": null,
+    "box": [
+      488.9,
+      1533.8,
+      2.5,
+      2.5
+    ]
+  },
+  {
+    "tag": "svg",
+    "class": "lucide lucide-heart footer-heart",
+    "box": [
+      668.8,
+      1496.3,
+      122.5,
+      122.5
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      680,
+      1514.5,
+      98.8,
+      90.1
+    ]
+  },
+  {
+    "tag": "A",
+    "class": "footer-wordmark",
+    "box": [
+      40,
+      1657.5,
+      740,
+      213.2
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": "brand-logo brand-logo-dark  ",
+    "box": [
+      40,
+      1731.9,
+      740,
+      116.8
+    ]
+  },
+  {
+    "tag": "IMG",
+    "class": "brand-symbol-image",
+    "box": [
+      171.6,
+      1761.7,
+      57.4,
+      57.4
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": "brand-name ",
+    "box": [
+      245.3,
+      1731.9,
+      403.1,
+      116.8
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "footer-bottom",
+    "box": [
+      40,
+      1905.7,
+      740,
+      39.3
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": null,
+    "box": [
+      40,
+      1929.7,
+      111.1,
+      15.3
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": null,
+    "box": [
+      534.5,
+      1929.7,
+      245.5,
+      15.3
+    ]
+  },
+  {
+    "tag": "A",
+    "class": null,
+    "box": [
+      534.5,
+      1929.7,
+      70.7,
+      15.3
+    ]
+  },
+  {
+    "tag": "A",
+    "class": null,
+    "box": [
+      635.3,
+      1929.7,
+      62.1,
+      15.3
+    ]
+  },
+  {
+    "tag": "A",
+    "class": null,
+    "box": [
+      727.4,
+      1929.7,
+      52.6,
+      15.3
+    ]
+  },
+  {
+    "tag": "NEXT-ROUTE-ANNOUNCER",
+    "class": null,
+    "box": [
+      0,
+      1967,
+      0,
+      0
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "nextjs-toast",
+    "box": [
+      20,
+      1124,
+      36,
+      36
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": null,
+    "box": [
+      20,
+      1124,
+      36,
+      36
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": null,
+    "box": [
+      20,
+      1124,
+      36,
+      36
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": null,
+    "box": [
+      20,
+      1124,
+      36,
+      36
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": null,
+    "box": [
+      20,
+      1126,
+      36,
+      32
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": null,
+    "box": [
+      22,
+      1126,
+      32,
+      32
+    ]
+  },
+  {
+    "tag": "svg",
+    "class": null,
+    "box": [
+      22,
+      1122,
+      40,
+      40
+    ]
+  },
+  {
+    "tag": "g",
+    "class": null,
+    "box": [
+      32.8,
+      1136,
+      11,
+      14.2
+    ]
+  },
+  {
+    "tag": "path",
+    "class": "paused",
+    "box": [
+      32.8,
+      1136,
+      11,
+      14.2
+    ]
+  },
+  {
+    "tag": "path",
+    "class": "paused",
+    "box": [
+      42.3,
+      1136.5,
+      0,
+      11.6
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": null,
+    "box": [
+      52,
+      1130,
+      0,
+      0
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": null,
+    "box": [
+      -1,
+      1966,
+      1,
+      1
+    ]
+  }
+]

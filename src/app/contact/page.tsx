@@ -3,9 +3,9 @@ import { ContactForm } from "@/components/contact-form";
 import { getSettings } from "@/lib/db/queries";
 import { dbConfigured } from "@/lib/db/server";
 import { Photo } from "@/components/beauty-art";
-import { editorial } from "@/config/editorial";
 import { isLocalProvider } from "@/lib/data/provider";
 import { pageMetadata } from "@/lib/brand-seo";
+import { BusinessCards } from "@/components/printed-supports";
 export async function generateMetadata() {
   return pageMetadata(
     await getSettings(),
@@ -17,7 +17,7 @@ export async function generateMetadata() {
 export default async function Contact() {
   const s = await getSettings();
   return (
-    <section className="section">
+    <section className="section contact-page">
       <PageIntro
         eyebrow="FAISONS CONNAISSANCE"
         title="Un petit mot, une envie ?"
@@ -32,7 +32,7 @@ export default async function Contact() {
         </div>
         <aside className="booking-aside">
           <Photo
-            src={editorial.ambiance}
+            src="/images/spa/rituel-naturel.webp"
             alt="Ambiance d’intérieur imaginée, sans représentation du local réel"
             className="contact-aside-photo"
             sizes="(max-width: 700px) 90vw, 40vw"
@@ -52,6 +52,7 @@ export default async function Contact() {
           <WhatsAppButton number={s.whatsapp} />
         </aside>
       </div>
+      <BusinessCards />
     </section>
   );
 }

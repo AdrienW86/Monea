@@ -1,4 +1,5 @@
 ﻿import { test, expect, type Page } from "@playwright/test";
+import AxeBuilder from "@axe-core/playwright";
 const origin = "http://127.0.0.1:3212";
 test.beforeEach(async ({ page }) => {
   page.on("pageerror", (e) => console.error("BROWSER ERROR:", e.message));
@@ -177,12 +178,13 @@ test("catégorie et prestation : formulaires et persistance après actualisation
     .getByLabel("Catégorie", { exact: true })
     .selectOption({ label: name });
   await serviceDialog
-    .getByLabel("Exigence de qualification")
-    .selectOption("none");
-  await serviceDialog.getByLabel("État commercial").selectOption("active");
-  await serviceDialog
-    .getByLabel("Réservable si toutes les conditions sont vérifiées")
-    .check();
+    .getByLabel("Description", { exact: true })
+    .fill("Une prestation de soin personnalisée.");
+  await serviceDialog.getByLabel("Prix TTC en euros").fill("25");
+  await expect(
+    serviceDialog.getByLabel("Exigence de qualification"),
+  ).toHaveCount(0);
+  await expect(serviceDialog.locator("input,select,textarea")).toHaveCount(4);
   await serviceDialog
     .getByRole("button", { name: "Enregistrer", exact: true })
     .click();
@@ -193,7 +195,9 @@ test("catégorie et prestation : formulaires et persistance après actualisation
     .getByRole("button", { name: "Modifier", exact: true })
     .click();
   await serviceDialog.getByLabel("Prix TTC en euros").fill("32");
-  await serviceDialog.getByLabel("Durée (minutes)").fill("90");
+  await serviceDialog
+    .getByLabel("Description", { exact: true })
+    .fill("Le descriptif modifié depuis l’espace privé.");
   await serviceDialog
     .getByRole("button", { name: "Enregistrer", exact: true })
     .click();
@@ -202,7 +206,22 @@ test("catégorie et prestation : formulaires et persistance après actualisation
     (await snapshot(page)).services.find(
       (s: { name: string }) => s.name === serviceName,
     ),
-  ).toMatchObject({ price_cents: 3200, duration_minutes: 90 });
+  ).toMatchObject({
+    price_cents: 3200,
+    duration_minutes: 60,
+    description: "Le descriptif modifié depuis l’espace privé.",
+    bookable: true,
+    operational_status: "active",
+  });
+  const updated = (await snapshot(page)).services.find(
+    (s: { name: string }) => s.name === serviceName,
+  );
+  await page.goto(`/prestations/${updated.slug}`);
+  await expect(page.locator("main")).toContainText(
+    "Le descriptif modifié depuis l’espace privé.",
+  );
+  await expect(page.locator("main")).toContainText("32,00");
+  await page.goto("/admin/catalogue");
   await page
     .getByRole("row")
     .filter({ hasText: serviceName })
@@ -213,6 +232,17 @@ test("catégorie et prestation : formulaires et persistance après actualisation
     fullPage: true,
     caret: "initial",
   });
+  await serviceDialog
+    .getByRole("button", { name: "Enregistrer", exact: true })
+    .hover();
+  expect(
+    (
+      await new AxeBuilder({ page })
+        .include(".management-dialog")
+        .withTags(["wcag2a", "wcag2aa", "wcag21aa"])
+        .analyze()
+    ).violations,
+  ).toEqual([]);
   await page.getByRole("button", { name: "Fermer la fenêtre" }).click();
 });
 test("planning jour semaine mois, navigation mobile et inspection des onze rubriques", async ({

@@ -14,7 +14,7 @@ export async function generateMetadata() {
 export default async function Gifts() {
   const s = await getSettings();
   return (
-    <section className="section narrow">
+    <section className="section gift-page">
       <PageIntro
         eyebrow="LE PLAISIR D’OFFRIR"
         title="Une attention qui fait du bien."
@@ -24,22 +24,24 @@ export default async function Gifts() {
           aimez.
         </p>
       </PageIntro>
-      <div className="gift-page-scene">
-        <GiftScene name={s.name} />
-      </div>
-      <div className="detail-panel">
-        <div>
-          <h2>
-            Les belles attentions
-            <br />
-            <em>à partager.</em>
-          </h2>
-          <p>
-            Pour connaître les modalités des cartes cadeaux, contactez MONÉA.
-          </p>
-          <Link href="/contact" className="button">
-            Nous contacter
-          </Link>
+      <div className="gift-page-body">
+        <div className="gift-page-scene">
+          <GiftScene name={s.name} />
+        </div>
+        <div className="detail-panel">
+          <div>
+            <h2>
+              Les belles attentions
+              <br />
+              <em>à partager.</em>
+            </h2>
+            <p>
+              Pour connaître les modalités des cartes cadeaux, contactez MONÉA.
+            </p>
+            <Link href="/contact" className="button">
+              Nous contacter
+            </Link>
+          </div>
         </div>
       </div>
     </section>

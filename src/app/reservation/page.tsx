@@ -1,7 +1,7 @@
 import { PageIntro } from "@/components/site";
 import { BookingForm } from "@/components/booking-form";
 import { getServices, getSettings, integrationStatus } from "@/lib/db/queries";
-import { eligible, bookingRestrictions } from "@/lib/catalogue";
+import { eligible } from "@/lib/catalogue";
 import Link from "next/link";
 import { isLocalProvider, mockPaymentsEnabled } from "@/lib/data/provider";
 import { localRepository } from "@/lib/data/local";
@@ -53,7 +53,7 @@ export default async function Reservation({
       {unavailableRequest ? (
         <p className="notice" role="status">
           {requested
-            ? `${requested.name} : ${bookingRestrictions(requested).join(" ")}`
+            ? `${requested.name} : contactez l’institut pour organiser cette prestation.`
             : "Cette prestation n’est pas disponible à la réservation."}{" "}
           <Link
             href={requested ? `/prestations/${requested.slug}` : "/prestations"}

@@ -1,12 +1,13 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
-import { ArrowUpRight, Clock3, Sparkles } from "lucide-react";
+import { ArrowUpRight } from "lucide-react";
 import { getServices, getSettings } from "@/lib/db/queries";
-import { eligible, euro, bookingRestrictions } from "@/lib/catalogue";
+import { eligible, euro } from "@/lib/catalogue";
 import { PageIntro, WhatsAppButton } from "@/components/site";
 import { serviceVisual } from "@/config/editorial";
 import { pageMetadata } from "@/lib/brand-seo";
+import { categoryLabel, serviceDescription } from "@/lib/service-presentation";
 export async function generateMetadata({
   params,
 }: {
@@ -23,7 +24,7 @@ export async function generateMetadata({
     s,
     service.name,
     `/prestations/${service.slug}`,
-    `${service.description} Disponibilité à vérifier auprès de MONÉA.`,
+    serviceDescription(service),
   );
 }
 export default async function ServicePage({
@@ -43,13 +44,11 @@ export default async function ServicePage({
       <Link className="under-link" href="/prestations">
         ← Les prestations
       </Link>
-      <PageIntro eyebrow={v.category} title={v.name}>
-        <p>{v.description}</p>
-      </PageIntro>
+      <PageIntro eyebrow={categoryLabel(v.category)} title={v.name} />
       <div className="service-detail-layout">
         <figure className="service-feature-photo">
           <Image
-            src={v.image || serviceVisual(v.slug, v.category)}
+            src={serviceVisual(v.slug, v.category, v.image)}
             alt={`Photographie d’illustration — ${v.category.toLowerCase()}`}
             width={800}
             height={900}
@@ -60,34 +59,17 @@ export default async function ServicePage({
           </span>
         </figure>
         <div className="service-detail-info">
-          <p className="eyebrow">
-            <Sparkles size={16} /> VOTRE PARENTHÈSE BEAUTÉ
-          </p>
-          <h2>
-            Les jolis détails,
-            <br />
-            <span className="handwritten">juste pour vous.</span>
-          </h2>
+          <p className="eyebrow">{categoryLabel(v.category)}</p>
+          <p className="service-feature-description">{serviceDescription(v)}</p>
           {v.price_cents !== null ? (
             <>
               <p className="service-feature-price">
                 {euro(v.price_cents)} <span>TTC</span>
               </p>
-              <p className="service-feature-duration">
-                <Clock3 size={15} />
-                {v.duration_minutes} minutes
-              </p>
             </>
           ) : (
-            <p className="notice">
-              Tarif non renseigné. Réservation indisponible.
-            </p>
+            <p className="service-feature-price">Sur demande</p>
           )}
-          <p className="service-feature-status">
-            {eligible(v)
-              ? "Choisissez votre créneau selon les disponibilités."
-              : bookingRestrictions(v).join(" ")}
-          </p>
           {eligible(v) ? (
             <Link
               className="button coral-button"
@@ -96,15 +78,11 @@ export default async function ServicePage({
               Voir les disponibilités <ArrowUpRight size={18} />
             </Link>
           ) : (
-            <button className="button" disabled>
-              Réservation indisponible
-            </button>
+            <Link className="button outline" href="/contact">
+              Nous contacter <ArrowUpRight size={18} />
+            </Link>
           )}
-          <div className="service-question">
-            <h3>Une question avant de vous décider ?</h3>
-            <p>Un petit mot, c’est parfois tout ce qu’il faut.</p>
-            <WhatsAppButton number={s.whatsapp} service={v.name} />
-          </div>
+          <WhatsAppButton number={s.whatsapp} service={v.name} />
         </div>
       </div>
     </section>

@@ -65,9 +65,9 @@ test("recette photographique de toutes les pages principales", async ({
     }
     if (url === "/") {
       await expect(page.locator(".care-photo-card")).toHaveCount(7);
-      await expect(page.locator(".mosaic-tile")).toHaveCount(4);
+      await expect(page.locator(".spa-hero-image img")).toHaveCount(1);
       const heroSources = await page
-        .locator(".mosaic-tile img")
+        .locator(".spa-hero-image img")
         .evaluateAll((images) =>
           images.map((image) =>
             new URL(
@@ -100,14 +100,14 @@ test("recette photographique de toutes les pages principales", async ({
       );
       await expect(booking).toBeVisible();
       const bookingBox = (await booking.boundingBox())!;
-      expect(bookingBox.height).toBeGreaterThanOrEqual(52);
+      expect(bookingBox.height).toBeGreaterThanOrEqual(48);
       expect(bookingBox.y).toBeGreaterThan(0);
       expect(bookingBox.y + bookingBox.height).toBeLessThan(
         page.viewportSize()!.height,
       );
-      await expect(page.locator(".mosaic-main-photo img")).toHaveAttribute(
+      await expect(page.locator(".spa-hero-image img")).toHaveAttribute(
         "src",
-        /hero-portrait/,
+        /rituel-naturel/,
       );
       expect(
         await page

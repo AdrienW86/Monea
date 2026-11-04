@@ -825,6 +825,7 @@ export class LocalRepository implements DataRepository {
             );
           if (
             v.qualification_requirement === "equipment" &&
+            !old?.qualification_verified_at &&
             (v.bookable ||
               v.price_cents !== null ||
               v.operational_status !== "study")

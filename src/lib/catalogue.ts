@@ -159,7 +159,6 @@ export function eligible(s: Service) {
     s.bookable &&
     s.operational_status === "active" &&
     s.price_cents !== null &&
-    s.qualification_requirement !== "equipment" &&
     (s.qualification_requirement === "none" || !!s.qualification_verified_at) &&
     (s.qualification_requirement !== "procedure" || !!s.procedure_verified_at)
   );
@@ -168,7 +167,10 @@ export function eligible(s: Service) {
 // Explain the existing booking guards; consulting a service never grants eligibility.
 export function bookingRestrictions(s: Service): string[] {
   const reasons: string[] = [];
-  if (s.qualification_requirement === "equipment")
+  if (
+    s.qualification_requirement === "equipment" &&
+    !s.qualification_verified_at
+  )
     reasons.push(
       "La réservation en ligne est désactivée pour cette prestation soumise aux vérifications de matériel, de sécurité et d’habilitation.",
     );

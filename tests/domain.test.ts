@@ -58,7 +58,7 @@ describe("catalogue et conformité", () => {
         operational_status: "active",
         qualification_verified_at: new Date().toISOString(),
       }),
-    ).toBe(false);
+    ).toBe(true);
   });
 });
 describe("validation et confidentialité", () => {

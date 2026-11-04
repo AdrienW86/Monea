@@ -1,0 +1,1042 @@
+[
+  {
+    "tag": "A",
+    "class": "skip-link",
+    "box": [
+      15,
+      -60,
+      128.4,
+      47.8
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "announcement",
+    "box": [
+      0,
+      0,
+      820,
+      27.6
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": null,
+    "box": [
+      477.8,
+      8,
+      8.1,
+      11
+    ]
+  },
+  {
+    "tag": "HEADER",
+    "class": "site-header",
+    "box": [
+      0,
+      27.6,
+      820,
+      90
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "header-inner",
+    "box": [
+      28,
+      27.6,
+      764,
+      89
+    ]
+  },
+  {
+    "tag": "A",
+    "class": "wordmark",
+    "box": [
+      28,
+      46.5,
+      202,
+      51.2
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": "brand-logo brand-logo-light  ",
+    "box": [
+      28,
+      53.1,
+      202,
+      44.6
+    ]
+  },
+  {
+    "tag": "IMG",
+    "class": "brand-symbol-image",
+    "box": [
+      28,
+      56.4,
+      38,
+      38
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": "brand-name ",
+    "box": [
+      76,
+      53.1,
+      154,
+      44.6
+    ]
+  },
+  {
+    "tag": "NAV",
+    "class": "desktop-nav",
+    "box": [
+      432.8,
+      53.6,
+      216.6,
+      37
+    ]
+  },
+  {
+    "tag": "A",
+    "class": null,
+    "box": [
+      432.8,
+      53.6,
+      71.7,
+      37
+    ]
+  },
+  {
+    "tag": "A",
+    "class": null,
+    "box": [
+      521.5,
+      53.6,
+      72.7,
+      37
+    ]
+  },
+  {
+    "tag": "A",
+    "class": null,
+    "box": [
+      611.2,
+      53.6,
+      38.1,
+      37
+    ]
+  },
+  {
+    "tag": "A",
+    "class": "button header-booking",
+    "box": [
+      675.3,
+      50.6,
+      116.7,
+      43
+    ]
+  },
+  {
+    "tag": "svg",
+    "class": "lucide lucide-arrow-up-right",
+    "box": [
+      756,
+      63.6,
+      17,
+      17
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      761,
+      68.6,
+      7.1,
+      7.1
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      761,
+      68.6,
+      7.1,
+      7.1
+    ]
+  },
+  {
+    "tag": "MAIN",
+    "class": null,
+    "box": [
+      0,
+      117.6,
+      820,
+      834.3
+    ]
+  },
+  {
+    "tag": "SECTION",
+    "class": "section",
+    "box": [
+      0,
+      117.6,
+      820,
+      834.3
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "page-intro",
+    "box": [
+      45.1,
+      177.6,
+      729.8,
+      206
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "page-intro-copy",
+    "box": [
+      45.1,
+      198.1,
+      426.3,
+      139.1
+    ]
+  },
+  {
+    "tag": "P",
+    "class": "eyebrow",
+    "box": [
+      45.1,
+      198.1,
+      426.3,
+      23
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": "tiny-star",
+    "box": [
+      45.1,
+      198.1,
+      20.7,
+      23
+    ]
+  },
+  {
+    "tag": "H1",
+    "class": null,
+    "box": [
+      45.1,
+      243.1,
+      426.3,
+      50
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "intro-copy",
+    "box": [
+      45.1,
+      315,
+      426.3,
+      22.1
+    ]
+  },
+  {
+    "tag": "P",
+    "class": null,
+    "box": [
+      45.1,
+      315,
+      426.3,
+      22.1
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "intro-portrait",
+    "box": [
+      629.4,
+      179.3,
+      151,
+      176.5
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "beauty-photo intro-photo",
+    "box": [
+      629.4,
+      179.3,
+      151,
+      176.5
+    ]
+  },
+  {
+    "tag": "IMG",
+    "class": null,
+    "box": [
+      635.1,
+      185,
+      139.7,
+      165.2
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": "intro-heart",
+    "box": [
+      602.6,
+      244.9,
+      59.4,
+      104.7
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "admin-grid",
+    "box": [
+      45.1,
+      418.6,
+      729.8,
+      468.3
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": null,
+    "box": [
+      45.1,
+      418.6,
+      352.4,
+      468.3
+    ]
+  },
+  {
+    "tag": "FORM",
+    "class": "form-grid",
+    "box": [
+      45.1,
+      418.6,
+      352.4,
+      468.3
+    ]
+  },
+  {
+    "tag": "LABEL",
+    "class": null,
+    "box": [
+      45.1,
+      418.6,
+      167.2,
+      73.5
+    ]
+  },
+  {
+    "tag": "INPUT",
+    "class": null,
+    "box": [
+      45.1,
+      444,
+      167.2,
+      48.1
+    ]
+  },
+  {
+    "tag": "LABEL",
+    "class": null,
+    "box": [
+      230.3,
+      418.6,
+      167.2,
+      73.5
+    ]
+  },
+  {
+    "tag": "INPUT",
+    "class": null,
+    "box": [
+      230.3,
+      444,
+      167.2,
+      48.1
+    ]
+  },
+  {
+    "tag": "LABEL",
+    "class": null,
+    "box": [
+      45.1,
+      510.1,
+      167.2,
+      73.5
+    ]
+  },
+  {
+    "tag": "INPUT",
+    "class": null,
+    "box": [
+      45.1,
+      535.5,
+      167.2,
+      48.1
+    ]
+  },
+  {
+    "tag": "LABEL",
+    "class": null,
+    "box": [
+      230.3,
+      510.1,
+      167.2,
+      73.5
+    ]
+  },
+  {
+    "tag": "INPUT",
+    "class": null,
+    "box": [
+      230.3,
+      535.5,
+      167.2,
+      48.1
+    ]
+  },
+  {
+    "tag": "LABEL",
+    "class": "full",
+    "box": [
+      45.1,
+      601.6,
+      352.4,
+      135.4
+    ]
+  },
+  {
+    "tag": "TEXTAREA",
+    "class": null,
+    "box": [
+      45.1,
+      627,
+      352.4,
+      110
+    ]
+  },
+  {
+    "tag": "LABEL",
+    "class": "honeypot",
+    "box": [
+      -9999,
+      418.6,
+      1,
+      1
+    ]
+  },
+  {
+    "tag": "INPUT",
+    "class": null,
+    "box": [
+      -9999,
+      464.4,
+      28,
+      48.1
+    ]
+  },
+  {
+    "tag": "LABEL",
+    "class": "check full",
+    "box": [
+      45.1,
+      755,
+      352.4,
+      39.6
+    ]
+  },
+  {
+    "tag": "INPUT",
+    "class": null,
+    "box": [
+      45.1,
+      759,
+      17,
+      17
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": null,
+    "box": [
+      74.1,
+      755,
+      323.4,
+      39.6
+    ]
+  },
+  {
+    "tag": "A",
+    "class": null,
+    "box": [
+      114.4,
+      757,
+      135.9,
+      15
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "full",
+    "box": [
+      45.1,
+      812.5,
+      352.4,
+      74.4
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "button",
+    "box": [
+      45.1,
+      812.5,
+      184.6,
+      50.4
+    ]
+  },
+  {
+    "tag": "P",
+    "class": "form-message",
+    "box": [
+      45.1,
+      862.9,
+      352.4,
+      24
+    ]
+  },
+  {
+    "tag": "ASIDE",
+    "class": "booking-aside",
+    "box": [
+      422.5,
+      418.6,
+      352.4,
+      402.8
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "beauty-photo contact-aside-photo",
+    "box": [
+      453.5,
+      449.6,
+      290.4,
+      200
+    ]
+  },
+  {
+    "tag": "IMG",
+    "class": null,
+    "box": [
+      453.5,
+      449.6,
+      290.4,
+      200
+    ]
+  },
+  {
+    "tag": "P",
+    "class": "eyebrow",
+    "box": [
+      453.5,
+      673.6,
+      290.4,
+      17
+    ]
+  },
+  {
+    "tag": "H2",
+    "class": null,
+    "box": [
+      453.5,
+      712.6,
+      290.4,
+      77.8
+    ]
+  },
+  {
+    "tag": "BR",
+    "class": null,
+    "box": [
+      573.8,
+      709.6,
+      0,
+      43
+    ]
+  },
+  {
+    "tag": "EM",
+    "class": null,
+    "box": [
+      453.5,
+      748.5,
+      128.5,
+      43
+    ]
+  },
+  {
+    "tag": "FOOTER",
+    "class": "beauty-footer",
+    "box": [
+      0,
+      951.9,
+      820,
+      648.1
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "footer-upper",
+    "box": [
+      40,
+      1016.9,
+      740,
+      228.6
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "footer-invitation",
+    "box": [
+      40,
+      1016.9,
+      417.6,
+      228.6
+    ]
+  },
+  {
+    "tag": "P",
+    "class": "eyebrow",
+    "box": [
+      40,
+      1016.9,
+      417.6,
+      13.6
+    ]
+  },
+  {
+    "tag": "P",
+    "class": "footer-title",
+    "box": [
+      40,
+      1052.5,
+      417.6,
+      115
+    ]
+  },
+  {
+    "tag": "BR",
+    "class": null,
+    "box": [
+      309,
+      1046.5,
+      0,
+      63
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": "handwritten",
+    "box": [
+      38.5,
+      1099,
+      365.3,
+      81.1
+    ]
+  },
+  {
+    "tag": "A",
+    "class": "button coral-button",
+    "box": [
+      40,
+      1197.5,
+      201.8,
+      48
+    ]
+  },
+  {
+    "tag": "svg",
+    "class": "lucide lucide-arrow-up-right",
+    "box": [
+      197.8,
+      1212.5,
+      18,
+      18
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      203.1,
+      1217.8,
+      7.5,
+      7.5
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      203.1,
+      1217.8,
+      7.5,
+      7.5
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "footer-contact",
+    "box": [
+      487.6,
+      1090.6,
+      292.3,
+      81.3
+    ]
+  },
+  {
+    "tag": "P",
+    "class": "eyebrow",
+    "box": [
+      487.6,
+      1090.6,
+      292.3,
+      15.3
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "inline-links",
+    "box": [
+      487.6,
+      1127.9,
+      292.3,
+      0
+    ]
+  },
+  {
+    "tag": "P",
+    "class": "footer-city",
+    "box": [
+      487.6,
+      1152.9,
+      292.3,
+      19
+    ]
+  },
+  {
+    "tag": "svg",
+    "class": "lucide lucide-sparkles",
+    "box": [
+      487.6,
+      1154.9,
+      15,
+      15
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      488.9,
+      1156.1,
+      12.5,
+      12.5
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      500.1,
+      1156.1,
+      0,
+      2.5
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      498.9,
+      1157.4,
+      2.5,
+      0
+    ]
+  },
+  {
+    "tag": "circle",
+    "class": null,
+    "box": [
+      488.9,
+      1166.1,
+      2.5,
+      2.5
+    ]
+  },
+  {
+    "tag": "svg",
+    "class": "lucide lucide-heart footer-heart",
+    "box": [
+      668.8,
+      1134.3,
+      122.5,
+      122.5
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      680,
+      1152.5,
+      98.8,
+      90.1
+    ]
+  },
+  {
+    "tag": "A",
+    "class": "footer-wordmark",
+    "box": [
+      40,
+      1295.5,
+      740,
+      213.2
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": "brand-logo brand-logo-light  ",
+    "box": [
+      40,
+      1354.4,
+      740,
+      148
+    ]
+  },
+  {
+    "tag": "IMG",
+    "class": "brand-symbol-image",
+    "box": [
+      117.8,
+      1399.7,
+      57.4,
+      57.4
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": "brand-name ",
+    "box": [
+      191.6,
+      1354.4,
+      510.6,
+      148
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "footer-bottom",
+    "box": [
+      40,
+      1538.7,
+      740,
+      39.3
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": null,
+    "box": [
+      40,
+      1562.7,
+      111.1,
+      15.3
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": null,
+    "box": [
+      534.5,
+      1562.7,
+      245.5,
+      15.3
+    ]
+  },
+  {
+    "tag": "A",
+    "class": null,
+    "box": [
+      534.5,
+      1562.7,
+      70.7,
+      15.3
+    ]
+  },
+  {
+    "tag": "A",
+    "class": null,
+    "box": [
+      635.3,
+      1562.7,
+      62.1,
+      15.3
+    ]
+  },
+  {
+    "tag": "A",
+    "class": null,
+    "box": [
+      727.4,
+      1562.7,
+      52.6,
+      15.3
+    ]
+  },
+  {
+    "tag": "NEXT-ROUTE-ANNOUNCER",
+    "class": null,
+    "box": [
+      0,
+      1600,
+      0,
+      0
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "nextjs-toast",
+    "box": [
+      20,
+      1124,
+      36,
+      36
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": null,
+    "box": [
+      20,
+      1124,
+      36,
+      36
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": null,
+    "box": [
+      20,
+      1124,
+      36,
+      36
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": null,
+    "box": [
+      20,
+      1124,
+      36,
+      36
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": null,
+    "box": [
+      20,
+      1126,
+      36,
+      32
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": null,
+    "box": [
+      22,
+      1126,
+      32,
+      32
+    ]
+  },
+  {
+    "tag": "svg",
+    "class": null,
+    "box": [
+      22,
+      1122,
+      40,
+      40
+    ]
+  },
+  {
+    "tag": "g",
+    "class": null,
+    "box": [
+      32.8,
+      1136,
+      11,
+      14.2
+    ]
+  },
+  {
+    "tag": "path",
+    "class": "paused",
+    "box": [
+      32.8,
+      1136,
+      11,
+      14.2
+    ]
+  },
+  {
+    "tag": "path",
+    "class": "paused",
+    "box": [
+      42.3,
+      1136.5,
+      0,
+      11.6
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": null,
+    "box": [
+      52,
+      1130,
+      0,
+      0
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": null,
+    "box": [
+      -1,
+      1599,
+      1,
+      1
+    ]
+  }
+]

@@ -54,6 +54,29 @@ afterEach(() => {
   vi.unstubAllEnvs();
 });
 describe("Gestion locale transactionnelle et persistante", () => {
+  it("ouvre un équipement déjà confirmé lorsque son prix est renseigné", async () => {
+    const s = (await repo.services()).find(
+      (v) => v.qualification_requirement === "equipment",
+    )!;
+    const confirmed = {
+      ...s,
+      qualification_verified_at: new Date().toISOString(),
+    };
+    repo.connection
+      .prepare("UPDATE services SET data=? WHERE id=?")
+      .run(JSON.stringify(confirmed), s.id);
+    await command("service_save", {
+      ...confirmed,
+      image: "",
+      price_cents: 3500,
+      bookable: true,
+      operational_status: "active",
+    });
+    expect(eligible((await repo.services()).find((v) => v.id === s.id)!)).toBe(
+      true,
+    );
+    expect((await repo.availability(s.id, date())).length).toBeGreaterThan(0);
+  });
   it("masque une catégorie sans altérer le réglage propre de ses prestations et respecte son ordre", async () => {
     const s = await service();
     const c = (await repo.categories()).find((c) => c.id === s.category_id)!;

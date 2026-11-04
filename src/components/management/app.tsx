@@ -24,6 +24,7 @@ import {
   Menu,
 } from "lucide-react";
 import { eligible, euro } from "@/lib/catalogue";
+import { categoryLabel, serviceDescription } from "@/lib/service-presentation";
 import { localDate, parisInstant } from "@/lib/booking/time";
 import type {
   Snapshot,
@@ -107,7 +108,12 @@ function Textarea({
   return (
     <label className="full">
       {label}
-      <textarea name={name} defaultValue={value} maxLength={4000} />
+      <textarea
+        name={name}
+        aria-label={label}
+        defaultValue={value}
+        maxLength={4000}
+      />
     </label>
   );
 }
@@ -728,11 +734,7 @@ export function ManagementApp({
                   <th>Nom</th>
                   <th>Catégorie</th>
                   <th>Prix</th>
-                  <th>
-                    {tab === "services"
-                      ? "Durée / qualification"
-                      : "Stock / état"}
-                  </th>
+                  <th>{tab === "services" ? "Description" : "Stock / état"}</th>
                   <th>Actions</th>
                 </tr>
               </thead>
@@ -746,29 +748,12 @@ export function ManagementApp({
                         <tr key={s.id}>
                           <td>
                             <strong>{s.name}</strong>
-                            <span
-                              className={`management-tag ${eligible(s) ? "tag-good" : ""}`}
-                            >
-                              {eligible(s)
-                                ? "Réservable si créneau ouvert"
-                                : s.operational_status === "study"
-                                  ? "À l’étude"
-                                  : "Réservation bloquée"}
-                            </span>
-                            {!s.visibility && (
-                              <span className="management-tag">Masquée</span>
-                            )}
                           </td>
-                          <td>{s.category}</td>
+                          <td>{categoryLabel(s.category)}</td>
                           <td>
                             {s.price_cents === null ? "—" : euro(s.price_cents)}
                           </td>
-                          <td>
-                            {s.duration_minutes} min
-                            <br />
-                            {s.qualification_requirement}{" "}
-                            {s.qualification_verified_at ? "· vérifiée" : ""}
-                          </td>
+                          <td>{serviceDescription(s)}</td>
                           <td>
                             <button
                               onClick={() =>
@@ -839,7 +824,7 @@ export function ManagementApp({
               {data.categories.map((c) => (
                 <tr key={c.id}>
                   <td>
-                    <strong>{c.name}</strong>
+                    <strong>{categoryLabel(c.name)}</strong>
                   </td>
                   <td>{c.description || "—"}</td>
                   <td>{c.sort_order}</td>
@@ -1659,12 +1644,7 @@ export function ManagementApp({
               )}
             </>
           ) : dialog.kind === "service" ? (
-            <ServiceEditor
-              data={data}
-              value={dialog.value}
-              save={save}
-              perform={perform}
-            />
+            <ServiceEditor data={data} value={dialog.value} save={save} />
           ) : dialog.kind === "category" ? (
             <CategoryEditor value={dialog.value} save={save} />
           ) : dialog.kind === "product" ? (
@@ -1978,9 +1958,7 @@ function BookingEditor({
                     {s.price_cents === null
                       ? "Sans tarif"
                       : euro(s.price_cents)}{" "}
-                    {!eligible(s)
-                      ? "· qualification ou activation requise"
-                      : ""}
+                    {!eligible(s) ? "· réservation en ligne fermée" : ""}
                   </small>
                 </span>
               </label>
@@ -2148,29 +2126,21 @@ function CategoryEditor({
             id: value?.id,
             name: string(f, "name"),
             description: string(f, "description"),
-            image: string(f, "image"),
-            sort_order: number(f, "sort_order"),
-            active: checked(f, "active"),
+            image: value?.image || "",
+            sort_order: value?.sort_order ?? 0,
+            active: value?.active ?? true,
           })
         }
       >
-        <Input name="name" label="Nom de la catégorie" value={value?.name} />
         <Input
-          name="sort_order"
-          label="Ordre d’affichage"
-          type="number"
-          value={value?.sort_order || 0}
+          name="name"
+          label="Nom de la catégorie"
+          value={value ? categoryLabel(value.name) : ""}
         />
         <Textarea
           name="description"
           label="Description"
           value={value?.description}
-        />
-        <ImageField value={value?.image} />
-        <Check
-          name="active"
-          label="Catégorie visible"
-          value={value?.active ?? true}
         />
       </EditForm>
       {value && (
@@ -2190,193 +2160,83 @@ function CategoryEditor({
     </>
   );
 }
+
 function ServiceEditor({
   data,
   value,
   save,
-  perform,
 }: {
   data: Snapshot;
   value?: ManagedService;
   save: (action: string, data: unknown, confirm?: string) => Promise<unknown>;
-  perform: Perform;
 }) {
-  const [requirement, setRequirement] = useState(
-    value?.qualification_requirement || "professional",
-  );
   return (
     <>
-      <p className="management-hint">
-        Une nouvelle prestation exige par défaut une qualification. Cocher «
-        Réservable » ne valide aucune qualification. L’exigence d’une prestation
-        existante ne peut pas être abaissée.
-      </p>
       <EditForm
-        onSubmit={(f) =>
-          save("service_save", {
+        onSubmit={(f) => {
+          const price =
+            string(f, "price") === ""
+              ? null
+              : Math.round(number(f, "price") * 100);
+          return save("service_save", {
             id: value?.id,
             name: string(f, "name"),
             category_id: string(f, "category_id"),
             description: string(f, "description"),
-            price_cents:
-              string(f, "price") === ""
-                ? null
-                : Math.round(number(f, "price") * 100),
-            duration_minutes: number(f, "duration_minutes"),
-            image: string(f, "image"),
-            sort_order: number(f, "sort_order"),
-            visibility: checked(f, "visibility"),
-            bookable: checked(f, "bookable"),
-            operational_status: string(f, "operational_status"),
-            qualification_requirement: requirement,
-          })
-        }
+            price_cents: price,
+            duration_minutes:
+              value?.duration_minutes ?? data.settings.defaultDurationMinutes,
+            image: value?.image || "",
+            sort_order: value?.sort_order ?? 0,
+            visibility: value?.visibility ?? true,
+            bookable: price !== null,
+            operational_status:
+              price !== null
+                ? "active"
+                : (value?.operational_status ?? "coming_soon"),
+            qualification_requirement:
+              value?.qualification_requirement ?? "none",
+          });
+        }}
       >
         <Input name="name" label="Nom de la prestation" value={value?.name} />
         <Select
           name="category_id"
           label="Catégorie"
           value={value?.category_id}
-          options={data.categories.map((c) => ({ id: c.id, name: c.name }))}
+          options={data.categories.map((c) => ({
+            id: c.id,
+            name: categoryLabel(c.name),
+          }))}
         />
         <Textarea
           name="description"
           label="Description"
-          value={value?.description}
+          value={value ? serviceDescription(value) : ""}
         />
         <Input
           name="price"
           label="Prix TTC en euros"
           type="number"
-          value={
-            value?.price_cents === null
-              ? ""
-              : (value?.price_cents ?? 2000) / 100
-          }
-          required={requirement !== "equipment"}
+          value={value?.price_cents == null ? "" : value.price_cents / 100}
+          required={value?.price_cents !== null}
           min={1}
           step="0.01"
         />
-        <Input
-          name="duration_minutes"
-          label="Durée (minutes)"
-          type="number"
-          value={
-            value?.duration_minutes ?? data.settings.defaultDurationMinutes
-          }
-          min={15}
-          max={480}
-        />
-        <Input
-          name="sort_order"
-          label="Ordre"
-          type="number"
-          value={value?.sort_order || 0}
-        />
-        <Select
-          name="operational_status"
-          label="État commercial"
-          value={value?.operational_status || "coming_soon"}
-          options={[
-            { id: "active", name: "Active" },
-            { id: "coming_soon", name: "Bientôt disponible" },
-            { id: "study", name: "À l’étude" },
-          ]}
-        />
-        <label>
-          Exigence de qualification
-          <select
-            value={requirement}
-            disabled={!!value}
-            onChange={(e) =>
-              setRequirement(e.target.value as typeof requirement)
-            }
-          >
-            <option value="none">
-              Sans CAP — savoir-faire et assurance à vérifier
-            </option>
-            <option value="professional">Qualification professionnelle</option>
-            <option value="procedure">Qualification et procédé</option>
-            <option value="equipment">Matériel spécifique — à l’étude</option>
-          </select>
-        </label>
-        <ImageField value={value?.image} />
-        <Check
-          name="visibility"
-          label="Visible au catalogue"
-          value={value?.visibility ?? true}
-        />
-        <Check
-          name="bookable"
-          label="Réservable si toutes les conditions sont vérifiées"
-          value={value?.bookable || false}
-        />
       </EditForm>
       {value && (
-        <>
-          <p className="management-hint">
-            Qualification :{" "}
-            {value.qualification_verified_at
-              ? localDate(value.qualification_verified_at)
-              : "Non vérifiée"}
-            . Procédé :{" "}
-            {value.procedure_verified_at
-              ? localDate(value.procedure_verified_at)
-              : "Non vérifié"}
-            .
-          </p>
-          {["professional", "procedure"].includes(requirement) && (
-            <details className="qualification-panel">
-              <summary>Attester une vérification de qualification</summary>
-              <EditForm
-                label="Enregistrer l’attestation"
-                onSubmit={(f) =>
-                  perform(
-                    {
-                      action: "qualification",
-                      data: {
-                        id: value.id,
-                        attestation: string(f, "attestation"),
-                        evidence: string(f, "evidence"),
-                      },
-                    },
-                    "Attestez-vous avoir réellement vérifié le justificatif approprié ? Cette action sera auditée.",
-                  )
-                }
-              >
-                <Select
-                  name="attestation"
-                  label="Attestation explicite"
-                  options={[
-                    {
-                      id: "QUALIFICATION VÉRIFIÉE",
-                      name: "QUALIFICATION VÉRIFIÉE",
-                    },
-                    ...(requirement === "procedure"
-                      ? [{ id: "PROCÉDÉ VÉRIFIÉ", name: "PROCÉDÉ VÉRIFIÉ" }]
-                      : []),
-                  ]}
-                />
-                <Input
-                  name="evidence"
-                  label="Référence de la preuve contrôlée (10 caractères minimum)"
-                />
-              </EditForm>
-            </details>
-          )}
-          <button
-            className="management-danger"
-            onClick={() =>
-              save(
-                "service_archive",
-                { id: value.id, confirmed: true },
-                "Archiver cette prestation ? Les rendez-vous et prix historiques restent conservés.",
-              )
-            }
-          >
-            Archiver la prestation
-          </button>
-        </>
+        <button
+          className="management-danger"
+          onClick={() =>
+            save(
+              "service_archive",
+              { id: value.id, confirmed: true },
+              "Archiver cette prestation ? Les rendez-vous et prix historiques restent conservés.",
+            )
+          }
+        >
+          Archiver la prestation
+        </button>
       )}
     </>
   );

@@ -1,0 +1,3542 @@
+[
+  {
+    "tag": "A",
+    "class": "skip-link",
+    "box": [
+      15,
+      -60,
+      128.4,
+      47.8
+    ]
+  },
+  {
+    "tag": "MAIN",
+    "class": null,
+    "box": [
+      0,
+      0,
+      1440,
+      1195.7
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "management-shell",
+    "box": [
+      0,
+      0,
+      1440,
+      1195.7
+    ]
+  },
+  {
+    "tag": "ASIDE",
+    "class": "management-sidebar ",
+    "box": [
+      0,
+      0,
+      244,
+      1000
+    ]
+  },
+  {
+    "tag": "A",
+    "class": "management-brand",
+    "box": [
+      18,
+      28,
+      208,
+      69.5
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": "brand-logo brand-logo-light  ",
+    "box": [
+      18,
+      36.8,
+      160,
+      34.2
+    ]
+  },
+  {
+    "tag": "IMG",
+    "class": "brand-symbol-image",
+    "box": [
+      18,
+      37.9,
+      32,
+      32
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": "brand-name ",
+    "box": [
+      60,
+      36.8,
+      118,
+      34.2
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": null,
+    "box": [
+      18,
+      83.5,
+      208,
+      14
+    ]
+  },
+  {
+    "tag": "NAV",
+    "class": null,
+    "box": [
+      18,
+      115.5,
+      208,
+      523
+    ]
+  },
+  {
+    "tag": "A",
+    "class": "",
+    "box": [
+      18,
+      115.5,
+      208,
+      43
+    ]
+  },
+  {
+    "tag": "svg",
+    "class": "lucide lucide-layout-dashboard",
+    "box": [
+      30,
+      128,
+      18,
+      18
+    ]
+  },
+  {
+    "tag": "rect",
+    "class": null,
+    "box": [
+      32.3,
+      130.3,
+      5.3,
+      6.8
+    ]
+  },
+  {
+    "tag": "rect",
+    "class": null,
+    "box": [
+      40.5,
+      130.3,
+      5.3,
+      3.8
+    ]
+  },
+  {
+    "tag": "rect",
+    "class": null,
+    "box": [
+      40.5,
+      137,
+      5.3,
+      6.8
+    ]
+  },
+  {
+    "tag": "rect",
+    "class": null,
+    "box": [
+      32.3,
+      140,
+      5.3,
+      3.8
+    ]
+  },
+  {
+    "tag": "A",
+    "class": "active",
+    "box": [
+      18,
+      163.5,
+      208,
+      43
+    ]
+  },
+  {
+    "tag": "svg",
+    "class": "lucide lucide-calendar-days",
+    "box": [
+      30,
+      176,
+      18,
+      18
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      36,
+      177.5,
+      0,
+      3
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      42,
+      177.5,
+      0,
+      3
+    ]
+  },
+  {
+    "tag": "rect",
+    "class": null,
+    "box": [
+      32.3,
+      179,
+      13.5,
+      13.5
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      32.3,
+      183.5,
+      13.5,
+      0
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      36,
+      186.5,
+      0,
+      0
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      39,
+      186.5,
+      0,
+      0
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      42,
+      186.5,
+      0,
+      0
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      36,
+      189.5,
+      0,
+      0
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      39,
+      189.5,
+      0,
+      0
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      42,
+      189.5,
+      0,
+      0
+    ]
+  },
+  {
+    "tag": "A",
+    "class": "",
+    "box": [
+      18,
+      211.5,
+      208,
+      43
+    ]
+  },
+  {
+    "tag": "svg",
+    "class": "lucide lucide-book-open",
+    "box": [
+      30,
+      224,
+      18,
+      18
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      39,
+      229.3,
+      0,
+      10.5
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      31.5,
+      226.3,
+      15,
+      13.5
+    ]
+  },
+  {
+    "tag": "A",
+    "class": "",
+    "box": [
+      18,
+      259.5,
+      208,
+      43
+    ]
+  },
+  {
+    "tag": "svg",
+    "class": "lucide lucide-users",
+    "box": [
+      30,
+      272,
+      18,
+      18
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      31.5,
+      283.3,
+      10.5,
+      4.5
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      42,
+      274.3,
+      2.2,
+      5.8
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      44.3,
+      283.3,
+      2.3,
+      4.4
+    ]
+  },
+  {
+    "tag": "circle",
+    "class": null,
+    "box": [
+      33.8,
+      274.3,
+      6,
+      6
+    ]
+  },
+  {
+    "tag": "A",
+    "class": "",
+    "box": [
+      18,
+      307.5,
+      208,
+      43
+    ]
+  },
+  {
+    "tag": "svg",
+    "class": "lucide lucide-lock-keyhole",
+    "box": [
+      30,
+      320,
+      18,
+      18
+    ]
+  },
+  {
+    "tag": "circle",
+    "class": null,
+    "box": [
+      38.3,
+      331.3,
+      1.5,
+      1.5
+    ]
+  },
+  {
+    "tag": "rect",
+    "class": null,
+    "box": [
+      32.3,
+      327.5,
+      13.5,
+      9
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      35.3,
+      321.5,
+      7.5,
+      6
+    ]
+  },
+  {
+    "tag": "A",
+    "class": "",
+    "box": [
+      18,
+      355.5,
+      208,
+      43
+    ]
+  },
+  {
+    "tag": "svg",
+    "class": "lucide lucide-clock3 lucide-clock-3",
+    "box": [
+      30,
+      368,
+      18,
+      18
+    ]
+  },
+  {
+    "tag": "circle",
+    "class": null,
+    "box": [
+      31.5,
+      369.5,
+      15,
+      15
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      39,
+      372.5,
+      3,
+      4.5
+    ]
+  },
+  {
+    "tag": "A",
+    "class": "",
+    "box": [
+      18,
+      403.5,
+      208,
+      43
+    ]
+  },
+  {
+    "tag": "svg",
+    "class": "lucide lucide-layers",
+    "box": [
+      30,
+      416,
+      18,
+      18
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      31.5,
+      417.5,
+      15,
+      7.5
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      31.5,
+      425,
+      15,
+      3.7
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      31.5,
+      428.8,
+      15,
+      3.7
+    ]
+  },
+  {
+    "tag": "A",
+    "class": "",
+    "box": [
+      18,
+      451.5,
+      208,
+      43
+    ]
+  },
+  {
+    "tag": "svg",
+    "class": "lucide lucide-layers",
+    "box": [
+      30,
+      464,
+      18,
+      18
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      31.5,
+      465.5,
+      15,
+      7.5
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      31.5,
+      473,
+      15,
+      3.7
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      31.5,
+      476.8,
+      15,
+      3.7
+    ]
+  },
+  {
+    "tag": "A",
+    "class": "",
+    "box": [
+      18,
+      499.5,
+      208,
+      43
+    ]
+  },
+  {
+    "tag": "svg",
+    "class": "lucide lucide-bell",
+    "box": [
+      30,
+      512,
+      18,
+      18
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      37.7,
+      527.8,
+      2.6,
+      0.7
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      32.3,
+      513.5,
+      13.5,
+      11.3
+    ]
+  },
+  {
+    "tag": "A",
+    "class": "",
+    "box": [
+      18,
+      547.5,
+      208,
+      43
+    ]
+  },
+  {
+    "tag": "svg",
+    "class": "lucide lucide-mail",
+    "box": [
+      30,
+      560,
+      18,
+      18
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      31.5,
+      565.3,
+      15,
+      4.5
+    ]
+  },
+  {
+    "tag": "rect",
+    "class": null,
+    "box": [
+      31.5,
+      563,
+      15,
+      12
+    ]
+  },
+  {
+    "tag": "A",
+    "class": "",
+    "box": [
+      18,
+      595.5,
+      208,
+      43
+    ]
+  },
+  {
+    "tag": "svg",
+    "class": "lucide lucide-settings",
+    "box": [
+      30,
+      608,
+      18,
+      18
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      32.3,
+      609.5,
+      13.4,
+      15
+    ]
+  },
+  {
+    "tag": "circle",
+    "class": null,
+    "box": [
+      36.8,
+      614.8,
+      4.5,
+      4.5
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "sidebar-bottom",
+    "box": [
+      18,
+      898,
+      208,
+      74
+    ]
+  },
+  {
+    "tag": "A",
+    "class": null,
+    "box": [
+      18,
+      898,
+      208,
+      18
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": null,
+    "box": [
+      18,
+      931,
+      208,
+      41
+    ]
+  },
+  {
+    "tag": "svg",
+    "class": "lucide lucide-log-out",
+    "box": [
+      67.4,
+      943,
+      17,
+      17
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      78.8,
+      948,
+      3.5,
+      7.1
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      73.8,
+      951.5,
+      8.5,
+      0
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      69.5,
+      945.1,
+      4.3,
+      12.8
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "management-main",
+    "box": [
+      244,
+      0,
+      1196,
+      1195.7
+    ]
+  },
+  {
+    "tag": "HEADER",
+    "class": "management-topbar",
+    "box": [
+      276,
+      28,
+      1132,
+      62.5
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": null,
+    "box": [
+      276,
+      28,
+      189.6,
+      62.5
+    ]
+  },
+  {
+    "tag": "P",
+    "class": "management-topbar-brand",
+    "box": [
+      276,
+      28,
+      189.6,
+      24
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": "brand-logo brand-logo-dark  ",
+    "box": [
+      276,
+      28,
+      102.1,
+      24
+    ]
+  },
+  {
+    "tag": "IMG",
+    "class": "brand-symbol-image",
+    "box": [
+      276,
+      28,
+      24,
+      24
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": "brand-name ",
+    "box": [
+      306,
+      29.5,
+      72.1,
+      20.9
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": null,
+    "box": [
+      388.1,
+      31,
+      77.5,
+      18
+    ]
+  },
+  {
+    "tag": "H1",
+    "class": null,
+    "box": [
+      276,
+      58,
+      189.6,
+      32.5
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": "local-mode-pill",
+    "box": [
+      796.3,
+      46,
+      87.3,
+      26.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "management-primary",
+    "box": [
+      1214.3,
+      38.8,
+      193.7,
+      41
+    ]
+  },
+  {
+    "tag": "svg",
+    "class": "lucide lucide-plus",
+    "box": [
+      1228.3,
+      50.8,
+      17,
+      17
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      1231.9,
+      59.3,
+      9.9,
+      0
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      1236.8,
+      54.3,
+      0,
+      9.9
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "local-mode-banner",
+    "box": [
+      276,
+      110.5,
+      1132,
+      40
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "management-content",
+    "box": [
+      276,
+      172.5,
+      1132,
+      973.2
+    ]
+  },
+  {
+    "tag": "SECTION",
+    "class": "management-card",
+    "box": [
+      276,
+      172.5,
+      1132,
+      973.2
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "planning",
+    "box": [
+      301,
+      197.5,
+      1082,
+      923.2
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "planning-toolbar",
+    "box": [
+      301,
+      197.5,
+      1082,
+      57
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "planning-switch",
+    "box": [
+      301,
+      197.5,
+      239.5,
+      41
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "",
+    "box": [
+      301,
+      197.5,
+      80.8,
+      41
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "active",
+    "box": [
+      389.8,
+      197.5,
+      84,
+      41
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "",
+    "box": [
+      481.8,
+      197.5,
+      58.7,
+      41
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "planning-navigation",
+    "box": [
+      1038.5,
+      203.5,
+      344.5,
+      45
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": null,
+    "box": [
+      1038.5,
+      205.5,
+      42,
+      41
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": null,
+    "box": [
+      1088.5,
+      205.5,
+      101.5,
+      41
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": null,
+    "box": [
+      1198,
+      205.5,
+      42,
+      41
+    ]
+  },
+  {
+    "tag": "LABEL",
+    "class": null,
+    "box": [
+      1248,
+      203.5,
+      135,
+      45
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": "sr-only",
+    "box": [
+      1247,
+      202.5,
+      1,
+      1
+    ]
+  },
+  {
+    "tag": "INPUT",
+    "class": null,
+    "box": [
+      1248,
+      208.5,
+      135,
+      40
+    ]
+  },
+  {
+    "tag": "H2",
+    "class": "planning-period",
+    "box": [
+      301,
+      272.5,
+      1082,
+      43.7
+    ]
+  },
+  {
+    "tag": "SMALL",
+    "class": null,
+    "box": [
+      301,
+      301.9,
+      1082,
+      14.3
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "planning-legend",
+    "box": [
+      301,
+      334.2,
+      1082,
+      16.5
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": "legend-confirmed",
+    "box": [
+      301,
+      334.2,
+      60.3,
+      16.5
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": "legend-pending",
+    "box": [
+      377.3,
+      334.2,
+      65.7,
+      16.5
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": "legend-block",
+    "box": [
+      459,
+      334.2,
+      84.1,
+      16.5
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": "legend-closed",
+    "box": [
+      559.1,
+      334.2,
+      44.5,
+      16.5
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": null,
+    "box": [
+      619.6,
+      334.2,
+      121.1,
+      16.5
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "planning-scroll",
+    "box": [
+      301,
+      370.7,
+      1082,
+      750
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "time-calendar ",
+    "box": [
+      302,
+      371.7,
+      1080,
+      938
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "calendar-corner",
+    "box": [
+      302,
+      371.7,
+      52,
+      41
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-day-heading ",
+    "box": [
+      354,
+      371.7,
+      146.8,
+      41
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": null,
+    "box": [
+      408,
+      381.7,
+      23.5,
+      21
+    ]
+  },
+  {
+    "tag": "STRONG",
+    "class": null,
+    "box": [
+      438.5,
+      381.7,
+      8.3,
+      21
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-day-heading ",
+    "box": [
+      500.8,
+      371.7,
+      146.9,
+      41
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": null,
+    "box": [
+      553.1,
+      381.7,
+      27.1,
+      21
+    ]
+  },
+  {
+    "tag": "STRONG",
+    "class": null,
+    "box": [
+      587.3,
+      381.7,
+      8.2,
+      21
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-day-heading is-today",
+    "box": [
+      647.7,
+      371.7,
+      146.9,
+      41
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": null,
+    "box": [
+      699.6,
+      381.7,
+      27.5,
+      21
+    ]
+  },
+  {
+    "tag": "STRONG",
+    "class": null,
+    "box": [
+      734.1,
+      381.7,
+      8.5,
+      21
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-day-heading ",
+    "box": [
+      794.6,
+      371.7,
+      146.9,
+      41
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": null,
+    "box": [
+      848.6,
+      381.7,
+      23.6,
+      21
+    ]
+  },
+  {
+    "tag": "STRONG",
+    "class": null,
+    "box": [
+      879.2,
+      381.7,
+      8.2,
+      21
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-day-heading ",
+    "box": [
+      941.4,
+      371.7,
+      146.9,
+      41
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": null,
+    "box": [
+      993.7,
+      381.7,
+      26.7,
+      21
+    ]
+  },
+  {
+    "tag": "STRONG",
+    "class": null,
+    "box": [
+      1027.3,
+      381.7,
+      8.7,
+      21
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-day-heading ",
+    "box": [
+      1088.3,
+      371.7,
+      146.9,
+      41
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": null,
+    "box": [
+      1139.2,
+      381.7,
+      30.6,
+      21
+    ]
+  },
+  {
+    "tag": "STRONG",
+    "class": null,
+    "box": [
+      1176.8,
+      381.7,
+      7.5,
+      21
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-day-heading ",
+    "box": [
+      1235.1,
+      371.7,
+      146.9,
+      41
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": null,
+    "box": [
+      1287.3,
+      381.7,
+      27,
+      21
+    ]
+  },
+  {
+    "tag": "STRONG",
+    "class": null,
+    "box": [
+      1321.3,
+      381.7,
+      8.6,
+      21
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "calendar-hour-labels",
+    "box": [
+      302,
+      412.7,
+      52,
+      897
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": null,
+    "box": [
+      319.9,
+      407.7,
+      27.1,
+      15
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": null,
+    "box": [
+      319.5,
+      476.7,
+      27.5,
+      15
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": null,
+    "box": [
+      321.8,
+      545.7,
+      25.2,
+      15
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": null,
+    "box": [
+      324,
+      614.7,
+      23,
+      15
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": null,
+    "box": [
+      322.2,
+      683.7,
+      24.8,
+      15
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": null,
+    "box": [
+      322.4,
+      752.7,
+      24.6,
+      15
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": null,
+    "box": [
+      322,
+      821.7,
+      25,
+      15
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": null,
+    "box": [
+      322.1,
+      890.7,
+      24.9,
+      15
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": null,
+    "box": [
+      321.7,
+      959.7,
+      25.3,
+      15
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": null,
+    "box": [
+      322.9,
+      1028.7,
+      24.1,
+      15
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": null,
+    "box": [
+      322.1,
+      1097.7,
+      24.9,
+      15
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": null,
+    "box": [
+      321.7,
+      1166.7,
+      25.3,
+      15
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": null,
+    "box": [
+      320,
+      1235.7,
+      27,
+      15
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "time-day-lane",
+    "box": [
+      354,
+      412.7,
+      146.8,
+      897
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      355,
+      412.7,
+      145.8,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      355,
+      447.2,
+      145.8,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      355,
+      481.7,
+      145.8,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      355,
+      516.2,
+      145.8,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      355,
+      550.7,
+      145.8,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      355,
+      585.2,
+      145.8,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      355,
+      619.7,
+      145.8,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      355,
+      654.2,
+      145.8,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      355,
+      688.7,
+      145.8,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      355,
+      723.2,
+      145.8,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      355,
+      757.7,
+      145.8,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      355,
+      792.2,
+      145.8,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      355,
+      826.7,
+      145.8,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      355,
+      861.2,
+      145.8,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      355,
+      895.7,
+      145.8,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      355,
+      930.2,
+      145.8,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      355,
+      964.7,
+      145.8,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      355,
+      999.2,
+      145.8,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      355,
+      1033.7,
+      145.8,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      355,
+      1068.2,
+      145.8,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      355,
+      1102.7,
+      145.8,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      355,
+      1137.2,
+      145.8,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      355,
+      1171.7,
+      145.8,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      355,
+      1206.2,
+      145.8,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      355,
+      1240.7,
+      145.8,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      355,
+      1275.2,
+      145.8,
+      34.5
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "time-day-lane",
+    "box": [
+      500.8,
+      412.7,
+      146.9,
+      897
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      501.8,
+      412.7,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      501.8,
+      447.2,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      501.8,
+      481.7,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      501.8,
+      516.2,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      501.8,
+      550.7,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      501.8,
+      585.2,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      501.8,
+      619.7,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      501.8,
+      654.2,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      501.8,
+      688.7,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      501.8,
+      723.2,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      501.8,
+      757.7,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      501.8,
+      792.2,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      501.8,
+      826.7,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      501.8,
+      861.2,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      501.8,
+      895.7,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      501.8,
+      930.2,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      501.8,
+      964.7,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      501.8,
+      999.2,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      501.8,
+      1033.7,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      501.8,
+      1068.2,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      501.8,
+      1102.7,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      501.8,
+      1137.2,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      501.8,
+      1171.7,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      501.8,
+      1206.2,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      501.8,
+      1240.7,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      501.8,
+      1275.2,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "time-day-lane",
+    "box": [
+      647.7,
+      412.7,
+      146.9,
+      897
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      648.7,
+      412.7,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      648.7,
+      447.2,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      648.7,
+      481.7,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      648.7,
+      516.2,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      648.7,
+      550.7,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      648.7,
+      585.2,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      648.7,
+      619.7,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      648.7,
+      654.2,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      648.7,
+      688.7,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      648.7,
+      723.2,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      648.7,
+      757.7,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      648.7,
+      792.2,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      648.7,
+      826.7,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      648.7,
+      861.2,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      648.7,
+      895.7,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      648.7,
+      930.2,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      648.7,
+      964.7,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      648.7,
+      999.2,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      648.7,
+      1033.7,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      648.7,
+      1068.2,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      648.7,
+      1102.7,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      648.7,
+      1137.2,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      648.7,
+      1171.7,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      648.7,
+      1206.2,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      648.7,
+      1240.7,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      648.7,
+      1275.2,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "time-day-lane",
+    "box": [
+      794.6,
+      412.7,
+      146.9,
+      897
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      795.6,
+      412.7,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      795.6,
+      447.2,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      795.6,
+      481.7,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      795.6,
+      516.2,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      795.6,
+      550.7,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      795.6,
+      585.2,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      795.6,
+      619.7,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      795.6,
+      654.2,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      795.6,
+      688.7,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      795.6,
+      723.2,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      795.6,
+      757.7,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      795.6,
+      792.2,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      795.6,
+      826.7,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      795.6,
+      861.2,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      795.6,
+      895.7,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      795.6,
+      930.2,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      795.6,
+      964.7,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      795.6,
+      999.2,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      795.6,
+      1033.7,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      795.6,
+      1068.2,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      795.6,
+      1102.7,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      795.6,
+      1137.2,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      795.6,
+      1171.7,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      795.6,
+      1206.2,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      795.6,
+      1240.7,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      795.6,
+      1275.2,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "time-day-lane",
+    "box": [
+      941.4,
+      412.7,
+      146.9,
+      897
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      942.4,
+      412.7,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      942.4,
+      447.2,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      942.4,
+      481.7,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      942.4,
+      516.2,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      942.4,
+      550.7,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      942.4,
+      585.2,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      942.4,
+      619.7,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      942.4,
+      654.2,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      942.4,
+      688.7,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      942.4,
+      723.2,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      942.4,
+      757.7,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      942.4,
+      792.2,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      942.4,
+      826.7,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      942.4,
+      861.2,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      942.4,
+      895.7,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      942.4,
+      930.2,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      942.4,
+      964.7,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      942.4,
+      999.2,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      942.4,
+      1033.7,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      942.4,
+      1068.2,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      942.4,
+      1102.7,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      942.4,
+      1137.2,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      942.4,
+      1171.7,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      942.4,
+      1206.2,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      942.4,
+      1240.7,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      942.4,
+      1275.2,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "time-day-lane",
+    "box": [
+      1088.3,
+      412.7,
+      146.9,
+      897
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      1089.3,
+      412.7,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      1089.3,
+      447.2,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      1089.3,
+      481.7,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      1089.3,
+      516.2,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      1089.3,
+      550.7,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      1089.3,
+      585.2,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      1089.3,
+      619.7,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      1089.3,
+      654.2,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      1089.3,
+      688.7,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      1089.3,
+      723.2,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      1089.3,
+      757.7,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      1089.3,
+      792.2,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      1089.3,
+      826.7,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      1089.3,
+      861.2,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      1089.3,
+      895.7,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      1089.3,
+      930.2,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      1089.3,
+      964.7,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      1089.3,
+      999.2,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      1089.3,
+      1033.7,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      1089.3,
+      1068.2,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      1089.3,
+      1102.7,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      1089.3,
+      1137.2,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      1089.3,
+      1171.7,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      1089.3,
+      1206.2,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      1089.3,
+      1240.7,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      1089.3,
+      1275.2,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "time-day-lane",
+    "box": [
+      1235.1,
+      412.7,
+      146.9,
+      897
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      1236.1,
+      412.7,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      1236.1,
+      447.2,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      1236.1,
+      481.7,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      1236.1,
+      516.2,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      1236.1,
+      550.7,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      1236.1,
+      585.2,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      1236.1,
+      619.7,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      1236.1,
+      654.2,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      1236.1,
+      688.7,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      1236.1,
+      723.2,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      1236.1,
+      757.7,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      1236.1,
+      792.2,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      1236.1,
+      826.7,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      1236.1,
+      861.2,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      1236.1,
+      895.7,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      1236.1,
+      930.2,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      1236.1,
+      964.7,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      1236.1,
+      999.2,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      1236.1,
+      1033.7,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      1236.1,
+      1068.2,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      1236.1,
+      1102.7,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      1236.1,
+      1137.2,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      1236.1,
+      1171.7,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      1236.1,
+      1206.2,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      1236.1,
+      1240.7,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "time-slot is-closed",
+    "box": [
+      1236.1,
+      1275.2,
+      145.9,
+      34.5
+    ]
+  },
+  {
+    "tag": "NEXT-ROUTE-ANNOUNCER",
+    "class": null,
+    "box": [
+      0,
+      1195.7,
+      0,
+      0
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "nextjs-toast",
+    "box": [
+      20,
+      944,
+      36,
+      36
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": null,
+    "box": [
+      20,
+      944,
+      36,
+      36
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": null,
+    "box": [
+      20,
+      944,
+      36,
+      36
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": null,
+    "box": [
+      20,
+      944,
+      36,
+      36
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": null,
+    "box": [
+      20,
+      946,
+      36,
+      32
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": null,
+    "box": [
+      22,
+      946,
+      32,
+      32
+    ]
+  },
+  {
+    "tag": "svg",
+    "class": null,
+    "box": [
+      22,
+      942,
+      40,
+      40
+    ]
+  },
+  {
+    "tag": "g",
+    "class": null,
+    "box": [
+      32.8,
+      956,
+      11,
+      14.2
+    ]
+  },
+  {
+    "tag": "path",
+    "class": "paused",
+    "box": [
+      32.8,
+      956,
+      11,
+      14.2
+    ]
+  },
+  {
+    "tag": "path",
+    "class": "paused",
+    "box": [
+      42.3,
+      956.5,
+      0,
+      11.6
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": null,
+    "box": [
+      52,
+      950,
+      0,
+      0
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": null,
+    "box": [
+      -1,
+      1194.7,
+      1,
+      1
+    ]
+  }
+]

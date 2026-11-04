@@ -1,7 +1,7 @@
 import Image from "next/image";
-import { BrandWordmark } from "@/components/brand-logo";
-import { Heart, Sparkles } from "lucide-react";
-import { editorial } from "@/config/editorial";
+import { Heart } from "lucide-react";
+import { BotanicalSprig } from "@/components/botanical-sprig";
+import { printedSupports } from "@/config/printed-supports";
 export function Photo({
   src,
   alt = "",
@@ -37,38 +37,36 @@ export function PinkSeal({
 }
 export function GiftScene({ name }: { name: string }) {
   return (
-    <div
-      className="gift-scene"
-      aria-label="Composition graphique de carte cadeau"
+    <figure
+      className="gift-scene gift-scene-original"
+      aria-label={`Carte cadeau ${name}`}
     >
-      <div className="gift-envelope" />
-      <div className="gift-ribbon" />
-      <div className="beauty-gift-card">
-        <Sparkles size={22} strokeWidth={1} aria-hidden="true" />
-        <span className="gift-brand" aria-label={name}>
-          <BrandWordmark light />
-        </span>
-        <span className="gift-subtitle">
-          LE PLAISIR D’OFFRIR DU TEMPS POUR SOI
-        </span>
-        <span className="handwritten">rien que pour vous.</span>
-        <span className="gift-caption">CARTE CADEAU</span>
-      </div>
-      <span className="gift-heart" aria-hidden="true">
-        ♡
-      </span>
-    </div>
+      <a
+        href={printedSupports.gift.src}
+        target="_blank"
+        rel="noreferrer"
+        aria-label="Agrandir la carte cadeau MONÉA originale"
+      >
+        <Image
+          {...printedSupports.gift}
+          className="validated-gift-image"
+          unoptimized
+          sizes="(max-width: 700px) 90vw, 52vw"
+        />
+      </a>
+      <figcaption>Le plaisir d’offrir du temps pour soi.</figcaption>
+    </figure>
   );
 }
 export function IntroPortrait() {
   return (
     <div className="intro-portrait" aria-hidden="true">
       <Photo
-        src={editorial.maquillage}
+        src="/images/spa/rituel-naturel.webp"
         className="intro-photo"
         sizes="(max-width: 700px) 100px, 180px"
       />
-      <span className="intro-heart">♡</span>
+      <BotanicalSprig className="intro-sprig" />
     </div>
   );
 }

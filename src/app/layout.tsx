@@ -9,6 +9,7 @@ import "./beauty.css";
 import "./mosaic.css";
 import "./management.css";
 import "./brand.css";
+import "./spa.css";
 const editorialFont = localFont({
   src: "./fonts/Cormorant-Garamond.woff2",
   variable: "--font-editorial",

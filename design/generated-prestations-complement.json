@@ -1,0 +1,44 @@
+[
+  {
+    "key": "extensions-cils",
+    "prompt": "Use case: photorealistic-natural. Landscape 3:2 editorial photograph illustrating one beauty service for MONÉA. Warm natural spa in cream ivory, light honey oak, sand linen, muted eucalyptus in the blurred background, a discreet distant amber candle. Premium soothing French beauty institute atmosphere, real skin texture, clean professional practice, adult woman client, no text, logos, collage or watermarks. Frame the actual treatment clearly at the center, suitable for landscape and portrait crop. Not documentary evidence of real clients or premises. Close-up of a professional applying a fine individual eyelash extension with two precise tweezers to an adult woman's closed eye. White under-eye pads, realistic separated fine lashes, professional gloves, restful ivory towel, no brush.",
+    "source": "C:\\Users\\Adrien\\.codex\\generated_images\\01a1a5a7-5e3a-7482-8235-3783d5aa71bb\\exec-e48237bd-55e5-4dd3-923e-9d4591e4a1c9.png",
+    "file": "public/images/beauty/spa-extensions-cils-v2.webp",
+    "tool": "Imagegen intégré"
+  },
+  {
+    "key": "browlift",
+    "prompt": "Use case: photorealistic-natural. Landscape 3:2 editorial photograph illustrating one beauty service for MONÉA. Warm natural spa in cream ivory, light honey oak, sand linen, muted eucalyptus in the blurred background, a discreet distant amber candle. Premium soothing French beauty institute atmosphere, real skin texture, clean professional practice, adult woman client, no text, logos, collage or watermarks. Frame the actual treatment clearly at the center, suitable for landscape and portrait crop. Not documentary evidence of real clients or premises. Close-up of an adult woman's eyebrow being gently styled upward with a clean brow spoolie by a professional gloved hand. Eyes closed, natural groomed eyebrow prominently visible, no application to eyelashes, warm ivory treatment bed.",
+    "source": "C:\\Users\\Adrien\\.codex\\generated_images\\01a1a5a7-5e3a-7482-8235-3783d5aa71bb\\exec-0cb8838e-ef1b-4be9-90b2-4e9343427ae5.png",
+    "file": "public/images/beauty/spa-browlift-v2.webp",
+    "tool": "Imagegen intégré"
+  },
+  {
+    "key": "teinture-cils-sourcils",
+    "prompt": "Use case: photorealistic-natural. Landscape 3:2 editorial photograph illustrating one beauty service for MONÉA. Warm natural spa in cream ivory, light honey oak, sand linen, muted eucalyptus in the blurred background, a discreet distant amber candle. Premium soothing French beauty institute atmosphere, real skin texture, clean professional practice, adult woman client, no text, logos, collage or watermarks. Frame the actual treatment clearly at the center, suitable for landscape and portrait crop. Not documentary evidence of real clients or premises. Close-up of a professional using a small angled brush to delicately apply dark brown cosmetic tint onto an adult woman's eyebrow. Clean precise tint line on brow, closed eyes, clean gloved hand, no dripping, no dramatic makeup.",
+    "source": "C:\\Users\\Adrien\\.codex\\generated_images\\01a1a5a7-5e3a-7482-8235-3783d5aa71bb\\exec-7347a9a6-2628-428a-b395-f14996e0d279.png",
+    "file": "public/images/beauty/spa-teinture-cils-sourcils-v2.webp",
+    "tool": "Imagegen intégré"
+  },
+  {
+    "key": "prothesie-ongulaire",
+    "prompt": "Use case: photorealistic-natural. Landscape 3:2 editorial photograph illustrating one beauty service for MONÉA. Warm natural spa in cream ivory, light honey oak, sand linen, muted eucalyptus in the blurred background, a discreet distant amber candle. Premium soothing French beauty institute atmosphere, real skin texture, clean professional practice, adult woman client, no text, logos, collage or watermarks. Frame the actual treatment clearly at the center, suitable for landscape and portrait crop. Not documentary evidence of real clients or premises. Macro close-up of adult woman's hand on ivory towel on a light oak nail table. A professional uses a flat manicure brush to shape a clear nude builder gel extension on one fingernail. Elegant short almond shaped nude nail extensions, clean technically plausible nail workstation, no electric drill, no excessive nail length.",
+    "source": "C:\\Users\\Adrien\\.codex\\generated_images\\01a1a5a7-5e3a-7482-8235-3783d5aa71bb\\exec-fea1197b-a98c-4c65-a75c-69f2e2711693.png",
+    "file": "public/images/beauty/spa-prothesie-ongulaire-v2.webp",
+    "tool": "Imagegen intégré"
+  },
+  {
+    "key": "nettoyage-peau",
+    "prompt": "Use case: photorealistic-natural. Landscape 3:2 editorial photograph illustrating one beauty service for MONÉA. Warm natural spa in cream ivory, light honey oak, sand linen, muted eucalyptus in the blurred background, a discreet distant amber candle. Premium soothing French beauty institute atmosphere, real skin texture, clean professional practice, adult woman client, no text, logos, collage or watermarks. Frame the actual treatment clearly at the center, suitable for landscape and portrait crop. Not documentary evidence of real clients or premises. Close-up of an adult woman resting on an ivory treatment bed, face gently cleansed by a professional's hands holding two soft round white cleansing sponges at the cheeks. Natural slightly moist skin, closed eyes, ivory headband, no masks or makeup brush, clean serene spa care.",
+    "source": "C:\\Users\\Adrien\\.codex\\generated_images\\01a1a5a7-5e3a-7482-8235-3783d5aa71bb\\exec-a84d0bb5-f093-49bc-835a-56415c5a8391.png",
+    "file": "public/images/beauty/spa-nettoyage-peau-v2.webp",
+    "tool": "Imagegen intégré"
+  },
+  {
+    "key": "soin-visage",
+    "prompt": "Use case: photorealistic-natural. Landscape 3:2 editorial photograph illustrating one beauty service for MONÉA. Warm natural spa in cream ivory, light honey oak, sand linen, muted eucalyptus in the blurred background, a discreet distant amber candle. Premium soothing French beauty institute atmosphere, real skin texture, clean professional practice, adult woman client, no text, logos, collage or watermarks. Frame the actual treatment clearly at the center, suitable for landscape and portrait crop. Not documentary evidence of real clients or premises. Close-up of an adult woman with eyes closed receiving a gentle facial massage from a professional's clean hands at her temples and jaw. Ivory towel headband and linen draping, natural skin with a soft serum sheen, no facial mask, no brush, no devices, tranquil warm spa.",
+    "source": "C:\\Users\\Adrien\\.codex\\generated_images\\01a1a5a7-5e3a-7482-8235-3783d5aa71bb\\exec-0992275a-502f-4d6a-989b-eef8c3475143.png",
+    "file": "public/images/beauty/spa-soin-visage-v2.webp",
+    "tool": "Imagegen intégré"
+  }
+]

@@ -1,0 +1,1412 @@
+[
+  {
+    "tag": "A",
+    "class": "skip-link",
+    "box": [
+      15,
+      -60,
+      121,
+      46.1
+    ]
+  },
+  {
+    "tag": "MAIN",
+    "class": null,
+    "box": [
+      0,
+      0,
+      390,
+      1120.5
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "management-shell",
+    "box": [
+      0,
+      0,
+      390,
+      1120.5
+    ]
+  },
+  {
+    "tag": "ASIDE",
+    "class": "management-sidebar ",
+    "box": [
+      -244,
+      0,
+      244,
+      664
+    ]
+  },
+  {
+    "tag": "A",
+    "class": "management-brand",
+    "box": [
+      -226,
+      28,
+      208,
+      69.5
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": "brand-logo brand-logo-light  ",
+    "box": [
+      -226,
+      36.8,
+      160,
+      34.2
+    ]
+  },
+  {
+    "tag": "IMG",
+    "class": "brand-symbol-image",
+    "box": [
+      -226,
+      37.9,
+      32,
+      32
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": "brand-name ",
+    "box": [
+      -184,
+      36.8,
+      118,
+      34.2
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": null,
+    "box": [
+      -226,
+      83.5,
+      208,
+      14
+    ]
+  },
+  {
+    "tag": "NAV",
+    "class": null,
+    "box": [
+      -226,
+      115.5,
+      208,
+      523
+    ]
+  },
+  {
+    "tag": "A",
+    "class": "active",
+    "box": [
+      -226,
+      115.5,
+      208,
+      43
+    ]
+  },
+  {
+    "tag": "svg",
+    "class": "lucide lucide-layout-dashboard",
+    "box": [
+      -214,
+      128,
+      18,
+      18
+    ]
+  },
+  {
+    "tag": "rect",
+    "class": null,
+    "box": [
+      -211.7,
+      130.3,
+      5.3,
+      6.8
+    ]
+  },
+  {
+    "tag": "rect",
+    "class": null,
+    "box": [
+      -203.5,
+      130.3,
+      5.3,
+      3.8
+    ]
+  },
+  {
+    "tag": "rect",
+    "class": null,
+    "box": [
+      -203.5,
+      137,
+      5.3,
+      6.8
+    ]
+  },
+  {
+    "tag": "rect",
+    "class": null,
+    "box": [
+      -211.7,
+      140,
+      5.3,
+      3.8
+    ]
+  },
+  {
+    "tag": "A",
+    "class": "",
+    "box": [
+      -226,
+      163.5,
+      208,
+      43
+    ]
+  },
+  {
+    "tag": "svg",
+    "class": "lucide lucide-calendar-days",
+    "box": [
+      -214,
+      176,
+      18,
+      18
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      -208,
+      177.5,
+      0,
+      3
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      -202,
+      177.5,
+      0,
+      3
+    ]
+  },
+  {
+    "tag": "rect",
+    "class": null,
+    "box": [
+      -211.7,
+      179,
+      13.5,
+      13.5
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      -211.7,
+      183.5,
+      13.5,
+      0
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      -208,
+      186.5,
+      0,
+      0
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      -205,
+      186.5,
+      0,
+      0
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      -202,
+      186.5,
+      0,
+      0
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      -208,
+      189.5,
+      0,
+      0
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      -205,
+      189.5,
+      0,
+      0
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      -202,
+      189.5,
+      0,
+      0
+    ]
+  },
+  {
+    "tag": "A",
+    "class": "",
+    "box": [
+      -226,
+      211.5,
+      208,
+      43
+    ]
+  },
+  {
+    "tag": "svg",
+    "class": "lucide lucide-book-open",
+    "box": [
+      -214,
+      224,
+      18,
+      18
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      -205,
+      229.3,
+      0,
+      10.5
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      -212.5,
+      226.3,
+      15,
+      13.5
+    ]
+  },
+  {
+    "tag": "A",
+    "class": "",
+    "box": [
+      -226,
+      259.5,
+      208,
+      43
+    ]
+  },
+  {
+    "tag": "svg",
+    "class": "lucide lucide-users",
+    "box": [
+      -214,
+      272,
+      18,
+      18
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      -212.5,
+      283.3,
+      10.5,
+      4.5
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      -202,
+      274.3,
+      2.2,
+      5.8
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      -199.7,
+      283.3,
+      2.3,
+      4.4
+    ]
+  },
+  {
+    "tag": "circle",
+    "class": null,
+    "box": [
+      -210.2,
+      274.3,
+      6,
+      6
+    ]
+  },
+  {
+    "tag": "A",
+    "class": "",
+    "box": [
+      -226,
+      307.5,
+      208,
+      43
+    ]
+  },
+  {
+    "tag": "svg",
+    "class": "lucide lucide-lock-keyhole",
+    "box": [
+      -214,
+      320,
+      18,
+      18
+    ]
+  },
+  {
+    "tag": "circle",
+    "class": null,
+    "box": [
+      -205.7,
+      331.3,
+      1.5,
+      1.5
+    ]
+  },
+  {
+    "tag": "rect",
+    "class": null,
+    "box": [
+      -211.7,
+      327.5,
+      13.5,
+      9
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      -208.7,
+      321.5,
+      7.5,
+      6
+    ]
+  },
+  {
+    "tag": "A",
+    "class": "",
+    "box": [
+      -226,
+      355.5,
+      208,
+      43
+    ]
+  },
+  {
+    "tag": "svg",
+    "class": "lucide lucide-clock3 lucide-clock-3",
+    "box": [
+      -214,
+      368,
+      18,
+      18
+    ]
+  },
+  {
+    "tag": "circle",
+    "class": null,
+    "box": [
+      -212.5,
+      369.5,
+      15,
+      15
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      -205,
+      372.5,
+      3,
+      4.5
+    ]
+  },
+  {
+    "tag": "A",
+    "class": "",
+    "box": [
+      -226,
+      403.5,
+      208,
+      43
+    ]
+  },
+  {
+    "tag": "svg",
+    "class": "lucide lucide-layers",
+    "box": [
+      -214,
+      416,
+      18,
+      18
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      -212.5,
+      417.5,
+      15,
+      7.5
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      -212.5,
+      425,
+      15,
+      3.7
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      -212.5,
+      428.8,
+      15,
+      3.7
+    ]
+  },
+  {
+    "tag": "A",
+    "class": "",
+    "box": [
+      -226,
+      451.5,
+      208,
+      43
+    ]
+  },
+  {
+    "tag": "svg",
+    "class": "lucide lucide-layers",
+    "box": [
+      -214,
+      464,
+      18,
+      18
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      -212.5,
+      465.5,
+      15,
+      7.5
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      -212.5,
+      473,
+      15,
+      3.7
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      -212.5,
+      476.8,
+      15,
+      3.7
+    ]
+  },
+  {
+    "tag": "A",
+    "class": "",
+    "box": [
+      -226,
+      499.5,
+      208,
+      43
+    ]
+  },
+  {
+    "tag": "svg",
+    "class": "lucide lucide-bell",
+    "box": [
+      -214,
+      512,
+      18,
+      18
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      -206.3,
+      527.8,
+      2.6,
+      0.7
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      -211.7,
+      513.5,
+      13.5,
+      11.3
+    ]
+  },
+  {
+    "tag": "A",
+    "class": "",
+    "box": [
+      -226,
+      547.5,
+      208,
+      43
+    ]
+  },
+  {
+    "tag": "svg",
+    "class": "lucide lucide-mail",
+    "box": [
+      -214,
+      560,
+      18,
+      18
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      -212.5,
+      565.3,
+      15,
+      4.5
+    ]
+  },
+  {
+    "tag": "rect",
+    "class": null,
+    "box": [
+      -212.5,
+      563,
+      15,
+      12
+    ]
+  },
+  {
+    "tag": "A",
+    "class": "",
+    "box": [
+      -226,
+      595.5,
+      208,
+      43
+    ]
+  },
+  {
+    "tag": "svg",
+    "class": "lucide lucide-settings",
+    "box": [
+      -214,
+      608,
+      18,
+      18
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      -211.7,
+      609.5,
+      13.4,
+      15
+    ]
+  },
+  {
+    "tag": "circle",
+    "class": null,
+    "box": [
+      -207.2,
+      614.8,
+      4.5,
+      4.5
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "sidebar-bottom",
+    "box": [
+      -226,
+      656.5,
+      208,
+      74
+    ]
+  },
+  {
+    "tag": "A",
+    "class": null,
+    "box": [
+      -226,
+      656.5,
+      208,
+      18
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": null,
+    "box": [
+      -226,
+      689.5,
+      208,
+      41
+    ]
+  },
+  {
+    "tag": "svg",
+    "class": "lucide lucide-log-out",
+    "box": [
+      -176.6,
+      701.5,
+      17,
+      17
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      -165.2,
+      706.5,
+      3.5,
+      7.1
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      -170.2,
+      710,
+      8.5,
+      0
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      -174.5,
+      703.6,
+      4.3,
+      12.8
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "management-main",
+    "box": [
+      0,
+      0,
+      390,
+      1120.5
+    ]
+  },
+  {
+    "tag": "HEADER",
+    "class": "management-topbar",
+    "box": [
+      12,
+      18,
+      366,
+      110.3
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "management-menu-button",
+    "box": [
+      12,
+      25.6,
+      50,
+      42
+    ]
+  },
+  {
+    "tag": "svg",
+    "class": "lucide lucide-menu",
+    "box": [
+      26,
+      35.6,
+      22,
+      22
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      29.7,
+      40.2,
+      14.7,
+      0
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      29.7,
+      46.6,
+      14.7,
+      0
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      29.7,
+      53.1,
+      14.7,
+      0
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": null,
+    "box": [
+      96.5,
+      18,
+      159.8,
+      57.3
+    ]
+  },
+  {
+    "tag": "P",
+    "class": "management-topbar-brand",
+    "box": [
+      96.5,
+      18,
+      159.8,
+      24
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": "brand-logo brand-logo-dark  ",
+    "box": [
+      96.5,
+      18,
+      102.1,
+      24
+    ]
+  },
+  {
+    "tag": "IMG",
+    "class": "brand-symbol-image",
+    "box": [
+      96.5,
+      18,
+      24,
+      24
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": "brand-name ",
+    "box": [
+      126.5,
+      19.5,
+      72.1,
+      20.9
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": null,
+    "box": [
+      204.6,
+      24,
+      51.6,
+      12
+    ]
+  },
+  {
+    "tag": "H1",
+    "class": null,
+    "box": [
+      96.5,
+      48,
+      159.8,
+      27.3
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": "local-mode-pill",
+    "box": [
+      290.7,
+      33.4,
+      87.3,
+      26.5
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "management-primary",
+    "box": [
+      12,
+      87.3,
+      193.7,
+      41
+    ]
+  },
+  {
+    "tag": "svg",
+    "class": "lucide lucide-plus",
+    "box": [
+      26,
+      99.3,
+      17,
+      17
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      29.5,
+      107.8,
+      9.9,
+      0
+    ]
+  },
+  {
+    "tag": "path",
+    "class": null,
+    "box": [
+      34.5,
+      102.8,
+      0,
+      9.9
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "local-mode-banner",
+    "box": [
+      12,
+      148.3,
+      366,
+      55
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "management-content",
+    "box": [
+      12,
+      225.3,
+      366,
+      855.2
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "management-stats",
+    "box": [
+      12,
+      225.3,
+      366,
+      212
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": null,
+    "box": [
+      12,
+      225.3,
+      178.5,
+      92.5
+    ]
+  },
+  {
+    "tag": "STRONG",
+    "class": null,
+    "box": [
+      28,
+      241.3,
+      146.5,
+      34.5
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": null,
+    "box": [
+      28,
+      283.8,
+      146.5,
+      18
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": null,
+    "box": [
+      199.5,
+      225.3,
+      178.5,
+      92.5
+    ]
+  },
+  {
+    "tag": "STRONG",
+    "class": null,
+    "box": [
+      215.5,
+      241.3,
+      146.5,
+      34.5
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": null,
+    "box": [
+      215.5,
+      283.8,
+      146.5,
+      18
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": null,
+    "box": [
+      12,
+      326.8,
+      178.5,
+      110.5
+    ]
+  },
+  {
+    "tag": "STRONG",
+    "class": null,
+    "box": [
+      28,
+      342.8,
+      146.5,
+      43.5
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": null,
+    "box": [
+      28,
+      394.3,
+      146.5,
+      27
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": null,
+    "box": [
+      199.5,
+      326.8,
+      178.5,
+      110.5
+    ]
+  },
+  {
+    "tag": "STRONG",
+    "class": null,
+    "box": [
+      215.5,
+      342.8,
+      146.5,
+      34.5
+    ]
+  },
+  {
+    "tag": "SPAN",
+    "class": null,
+    "box": [
+      215.5,
+      385.3,
+      146.5,
+      36
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "management-two-columns",
+    "box": [
+      12,
+      459.3,
+      366,
+      547.8
+    ]
+  },
+  {
+    "tag": "SECTION",
+    "class": "management-card",
+    "box": [
+      12,
+      459.3,
+      366,
+      136.4
+    ]
+  },
+  {
+    "tag": "H2",
+    "class": null,
+    "box": [
+      28,
+      475.3,
+      334,
+      23.4
+    ]
+  },
+  {
+    "tag": "P",
+    "class": null,
+    "box": [
+      28,
+      516.7,
+      334,
+      42
+    ]
+  },
+  {
+    "tag": "A",
+    "class": "management-link",
+    "box": [
+      28,
+      559.7,
+      133.7,
+      19
+    ]
+  },
+  {
+    "tag": "SECTION",
+    "class": "management-card",
+    "box": [
+      12,
+      639.7,
+      366,
+      345.4
+    ]
+  },
+  {
+    "tag": "H2",
+    "class": null,
+    "box": [
+      28,
+      655.7,
+      334,
+      23.4
+    ]
+  },
+  {
+    "tag": "UL",
+    "class": "readiness-list",
+    "box": [
+      28,
+      697.1,
+      334,
+      154
+    ]
+  },
+  {
+    "tag": "LI",
+    "class": null,
+    "box": [
+      28,
+      697.1,
+      334,
+      30.8
+    ]
+  },
+  {
+    "tag": "LI",
+    "class": null,
+    "box": [
+      28,
+      727.9,
+      334,
+      30.8
+    ]
+  },
+  {
+    "tag": "LI",
+    "class": null,
+    "box": [
+      28,
+      758.7,
+      334,
+      30.8
+    ]
+  },
+  {
+    "tag": "LI",
+    "class": null,
+    "box": [
+      28,
+      789.5,
+      334,
+      30.8
+    ]
+  },
+  {
+    "tag": "LI",
+    "class": null,
+    "box": [
+      28,
+      820.3,
+      334,
+      30.8
+    ]
+  },
+  {
+    "tag": "A",
+    "class": "management-primary",
+    "box": [
+      28,
+      851.1,
+      176.1,
+      41
+    ]
+  },
+  {
+    "tag": "P",
+    "class": "management-hint",
+    "box": [
+      28,
+      892.1,
+      334,
+      36
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": "management-secondary",
+    "box": [
+      28,
+      928.1,
+      235.2,
+      41
+    ]
+  },
+  {
+    "tag": "SECTION",
+    "class": "management-card",
+    "box": [
+      12,
+      1007.1,
+      366,
+      73.4
+    ]
+  },
+  {
+    "tag": "H2",
+    "class": null,
+    "box": [
+      28,
+      1023.1,
+      334,
+      23.4
+    ]
+  },
+  {
+    "tag": "NEXT-ROUTE-ANNOUNCER",
+    "class": null,
+    "box": [
+      0,
+      1120.5,
+      0,
+      0
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": "nextjs-toast",
+    "box": [
+      20,
+      608,
+      36,
+      36
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": null,
+    "box": [
+      20,
+      608,
+      36,
+      36
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": null,
+    "box": [
+      20,
+      608,
+      36,
+      36
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": null,
+    "box": [
+      20,
+      608,
+      36,
+      36
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": null,
+    "box": [
+      20,
+      610,
+      36,
+      32
+    ]
+  },
+  {
+    "tag": "BUTTON",
+    "class": null,
+    "box": [
+      22,
+      610,
+      32,
+      32
+    ]
+  },
+  {
+    "tag": "svg",
+    "class": null,
+    "box": [
+      22,
+      606,
+      40,
+      40
+    ]
+  },
+  {
+    "tag": "g",
+    "class": null,
+    "box": [
+      32.8,
+      620,
+      11,
+      14.2
+    ]
+  },
+  {
+    "tag": "path",
+    "class": "paused",
+    "box": [
+      32.8,
+      620,
+      11,
+      14.2
+    ]
+  },
+  {
+    "tag": "path",
+    "class": "paused",
+    "box": [
+      42.3,
+      620.5,
+      0,
+      11.6
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": null,
+    "box": [
+      52,
+      614,
+      0,
+      0
+    ]
+  },
+  {
+    "tag": "DIV",
+    "class": null,
+    "box": [
+      -1,
+      1119.5,
+      1,
+      1
+    ]
+  }
+]

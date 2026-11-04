@@ -71,6 +71,34 @@ const date = (offset: number, hour = 10) => {
   return d.toISOString();
 };
 describe("migration Postgres réelle embarquée", () => {
+  it("autorise un équipement tarifé après confirmation et conserve le verrou sans confirmation", async () => {
+    const s = catalogue.find(
+      (v) => v.qualification_requirement === "equipment",
+    )!;
+    await pg.exec("begin");
+    try {
+      await pg.query(
+        "update public.services set qualification_verified_at=now(), price_cents=3500, bookable=true, operational_status='active' where id=$1",
+        [s.id],
+      );
+      expect(
+        (
+          await pg.query<{ ok: boolean }>(
+            "select public.service_eligible($1) ok",
+            [s.id],
+          )
+        ).rows[0].ok,
+      ).toBe(true);
+      await expect(
+        pg.query(
+          "update public.services set qualification_verified_at=null where id=$1",
+          [s.id],
+        ),
+      ).rejects.toThrow();
+    } finally {
+      await pg.exec("rollback");
+    }
+  });
   it("prépare catégories, produits et lignes figées avec RLS sans droit de mutation public", async () => {
     const b = await hold(date(28));
     const result = await pg.query<{
