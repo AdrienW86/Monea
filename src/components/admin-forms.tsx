@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import { useRouter } from "next/navigation";
+import { Eye, EyeOff } from "lucide-react";
 import { parisInstant } from "@/lib/booking/time";
 type Field = {
   name: string;
@@ -130,6 +131,7 @@ export function AdminForm({
 export function LoginForm({ enabled }: { enabled: boolean }) {
   const [message, setMessage] = useState("");
   const [busy, setBusy] = useState(false);
+  const [showPassword, setShowPassword] = useState(false);
   const router = useRouter();
   return (
     <form
@@ -162,16 +164,35 @@ export function LoginForm({ enabled }: { enabled: boolean }) {
         Email
         <input name="email" type="email" autoComplete="username" required />
       </label>
-      <label>
-        Mot de passe
+      <label htmlFor="admin-password">Mot de passe</label>
+      <div className="login-password-field">
         <input
+          id="admin-password"
           name="password"
-          type="password"
+          type={showPassword ? "text" : "password"}
           autoComplete="current-password"
           minLength={8}
           required
         />
-      </label>
+        <button
+          type="button"
+          className="password-toggle"
+          aria-controls="admin-password"
+          aria-label={
+            showPassword
+              ? "Masquer le mot de passe"
+              : "Afficher le mot de passe"
+          }
+          onClick={() => setShowPassword((visible) => !visible)}
+        >
+          {showPassword ? (
+            <EyeOff size={18} aria-hidden="true" />
+          ) : (
+            <Eye size={18} aria-hidden="true" />
+          )}
+          {showPassword ? "Masquer" : "Afficher"}
+        </button>
+      </div>
       <div className="actions">
         <button className="button" disabled={!enabled || busy}>
           {busy ? "Connexion…" : "Se connecter"}

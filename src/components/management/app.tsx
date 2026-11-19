@@ -2238,6 +2238,20 @@ function ServiceEditor({
           Archiver la prestation
         </button>
       )}
+      {value && (
+        <button
+          className="management-danger"
+          onClick={() =>
+            save(
+              "service_delete",
+              { id: value.id, confirmed: true },
+              "Supprimer définitivement cette prestation ? Si elle figure dans des rendez-vous, archivez-la pour conserver leur historique.",
+            )
+          }
+        >
+          Supprimer la prestation
+        </button>
+      )}
     </>
   );
 }

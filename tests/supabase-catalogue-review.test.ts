@@ -64,9 +64,9 @@ it("prépare un import catalogue sans écrasement, réexécutable, sans ouvrir l
     await pg.exec(apply);
     expect(
       (await pg.query("select * from public.categories")).rows,
-    ).toHaveLength(7);
+    ).toHaveLength(4);
     expect((await pg.query("select * from public.services")).rows).toHaveLength(
-      16,
+      23,
     );
     const payload = JSON.parse(
       readFileSync(path.join(root, "catalogue-payload.json"), "utf8"),
@@ -137,7 +137,7 @@ it("prépare un import catalogue sans écrasement, réexécutable, sans ouvrir l
     await expect(pg.exec(collision)).rejects.toThrow();
     await pg.exec("rollback");
     expect((await pg.query("select * from public.services")).rows).toHaveLength(
-      16,
+      23,
     );
     expect(
       (

@@ -74,6 +74,10 @@ export const commandSchema = z.discriminatedUnion("action", [
     }),
   }),
   z.object({
+    action: z.literal("service_delete"),
+    data: z.object({ id, confirmed: z.literal(true) }),
+  }),
+  z.object({
     action: z.literal("service_archive"),
     data: z.object({ id, confirmed: z.literal(true) }),
   }),

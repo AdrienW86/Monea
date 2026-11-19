@@ -23,7 +23,17 @@ const servicePhotos: Record<string, string> = {
   "soin-visage": editorial.visage,
   "gommages-masques": "/images/beauty/spa-visage-v2.webp",
   modelage: "/images/beauty/spa-modelage-v2.webp",
-  epilation: editorial.epilation,
+  epilation: "/images/beauty/spa-epilation-sourcils-v1.webp",
+  "epilation-levre-superieure":
+    "/images/beauty/spa-epilation-levre-superieure-v1.webp",
+  "epilation-sourcils-levre-superieure":
+    "/images/beauty/spa-epilation-sourcils-levre-superieure-v1.webp",
+  "epilation-aisselles": "/images/beauty/spa-epilation-aisselles-v1.webp",
+  "epilation-bras": "/images/beauty/spa-epilation-bras-v1.webp",
+  "epilation-menton": "/images/beauty/spa-epilation-menton-v1.webp",
+  "epilation-demi-jambes": "/images/beauty/spa-epilation-demi-jambes-v1.webp",
+  "epilation-jambes-entieres":
+    "/images/beauty/spa-epilation-jambes-entieres-v1.webp",
   "spray-tan": editorial.peau,
   maquillage: editorial.maquillage,
   luminotherapie: "/images/beauty/spa-luminotherapie-v2.webp",
@@ -38,6 +48,10 @@ export function serviceVisual(
     /^(\/images\/beauty\/(hero-portrait|cils-regard|ongles-nude|soin-visage|bronzage|maquillage|ambiance-institut|epilation-cire)\.webp|\/assets\/beauty\/)/;
   if (image && !legacy.test(image)) return image;
   if (servicePhotos[slug]) return servicePhotos[slug];
+  if (category === "Épilation") return editorial.epilation;
+  if (category === "Onglerie") return editorial.ongles;
+  if (category === "Soin") return editorial.visage;
+  if (category === "Maquillage") return editorial.maquillage;
   if (slug === "spray-tan" || category === "Le corps") return editorial.peau;
   if (category === "Le regard") return editorial.regard;
   if (category === "Les ongles" || category === "Mains & pieds")

@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { ArrowUpRight, ArrowRight, Gift, Leaf } from "lucide-react";
 import { getSettings, getServices } from "@/lib/db/queries";
-import { editorial, careFamilies } from "@/config/editorial";
+import { editorial, serviceVisual } from "@/config/editorial";
 import { Photo, GiftScene } from "@/components/beauty-art";
 import { Reveal } from "@/components/reveal";
 import { HeroMosaic } from "@/components/hero-mosaic";
@@ -23,6 +23,7 @@ export async function generateMetadata() {
 }
 export default async function Home() {
   const [s, services] = await Promise.all([getSettings(), getServices()]);
+  const families = [...new Set(services.map((service) => service.category))];
   return (
     <div className="beauty-home spa-home">
       <script
@@ -57,24 +58,26 @@ export default async function Home() {
           </div>
         </Reveal>
         <div className="care-photo-grid">
-          {careFamilies.map((c, i) => (
+          {families.map((category, i) => (
             <Reveal
               className={`care-reveal care-reveal-${i + 1}`}
               delay={(i % 3) * 60}
-              key={c.name}
+              key={category}
             >
               <Link
-                href={`/prestations/${c.slug}`}
+                href={`/prestations?categorie=${encodeURIComponent(category)}`}
                 className={`care-photo-card care-card-${i + 1}`}
               >
                 <Photo
-                  src={c.image}
-                  alt={`Illustration beauté — ${c.name}`}
+                  src={serviceVisual("", category)}
+                  alt={`Illustration beauté — ${category}`}
                   sizes="(max-width: 700px) 44vw, (max-width: 1000px) 30vw, 28vw"
                 />
                 <div className="care-card-copy">
-                  <span className="care-card-family">{c.name}</span>
-                  <span className="care-card-detail">{c.detail}</span>
+                  <span className="care-card-family">{category}</span>
+                  <span className="care-card-detail">
+                    Découvrir les prestations
+                  </span>
                 </div>
                 <span className="care-card-arrow">
                   <ArrowUpRight size={20} />

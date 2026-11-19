@@ -289,7 +289,7 @@ body:not(:has(.management-shell)) {
   padding: 0;
 }
 .care-reveal:nth-child(n) {
-  grid-column: span 4;
+  grid-column: span 3;
 }
 .care-reveal:nth-child(n + 4) {
   grid-column: span 3;
@@ -1190,7 +1190,7 @@ body:not(:has(.management-shell)) input:is([type="checkbox"], [type="radio"]) {
   .care-reveal:nth-child(n) {
     grid-column: auto;
   }
-  .care-reveal:last-child {
+  .care-reveal:last-child:nth-child(odd) {
     grid-column: 1 / -1;
   }
   .care-photo-card .beauty-photo {
@@ -1201,7 +1201,7 @@ body:not(:has(.management-shell)) input:is([type="checkbox"], [type="radio"]) {
     aspect-ratio: 1;
     border-radius: 4px;
   }
-  .care-reveal:last-child .beauty-photo {
+  .care-reveal:last-child:nth-child(odd) .beauty-photo {
     aspect-ratio: 2;
   }
   .care-card-copy {

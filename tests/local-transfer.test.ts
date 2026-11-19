@@ -89,8 +89,8 @@ it("sauvegarde le WAL, restaure, importe sans perte et rejoue sans doublon", asy
     expect(await verifyLocalImport(pg, envelope)).toMatchObject({
       verified: true,
       counts: {
-        categories: 7,
-        services: 16,
+        categories: 4,
+        services: 23,
         clients: 1,
         lines: 2,
         mock_payments: 1,

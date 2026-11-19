@@ -21,8 +21,8 @@ describe("catalogue et conformité", () => {
     expect(bookingRestrictions(inactive).join(" ")).toContain("pas activée");
     expect(eligible({ ...catalogue[0], price_cents: 0 })).toBe(true);
   });
-  it("contient 16 services, 5 éligibles et 2 sans prix à l’étude", () => {
-    expect(catalogue).toHaveLength(16);
+  it("contient 23 services, 5 éligibles et 2 sans prix à l’étude", () => {
+    expect(catalogue).toHaveLength(23);
     expect(catalogue.filter(eligible)).toHaveLength(5);
     expect(
       catalogue

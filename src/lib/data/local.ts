@@ -869,6 +869,18 @@ export class LocalRepository implements DataRepository {
           });
           break;
         }
+        case "service_delete": {
+          entity = c.data.id;
+          this.required<ManagedService>("services", entity);
+          if (
+            this.row("SELECT id FROM booking_lines WHERE service_id=?", entity)
+          )
+            throw new DataError(
+              "Cette prestation figure dans des rendez-vous. Archivez-la pour conserver leur historique.",
+            );
+          this.run("DELETE FROM services WHERE id=?", entity);
+          break;
+        }
         case "qualification": {
           const v = this.required<ManagedService>("services", c.data.id);
           entity = v.id;

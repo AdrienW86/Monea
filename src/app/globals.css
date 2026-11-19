@@ -979,6 +979,30 @@ th {
 .status-bad {
   color: var(--palette-error);
 }
+.login-password-field {
+  position: relative;
+}
+.login .login-password-field input {
+  padding-right: 118px;
+}
+.password-toggle {
+  position: absolute;
+  top: 50%;
+  right: 8px;
+  transform: translateY(-50%);
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 44px;
+  padding: 6px 8px;
+  border: 0;
+  border-radius: 4px;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  font-size: 13px;
+  cursor: pointer;
+}
 .login {
   max-width: 480px;
   margin: auto;

@@ -169,6 +169,9 @@ describe("Gestion locale transactionnelle et persistante", () => {
     await command("service_save", data);
     const s = (await repo.services()).find((s) => s.name === data.name)!;
     const b = await repo.createBooking(input(s.id), "admin");
+    await expect(
+      command("service_delete", { id: s.id, confirmed: true }),
+    ).rejects.toThrow("historique");
     await command("service_save", {
       ...data,
       id: s.id,

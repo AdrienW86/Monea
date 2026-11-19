@@ -143,6 +143,11 @@ describe("adaptateur Supabase sur PostgreSQL local", () => {
     ).rejects.toThrow();
     await mutate("service_archive", { id: service.id, confirmed: true });
     await mutate("product_delete", { id: product.id, confirmed: true });
+    await mutate("service_delete", { id: service.id, confirmed: true });
+    expect((await repo.services()).some((s) => s.id === service.id)).toBe(
+      false,
+    );
+    await mutate("category_delete", { id: category.id, confirmed: true });
   });
   it("crée plusieurs lignes, fige les montants et déplace atomiquement", async () => {
     const b = await booking(4, [

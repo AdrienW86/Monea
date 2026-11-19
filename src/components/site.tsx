@@ -67,9 +67,13 @@ export function Footer({ settings: s }: { settings: Brand }) {
           {s.address && <p>{s.address}</p>}
           <div className="inline-links">
             {[
-              ["Instagram", s.instagram],
+              ["Facebook", process.env.SOCIAL_FACEBOOK_URL?.trim()],
+              [
+                "Instagram",
+                process.env.SOCIAL_INSTAGRAM_URL?.trim() || s.instagram,
+              ],
               ["TikTok", s.tiktok],
-              ["Snapchat", s.snapchat],
+              ["Snapchat", process.env.SOCIAL_SNAPCHAT_URL?.trim() || s.snapchat],
             ]
               .filter(([, url]) => url)
               .map(([name, url]) => (

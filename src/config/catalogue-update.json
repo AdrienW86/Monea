@@ -1,0 +1,55 @@
+{
+  "categories": ["Maquillage", "Soin", "Épilation", "Onglerie"],
+  "legacyCategories": {
+    "Le regard": "Maquillage",
+    "Le maquillage": "Maquillage",
+    "Les ongles": "Onglerie",
+    "Mains & pieds": "Onglerie",
+    "Le visage": "Soin",
+    "Le corps": "Soin",
+    "Prestations à l’étude": "Soin",
+    "Technologies esthétiques": "Soin"
+  },
+  "waxing": [
+    {
+      "slug": "epilation",
+      "name": "Épilation des sourcils",
+      "price_cents": 500
+    },
+    {
+      "slug": "epilation-levre-superieure",
+      "name": "Épilation de la lèvre supérieure",
+      "price_cents": 500
+    },
+    {
+      "slug": "epilation-sourcils-levre-superieure",
+      "name": "Épilation sourcils et lèvre supérieure",
+      "price_cents": 800
+    },
+    {
+      "slug": "epilation-aisselles",
+      "name": "Épilation des aisselles",
+      "price_cents": 800
+    },
+    {
+      "slug": "epilation-bras",
+      "name": "Épilation des bras",
+      "price_cents": 1000
+    },
+    {
+      "slug": "epilation-menton",
+      "name": "Épilation du menton",
+      "price_cents": 500
+    },
+    {
+      "slug": "epilation-demi-jambes",
+      "name": "Épilation des demi-jambes",
+      "price_cents": 800
+    },
+    {
+      "slug": "epilation-jambes-entieres",
+      "name": "Épilation des jambes entières",
+      "price_cents": 1500
+    }
+  ]
+}

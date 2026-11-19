@@ -1,3 +1,5 @@
+import catalogueUpdate from "@/config/catalogue-update.json";
+
 export type Service = {
   id: string;
   slug: string;
@@ -131,11 +133,14 @@ const entries = [
     "equipment",
   ],
 ] as const;
+const legacyCategories: Record<string, string> =
+  catalogueUpdate.legacyCategories;
 export const catalogue: Service[] = entries.map((e, i) => ({
   id: `00000000-0000-4000-8000-${String(i + 1).padStart(12, "0")}`,
   slug: e[0],
-  name: e[1],
-  category: e[2],
+  name: e[0] === "epilation" ? catalogueUpdate.waxing[0].name : e[1],
+  category:
+    e[0] === "epilation" ? "Épilation" : (legacyCategories[e[2]] ?? e[2]),
   description: e[3],
   qualification_requirement: e[4],
   qualification_verified_at: null,
@@ -143,11 +148,24 @@ export const catalogue: Service[] = entries.map((e, i) => ({
   operational_status: i >= 14 ? "study" : i < 5 ? "active" : "coming_soon",
   bookable: i < 5,
   visibility: true,
-  price_cents: i >= 14 ? null : 2000,
+  price_cents:
+    e[0] === "epilation"
+      ? catalogueUpdate.waxing[0].price_cents
+      : i >= 14
+        ? null
+        : 2000,
   duration_minutes: 60,
   sort_order: i,
   image: null,
 }));
+catalogue.push(
+  ...catalogueUpdate.waxing.slice(1).map((service, i): Service => ({
+    ...catalogue.find((s) => s.slug === "epilation")!,
+    ...service,
+    id: `00000000-0000-4000-8000-${String(i + 17).padStart(12, "0")}`,
+    sort_order: 16 + i,
+  })),
+);
 export const euro = (cents: number) =>
   new Intl.NumberFormat("fr-FR", { style: "currency", currency: "EUR" }).format(
     cents / 100,
