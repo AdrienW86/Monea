@@ -141,6 +141,14 @@ describe("adaptateur Supabase sur PostgreSQL local", () => {
     await expect(
       mutate("category_delete", { id: category.id, confirmed: true }),
     ).rejects.toThrow();
+    await mutate("service_save", { ...data, id: service.id, image: "none" });
+    expect(
+      (await repo.services()).find((s) => s.id === service.id)?.image,
+    ).toBe("none");
+    await mutate("service_save", { ...data, id: service.id, image: "" });
+    expect(
+      (await repo.services()).find((s) => s.id === service.id)?.image,
+    ).toBeNull();
     await mutate("service_archive", { id: service.id, confirmed: true });
     await mutate("product_delete", { id: product.id, confirmed: true });
     await mutate("service_delete", { id: service.id, confirmed: true });

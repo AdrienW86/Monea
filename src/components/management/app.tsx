@@ -3,8 +3,11 @@ import { useEffect, useRef, useState, useId, useCallback } from "react";
 import Link from "next/link";
 import { BrandLogo } from "@/components/brand-logo";
 import Image from "next/image";
+import { serviceVisual } from "@/config/editorial";
+import { NO_IMAGE } from "@/lib/media";
 import { useRouter } from "next/navigation";
-import { addDays, addMonths, startOfMonth, format } from "date-fns";
+import { addDays, format } from "date-fns";
+import { blockPeriod, type BlockPreset } from "@/lib/booking/block-period";
 import { formatInTimeZone } from "date-fns-tz";
 import {
   CalendarDays,
@@ -59,7 +62,7 @@ type DialogState =
   | { kind: "service"; value?: ManagedService }
   | { kind: "category"; value?: Category }
   | { kind: "product"; value?: Product }
-  | { kind: "block"; value?: Allocation };
+  | { kind: "block"; value?: Allocation; date?: string };
 type Command = { action: string; data: unknown };
 type Perform = (command: Command, confirm?: string) => Promise<unknown>;
 const today = () => formatInTimeZone(new Date(), "Europe/Paris", "yyyy-MM-dd");
@@ -176,6 +179,8 @@ function EditForm({
         setBusy(true);
         setError("");
         try {
+          if (e.currentTarget.querySelector('[data-uploading="true"]'))
+            throw Error("Patientez jusqu’à la fin de l’import de l’image.");
           await onSubmit(new FormData(e.currentTarget));
         } catch (e) {
           setError(e instanceof Error ? e.message : "Informations invalides.");
@@ -231,23 +236,22 @@ function Dialog({
     </dialog>
   );
 }
-function ImageField({ value = "" }: { value?: string | null }) {
+function ImageField({
+  value = "",
+  fallback,
+}: {
+  value?: string | null;
+  fallback?: string | null;
+}) {
   const [image, setImage] = useState(value || "");
   const [error, setError] = useState("");
   const [busy, setBusy] = useState(false);
+  const preview = image === NO_IMAGE ? null : image || fallback;
   return (
-    <div className="full">
-      <label>
-        Visuel local
-        <input
-          name="image"
-          value={image}
-          onChange={(e) => setImage(e.target.value)}
-          placeholder="/assets/… ou /images/beauty/…"
-        />
-      </label>
+    <div className="full management-image-field" data-uploading={busy}>
+      <input name="image" type="hidden" value={image} />
       <label className="media-field">
-        Importer un visuel
+        {preview ? "Remplacer l’image" : "Ajouter une image"}
         <input
           type="file"
           accept="image/png,image/jpeg,image/webp"
@@ -255,6 +259,11 @@ function ImageField({ value = "" }: { value?: string | null }) {
           onChange={async (e) => {
             const file = e.target.files?.[0];
             if (!file) return;
+            e.target.value = "";
+            if (file.size > 4 * 1024 * 1024) {
+              setError("Choisissez une image de moins de 4 Mo.");
+              return;
+            }
             setBusy(true);
             setError("");
             const form = new FormData();
@@ -276,15 +285,48 @@ function ImageField({ value = "" }: { value?: string | null }) {
         />
       </label>
       {busy && <p>Optimisation de l’image…</p>}
-      {image.startsWith("/") && (
+      <p className="management-hint">
+        JPG, PNG ou WebP · 4 Mo maximum. Enregistrez pour appliquer le
+        changement.
+      </p>
+      {preview && (
         <Image
-          src={image}
+          src={preview}
           alt="Aperçu du visuel"
           width={100}
           height={75}
           className="media-preview"
         />
       )}
+      <div className="actions">
+        {preview && (
+          <button
+            type="button"
+            disabled={busy}
+            className="management-danger"
+            onClick={() => {
+              setImage(NO_IMAGE);
+              setError("");
+            }}
+          >
+            Supprimer l’image
+          </button>
+        )}
+        {image && (
+          <button
+            type="button"
+            disabled={busy}
+            className="management-secondary"
+            onClick={() => {
+              setImage("");
+              setError("");
+            }}
+          >
+            Rétablir l’image par défaut
+          </button>
+        )}
+      </div>
+      {image === NO_IMAGE && <p>Aucune image ne sera affichée.</p>}
       {error && <p role="alert">{error}</p>}
     </div>
   );
@@ -582,6 +624,7 @@ export function ManagementApp({
           onCreate={(v) => openBooking(undefined, v)}
           onOpen={(b) => openBooking(b)}
           onBlock={(a) => setDialog({ kind: "block", value: a })}
+          onCreateBlock={(date) => setDialog({ kind: "block", date })}
         />
       </section>
     );
@@ -1062,6 +1105,12 @@ export function ManagementApp({
   } else if (section === "messages") {
     content = (
       <section className="management-card">
+        <h2>Messages du formulaire de contact</h2>
+        <p className="management-hint">
+          Retrouvez ici les demandes envoyées depuis le site. Cette section
+          n’est pas reliée à votre boîte e-mail. « Répondre par e-mail » ouvre
+          votre messagerie habituelle.
+        </p>
         {data.messages.map((m) => (
           <article className="message-row" key={m.id}>
             <span className="management-tag">
@@ -1074,6 +1123,12 @@ export function ManagementApp({
             <p className="message-text">{m.message}</p>
             <small>{localDate(m.created_at)}</small>
             <div className="actions">
+              <a
+                className="management-secondary"
+                href={`mailto:${m.email}?subject=${encodeURIComponent(`Re : ${m.subject}`)}`}
+              >
+                Répondre par e-mail
+              </a>
               <button
                 onClick={() =>
                   perform({ action: "contact_processed", data: { id: m.id } })
@@ -1235,6 +1290,7 @@ export function ManagementApp({
                             "legalName",
                             "legalAddress",
                             "registration",
+                            "vatNumber",
                             "publisher",
                             "host",
                             "mediator",
@@ -1266,6 +1322,7 @@ export function ManagementApp({
                     ["legalName", "Raison sociale"],
                     ["legalAddress", "Adresse légale"],
                     ["registration", "Immatriculation"],
+                    ["vatNumber", "Numéro de TVA, si applicable"],
                     ["publisher", "Responsable de publication"],
                     ["host", "Hébergeur"],
                     ["mediator", "Médiateur"],
@@ -1650,7 +1707,7 @@ export function ManagementApp({
           ) : dialog.kind === "product" ? (
             <ProductEditor data={data} value={dialog.value} save={save} />
           ) : (
-            <BlockEditor value={dialog.value} save={save} />
+            <BlockEditor value={dialog.value} date={dialog.date} save={save} />
           )}
         </Dialog>
       )}
@@ -2126,7 +2183,7 @@ function CategoryEditor({
             id: value?.id,
             name: string(f, "name"),
             description: string(f, "description"),
-            image: value?.image || "",
+            image: string(f, "image"),
             sort_order: value?.sort_order ?? 0,
             active: value?.active ?? true,
           })
@@ -2141,6 +2198,10 @@ function CategoryEditor({
           name="description"
           label="Description"
           value={value?.description}
+        />
+        <ImageField
+          value={value?.image}
+          fallback={value ? serviceVisual("", value.name) : undefined}
         />
       </EditForm>
       {value && (
@@ -2186,7 +2247,7 @@ function ServiceEditor({
             price_cents: price,
             duration_minutes:
               value?.duration_minutes ?? data.settings.defaultDurationMinutes,
-            image: value?.image || "",
+            image: string(f, "image"),
             sort_order: value?.sort_order ?? 0,
             visibility: value?.visibility ?? true,
             bookable: price !== null,
@@ -2222,6 +2283,12 @@ function ServiceEditor({
           required={value?.price_cents !== null}
           min={1}
           step="0.01"
+        />
+        <ImageField
+          value={value?.image}
+          fallback={
+            value ? serviceVisual(value.slug, value.category) : undefined
+          }
         />
       </EditForm>
       {value && (
@@ -2342,73 +2409,62 @@ function ProductEditor({
 }
 function BlockEditor({
   value,
+  date,
   save,
 }: {
   value?: Allocation;
+  date?: string;
   save: (action: string, data: unknown, confirm?: string) => Promise<unknown>;
 }) {
   const [start, setStart] = useState(
     value
       ? formatInTimeZone(value.start_at, "Europe/Paris", "yyyy-MM-dd'T'HH:mm")
-      : today() + "T09:00",
+      : (date || today()) + "T09:00",
   );
   const [end, setEnd] = useState(
     value
       ? formatInTimeZone(value.end_at, "Europe/Paris", "yyyy-MM-dd'T'HH:mm")
-      : today() + "T10:00",
+      : (date || today()) + "T10:00",
   );
   const [repeat, setRepeat] = useState("none");
+  const [preset, setPreset] = useState<BlockPreset>(value ? "custom" : "hour");
+  const applyPreset = (next: BlockPreset, from = start) => {
+    setPreset(next);
+    if (next === "custom") return;
+    const period = blockPeriod(from, next);
+    setStart(period.start);
+    setEnd(period.end);
+  };
   return (
     <>
-      <label className="block-presets">
-        Période rapide
-        <select
-          defaultValue="custom"
-          onChange={(e) => {
-            const d = new Date(start.slice(0, 10) + "T12:00:00");
-            const date = format(d, "yyyy-MM-dd");
-            const preset = e.target.value;
-            if (preset === "hour") {
-              setEnd(
-                start.slice(0, 11) +
-                  String(
-                    Math.min(Number(start.slice(11, 13)) + 1, 23),
-                  ).padStart(2, "0") +
-                  start.slice(13),
-              );
-            }
-            if (preset === "halfday") {
-              setStart(date + "T09:00");
-              setEnd(date + "T13:00");
-            }
-            if (preset === "day" || preset === "week" || preset === "weeks") {
-              setStart(date + "T00:00");
-              setEnd(
-                format(
-                  addDays(d, preset === "day" ? 1 : preset === "week" ? 7 : 14),
-                  "yyyy-MM-dd",
-                ) + "T00:00",
-              );
-            }
-            if (preset === "month") {
-              setStart(format(startOfMonth(d), "yyyy-MM-dd") + "T00:00");
-              setEnd(
-                format(startOfMonth(addMonths(d, 1)), "yyyy-MM-dd") + "T00:00",
-              );
-            }
-          }}
-        >
-          <option value="custom">
-            Période personnalisée / plusieurs jours
-          </option>
-          <option value="hour">Une heure</option>
-          <option value="halfday">Une demi-journée (9 h – 13 h)</option>
-          <option value="day">Une journée entière</option>
-          <option value="week">Une semaine</option>
-          <option value="weeks">Deux semaines</option>
-          <option value="month">Un mois entier</option>
-        </select>
-      </label>
+      <fieldset className="block-presets">
+        <legend>Quelle période souhaitez-vous bloquer ?</legend>
+        <div className="block-preset-buttons">
+          {(
+            [
+              ["hour", "Une heure"],
+              ["day", "Une journée"],
+              ["week", "Une semaine"],
+              ["month", "Un mois entier"],
+              ["halfday", "Une demi-journée"],
+              ["weeks", "Deux semaines"],
+              ["custom", "Personnalisé"],
+            ] as const
+          ).map(([id, label]) => (
+            <button
+              type="button"
+              key={id}
+              aria-pressed={preset === id}
+              className={
+                preset === id ? "management-primary" : "management-secondary"
+              }
+              onClick={() => applyPreset(id)}
+            >
+              {label}
+            </button>
+          ))}
+        </div>
+      </fieldset>
       <EditForm
         label="Enregistrer l’indisponibilité"
         onSubmit={(f) =>
@@ -2434,19 +2490,42 @@ function BlockEditor({
         }
       >
         <label>
-          Début (Europe/Paris)
+          {preset === "month" ? "Mois à bloquer" : "Début de l’indisponibilité"}
           <input
-            type="datetime-local"
-            value={start}
-            onChange={(e) => setStart(e.target.value)}
+            type={
+              preset === "month"
+                ? "month"
+                : ["hour", "custom"].includes(preset)
+                  ? "datetime-local"
+                  : "date"
+            }
+            value={
+              preset === "month"
+                ? start.slice(0, 7)
+                : ["hour", "custom"].includes(preset)
+                  ? start
+                  : start.slice(0, 10)
+            }
+            onChange={(e) => {
+              if (!e.target.value) return;
+              const next =
+                preset === "month"
+                  ? e.target.value + "-01T00:00"
+                  : ["hour", "custom"].includes(preset)
+                    ? e.target.value
+                    : e.target.value + "T00:00";
+              if (preset === "custom") setStart(next);
+              else applyPreset(preset, next);
+            }}
             required
           />
         </label>
         <label>
-          Fin exclusive (Europe/Paris)
+          Reprise des disponibilités
           <input
             type="datetime-local"
             value={end}
+            readOnly={preset !== "custom"}
             onChange={(e) => setEnd(e.target.value)}
             required
           />
@@ -2471,9 +2550,11 @@ function BlockEditor({
           />
         )}
         <p className="full management-hint">
-          La fin est exclusive. Un conflit avec un rendez-vous actif entraîne le
-          refus complet de l’opération ; aucune cliente n’est écrasée
-          silencieusement.
+          Heures de Paris. La période est bloquée jusqu’à l’heure de reprise
+          indiquée. Une semaine couvre sept jours à partir de la date choisie ;
+          un mois entier couvre le mois sélectionné. Si un rendez-vous existe
+          déjà sur cette période, le blocage sera refusé et le rendez-vous
+          conservé.
         </p>
       </EditForm>
     </>

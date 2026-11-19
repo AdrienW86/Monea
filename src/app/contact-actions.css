@@ -1,0 +1,132 @@
+.floating-call {
+  position: fixed;
+  right: calc(26px + env(safe-area-inset-right, 0px));
+  bottom: calc(26px + env(safe-area-inset-bottom, 0px));
+  z-index: 40;
+  display: inline-flex;
+  align-items: center;
+  gap: 0;
+  width: 56px;
+  min-height: 56px;
+  padding: 8px;
+  border: 1px solid var(--palette-wood);
+  border-radius: 999px;
+  background: var(--palette-olive-deep);
+  color: var(--palette-ivory);
+  box-shadow: 0 8px 28px rgb(39 44 26 / 18%);
+  font-size: 12px;
+  font-weight: 600;
+  text-decoration: none;
+  transition:
+    transform 180ms ease,
+    box-shadow 180ms ease;
+}
+.floating-call-icon {
+  display: grid;
+  place-items: center;
+  width: 36px;
+  height: 36px;
+  border: 1px solid rgb(255 255 255 / 25%);
+  border-radius: 50%;
+}
+.floating-call > span:last-child {
+  position: absolute;
+  right: calc(100% + 12px);
+  width: max-content;
+  padding: 10px 14px;
+  border: 1px solid var(--palette-wood);
+  border-radius: 999px;
+  background: var(--palette-ivory);
+  color: var(--palette-olive-deep);
+  box-shadow: 0 4px 15px rgb(39 44 26 / 10%);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 180ms ease;
+}
+.floating-call:is(:hover, :focus-visible) > span:last-child {
+  opacity: 1;
+}
+.floating-call:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 32px rgb(39 44 26 / 24%);
+}
+body:has(.management-shell) .floating-call,
+body:has(.login) .floating-call,
+body:has(.mobile-menu[open]) .floating-call {
+  display: none;
+}
+body:has(.floating-call) .beauty-footer {
+  padding-bottom: calc(100px + env(safe-area-inset-bottom, 0px));
+}
+.service-booking-action,
+.service-card-bottom > .service-booking-action {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  gap: 7px;
+  min-height: 44px;
+  padding: 10px 16px;
+  border: 1px solid var(--palette-olive-deep);
+  border-radius: 999px;
+  background: var(--palette-olive-deep);
+  color: var(--palette-ivory);
+  font-family: var(--font-sans), sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 1.2;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.service-booking-action:hover,
+.service-card-bottom > .service-booking-action:hover {
+  background: var(--palette-brown);
+}
+.service-card-bottom {
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.beauty-service-list > a > div {
+  min-width: 0;
+}
+.beauty-service-list .service-booking-action {
+  margin-left: auto;
+}
+@media (max-width: 700px) {
+  .floating-call {
+    right: env(safe-area-inset-right, 0px);
+    bottom: calc(76px + env(safe-area-inset-bottom, 0px));
+    width: 44px;
+    min-height: 48px;
+    padding: 5px;
+    border-radius: 999px 0 0 999px;
+    font-size: 11px;
+  }
+  .floating-call-icon {
+    width: 32px;
+    height: 32px;
+  }
+  .floating-call > span:last-child {
+    display: none;
+  }
+  body:has(.floating-call) .beauty-footer {
+    padding-bottom: calc(156px + env(safe-area-inset-bottom, 0px));
+  }
+  .beauty-service-list > a {
+    display: grid;
+    grid-template-columns: 18px minmax(0, 1fr) auto;
+    column-gap: 10px;
+  }
+  .beauty-service-list .service-booking-action {
+    padding-inline: 11px;
+    font-size: 10px;
+  }
+  .beauty-service-list .service-booking-action svg {
+    display: none;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .floating-call {
+    transition: none;
+  }
+}

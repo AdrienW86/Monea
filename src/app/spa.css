@@ -752,6 +752,14 @@ body:not(:has(.management-shell)) {
 .service-detail .intro-portrait {
   display: none;
 }
+.service-detail-layout.service-detail-without-image {
+  grid-template-columns: 1fr;
+}
+.care-photo-card:not(:has(.beauty-photo)) {
+  min-height: 160px;
+  padding: 24px;
+  background: var(--spa-linen);
+}
 .service-detail-layout {
   gap: 70px;
   align-items: start;

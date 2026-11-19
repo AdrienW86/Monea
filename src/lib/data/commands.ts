@@ -6,7 +6,9 @@ const text = z.string().trim().max(4000);
 const name = z.string().trim().min(1).max(150);
 const image = z
   .string()
-  .regex(/^(|\/(?:assets|images\/beauty)\/[\w./-]+\.(?:svg|png|jpg|webp))$/);
+  .regex(
+    /^(|none|\/(?:assets|images\/beauty)\/[\w./-]+\.(?:svg|png|jpg|webp))$/,
+  );
 const interval = z
   .object({
     opens: z.string().regex(/^([01]\d|2[0-3]):[0-5]\d$/),

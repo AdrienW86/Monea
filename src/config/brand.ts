@@ -1,3 +1,5 @@
+import legalIdentity from "@/config/legal-identity.json";
+
 export const brand = {
   name: "MONÉA",
   subtitle: "Institut de beauté",
@@ -22,17 +24,15 @@ export const brand = {
     coral: "#ae403c",
   },
   address: "",
-  phone: "",
-  email: "",
+  phone: "+33644859647",
+  email: "contact@institut-monea.fr",
   whatsapp: "",
   instagram: "",
   tiktok: "",
   snapchat: "",
-  legalName: "",
-  legalAddress: "",
-  registration: "",
-  publisher: "",
-  host: "",
+  ...legalIdentity,
+  vatNumber: "",
+  host: "Vercel Inc. — 440 N Barranca Avenue #4133, Covina, CA 91723, États-Unis — Téléphone : +1 559 288 7060 — https://vercel.com",
   mediator: "",
   legalReady: false,
   privacyReady: false,
@@ -63,6 +63,11 @@ export function resolveBrand<T extends Partial<Brand>>(saved: T) {
     socialImage: brand.socialImage,
     favicon: brand.favicon,
     colors: { ...brand.colors, ...saved.colors },
+    legalName: saved.legalName || brand.legalName,
+    legalAddress: saved.legalAddress || brand.legalAddress,
+    registration: saved.registration || brand.registration,
+    publisher: saved.publisher || brand.publisher,
+    host: saved.host || brand.host,
   };
 }
 

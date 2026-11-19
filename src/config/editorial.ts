@@ -1,5 +1,7 @@
 // Illustrations éditoriales : série spa générée, sources et prompts dans design/generated-prestations.json.
 // Les photos ne représentent ni Monica, ni des clientes ou réalisations réelles de l’institut.
+import { NO_IMAGE } from "@/lib/media";
+
 export const editorial = {
   portrait: "/images/beauty/spa-soin-visage-v2.webp",
   regard: "/images/beauty/spa-extensions-cils-v2.webp",
@@ -46,6 +48,7 @@ export function serviceVisual(
 ) {
   const legacy =
     /^(\/images\/beauty\/(hero-portrait|cils-regard|ongles-nude|soin-visage|bronzage|maquillage|ambiance-institut|epilation-cire)\.webp|\/assets\/beauty\/)/;
+  if (image === NO_IMAGE) return null;
   if (image && !legacy.test(image)) return image;
   if (servicePhotos[slug]) return servicePhotos[slug];
   if (category === "Épilation") return editorial.epilation;

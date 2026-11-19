@@ -36,12 +36,14 @@ export function Planning({
   onCreate,
   onOpen,
   onBlock,
+  onCreateBlock,
   onRangeChange,
 }: {
   data: Snapshot;
   onCreate: (value?: { date: string; time: string }) => void;
   onOpen: (b: ManagedBooking) => void;
   onBlock: (a?: Allocation) => void;
+  onCreateBlock: (date: string) => void;
   onRangeChange?: (from: string, to: string) => void;
 }) {
   const [view, setView] = useState<"day" | "week" | "month">("week");
@@ -92,6 +94,13 @@ export function Planning({
   return (
     <div className="planning">
       <div className="planning-toolbar">
+        <button
+          type="button"
+          className="management-primary"
+          onClick={() => onCreateBlock(date)}
+        >
+          Bloquer une période
+        </button>
         <div className="planning-switch" aria-label="Vue du planning">
           {[
             ["day", "Journée"],

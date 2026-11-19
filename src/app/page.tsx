@@ -1,13 +1,13 @@
 import Link from "next/link";
 import { ArrowUpRight, ArrowRight, Gift, Leaf } from "lucide-react";
-import { getSettings, getServices } from "@/lib/db/queries";
+import { getSettings, getServices, getCategories } from "@/lib/db/queries";
 import { editorial, serviceVisual } from "@/config/editorial";
 import { Photo, GiftScene } from "@/components/beauty-art";
 import { Reveal } from "@/components/reveal";
 import { HeroMosaic } from "@/components/hero-mosaic";
 import { BotanicalSprig } from "@/components/botanical-sprig";
 import { businessSchema, pageMetadata } from "@/lib/brand-seo";
-import { euro } from "@/lib/catalogue";
+import { eligible, euro } from "@/lib/catalogue";
 import { serviceDescription } from "@/lib/service-presentation";
 export async function generateMetadata() {
   const s = await getSettings();
@@ -22,8 +22,11 @@ export async function generateMetadata() {
   };
 }
 export default async function Home() {
-  const [s, services] = await Promise.all([getSettings(), getServices()]);
-  const families = [...new Set(services.map((service) => service.category))];
+  const [s, services, families] = await Promise.all([
+    getSettings(),
+    getServices(),
+    getCategories(),
+  ]);
   return (
     <div className="beauty-home spa-home">
       <script
@@ -58,33 +61,39 @@ export default async function Home() {
           </div>
         </Reveal>
         <div className="care-photo-grid">
-          {families.map((category, i) => (
-            <Reveal
-              className={`care-reveal care-reveal-${i + 1}`}
-              delay={(i % 3) * 60}
-              key={category}
-            >
-              <Link
-                href={`/prestations?categorie=${encodeURIComponent(category)}`}
-                className={`care-photo-card care-card-${i + 1}`}
+          {families.map((family, i) => {
+            const category = family.name;
+            const image = serviceVisual("", category, family.image);
+            return (
+              <Reveal
+                className={`care-reveal care-reveal-${i + 1}`}
+                delay={(i % 3) * 60}
+                key={category}
               >
-                <Photo
-                  src={serviceVisual("", category)}
-                  alt={`Illustration beauté — ${category}`}
-                  sizes="(max-width: 700px) 44vw, (max-width: 1000px) 30vw, 28vw"
-                />
-                <div className="care-card-copy">
-                  <span className="care-card-family">{category}</span>
-                  <span className="care-card-detail">
-                    Découvrir les prestations
+                <Link
+                  href={`/prestations?categorie=${encodeURIComponent(category)}`}
+                  className={`care-photo-card care-card-${i + 1}`}
+                >
+                  {image && (
+                    <Photo
+                      src={image}
+                      alt={`Illustration beauté — ${category}`}
+                      sizes="(max-width: 700px) 44vw, (max-width: 1000px) 30vw, 28vw"
+                    />
+                  )}
+                  <div className="care-card-copy">
+                    <span className="care-card-family">{category}</span>
+                    <span className="care-card-detail">
+                      Découvrir les prestations
+                    </span>
+                  </div>
+                  <span className="care-card-arrow">
+                    <ArrowUpRight size={20} />
                   </span>
-                </div>
-                <span className="care-card-arrow">
-                  <ArrowUpRight size={20} />
-                </span>
-              </Link>
-            </Reveal>
-          ))}
+                </Link>
+              </Reveal>
+            );
+          })}
         </div>
       </section>
       <section
@@ -165,7 +174,15 @@ export default async function Home() {
           </Reveal>
           <Reveal className="beauty-service-list" delay={80}>
             {services.slice(0, 5).map((v, i) => (
-              <Link href={`/prestations/${v.slug}`} key={v.id}>
+              <Link
+                href={eligible(v) ? `/reservation?service=${v.id}` : "/contact"}
+                key={v.id}
+                aria-label={
+                  eligible(v)
+                    ? `Réserver ${v.name}`
+                    : `Nous contacter pour ${v.name}`
+                }
+              >
                 <span className="beauty-service-index">0{i + 1}</span>
                 <div>
                   <h3>{v.name}</h3>
@@ -174,7 +191,10 @@ export default async function Home() {
                 <span className="beauty-service-duration">
                   {v.price_cents === null ? "Sur demande" : euro(v.price_cents)}
                 </span>
-                <ArrowUpRight size={20} />
+                <span className="service-booking-action" aria-hidden="true">
+                  {eligible(v) ? "Réserver" : "Nous contacter"}{" "}
+                  <ArrowUpRight size={16} />
+                </span>
               </Link>
             ))}
           </Reveal>

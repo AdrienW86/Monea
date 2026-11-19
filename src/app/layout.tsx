@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import { getSettings } from "@/lib/db/queries";
-import { Header, Footer } from "@/components/site";
+import { Header, Footer, FloatingCall } from "@/components/site";
 import { brandAccents, validatedWebsite } from "@/config/brand";
 import { pageMetadata } from "@/lib/brand-seo";
 import "./globals.css";
@@ -10,6 +10,7 @@ import "./mosaic.css";
 import "./management.css";
 import "./brand.css";
 import "./spa.css";
+import "./contact-actions.css";
 const editorialFont = localFont({
   src: "./fonts/Cormorant-Garamond.woff2",
   variable: "--font-editorial",
@@ -84,6 +85,7 @@ export default async function RootLayout({
         <Header settings={s} />
         <main id="main">{children}</main>
         <Footer settings={s} />
+        <FloatingCall phone={s.phone} />
       </body>
     </html>
   );

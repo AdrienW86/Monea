@@ -1,10 +1,26 @@
 import Link from "next/link";
 import { BrandLogo } from "@/components/brand-logo";
-import { ArrowUpRight, Heart, Sparkles } from "lucide-react";
+import { ArrowUpRight, Heart, Phone, Sparkles } from "lucide-react";
 import type { Brand } from "@/config/brand";
 import { whatsappLink } from "@/lib/booking/time";
 import { MobileMenu } from "@/components/mobile-menu";
 import { IntroPortrait } from "@/components/beauty-art";
+export function FloatingCall({ phone }: { phone: string }) {
+  if (!phone) return null;
+  return (
+    <a
+      className="floating-call"
+      title="Appeler l’institut"
+      href={`tel:${phone.replace(/[\s().-]/g, "")}`}
+      aria-label={`Appeler MONÉA au ${phone}`}
+    >
+      <span className="floating-call-icon">
+        <Phone size={19} strokeWidth={1.7} aria-hidden="true" />
+      </span>
+      <span>Appeler l’institut</span>
+    </a>
+  );
+}
 export function Header({ settings: s }: { settings: Brand }) {
   return (
     <header className="site-header">
@@ -73,7 +89,10 @@ export function Footer({ settings: s }: { settings: Brand }) {
                 process.env.SOCIAL_INSTAGRAM_URL?.trim() || s.instagram,
               ],
               ["TikTok", s.tiktok],
-              ["Snapchat", process.env.SOCIAL_SNAPCHAT_URL?.trim() || s.snapchat],
+              [
+                "Snapchat",
+                process.env.SOCIAL_SNAPCHAT_URL?.trim() || s.snapchat,
+              ],
             ]
               .filter(([, url]) => url)
               .map(([name, url]) => (
@@ -103,6 +122,7 @@ export function Footer({ settings: s }: { settings: Brand }) {
         <div>
           <Link href="/mentions-legales">Mentions légales</Link>
           <Link href="/confidentialite">Confidentialité</Link>
+          <Link href="/conditions-generales-de-vente">Conditions de vente</Link>
           <Link href="/admin">Espace privé</Link>
         </div>
       </div>

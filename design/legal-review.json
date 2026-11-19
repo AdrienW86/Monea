@@ -1,0 +1,36 @@
+{
+  "reviewDate": "2026-11-19",
+  "status": "Draft: required business details and online sales mechanisms remain incomplete",
+  "identitySource": "Business registration details supplied by the owner in this conversation",
+  "operatorConfirmedByOwner": true,
+  "hostingProvider": "Vercel Inc. — official address and phone verified against Vercel Privacy Notice and DMCA Policy",
+  "omittedPersonalData": [
+    "Birth date",
+    "Registration dates",
+    "Register observation",
+    "Former activity description and APE code"
+  ],
+  "missingInformation": [
+    "Appointed consumer mediator name, address and website",
+    "VAT number if applicable",
+    "Data hosting and international transfer arrangements"
+  ],
+  "salesRequirementsBeforeLaunch": [
+    "CGV acceptance and durable contract confirmation",
+    "Online withdrawal submission and durable acknowledgement",
+    "Express request for service execution within the withdrawal period, when applicable"
+  ],
+  "sources": [
+    "https://entreprendre.service-public.gouv.fr/vosdroits/F37351",
+    "https://entreprendre.service-public.gouv.fr/vosdroits/F23455",
+    "https://entreprendre.service-public.gouv.fr/vosdroits/F33338",
+    "https://www.cnil.fr/fr/conformite-rgpd-information-des-personnes-et-transparence",
+    "https://entreprendre.service-public.gouv.fr/vosdroits/F10029",
+    "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000053310520/2026-08-21",
+    "https://www.legifrance.gouv.fr/codes/id/LEGISCTA000053303362/2026-06-19",
+    "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000032887061",
+    "https://vercel.com/legal/privacy-notice",
+    "https://vercel.com/legal/dmca-policy",
+    "https://www.economie.gouv.fr/mediation-conso/vous-etes-un-professionnel/choisir-un-mediateur-de-la-consommation"
+  ]
+}

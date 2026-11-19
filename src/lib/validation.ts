@@ -81,6 +81,7 @@ export const settingsSchema = z
     legalName: z.string().max(200),
     legalAddress: z.string().max(300),
     registration: z.string().max(100),
+    vatNumber: z.string().trim().max(50).default(""),
     publisher: z.string().max(200),
     host: z.string().max(200),
     mediator: z.string().max(300),

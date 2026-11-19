@@ -7,6 +7,16 @@ import { stripePaymentsEnabled } from "@/lib/payments/provider.mjs";
 import { isLocalProvider } from "@/lib/data/provider";
 import { localRepository } from "@/lib/data/local";
 import { repository } from "@/lib/data/repository";
+import { NO_IMAGE } from "@/lib/media";
+export async function getCategories() {
+  if (isLocalProvider() || dbConfigured())
+    return (await repository().categories()).filter((c) => c.active);
+  return [...new Set(catalogue.map((s) => s.category))].map((name) => ({
+    name,
+    image: "",
+  }));
+}
+const categoryImage = (image?: string) => (image === NO_IMAGE ? null : image);
 export async function getSettings(): Promise<Brand> {
   if (isLocalProvider()) return localRepository().settings();
   if (!dbConfigured()) return brand;
@@ -25,7 +35,9 @@ export async function getServices(): Promise<Service[]> {
         ...s,
         image:
           s.image ||
-          categories.find((c) => c.id === s.category_id)?.image ||
+          categoryImage(
+            categories.find((c) => c.id === s.category_id)?.image,
+          ) ||
           null,
       }));
   }
@@ -41,7 +53,7 @@ export async function getServices(): Promise<Service[]> {
       ...s,
       image:
         s.image ||
-        categories.find((c) => c.id === s.category_id)?.image ||
+        categoryImage(categories.find((c) => c.id === s.category_id)?.image) ||
         null,
     }));
 }

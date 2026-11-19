@@ -39,25 +39,30 @@ export default async function ServicePage({
   ]);
   const v = services.find((v) => v.slug === slug);
   if (!v) notFound();
+  const image = serviceVisual(v.slug, v.category, v.image);
   return (
     <section className="section service-detail">
       <Link className="under-link" href="/prestations">
         ← Les prestations
       </Link>
       <PageIntro eyebrow={categoryLabel(v.category)} title={v.name} />
-      <div className="service-detail-layout">
-        <figure className="service-feature-photo">
-          <Image
-            src={serviceVisual(v.slug, v.category, v.image)}
-            alt={`Photographie d’illustration — ${v.category.toLowerCase()}`}
-            width={800}
-            height={900}
-            sizes="(max-width:700px) 90vw, 45vw"
-          />
-          <span className="service-photo-heart" aria-hidden="true">
-            ♡
-          </span>
-        </figure>
+      <div
+        className={`service-detail-layout${image ? "" : " service-detail-without-image"}`}
+      >
+        {image && (
+          <figure className="service-feature-photo">
+            <Image
+              src={image}
+              alt={`Photographie d’illustration — ${v.category.toLowerCase()}`}
+              width={800}
+              height={900}
+              sizes="(max-width:700px) 90vw, 45vw"
+            />
+            <span className="service-photo-heart" aria-hidden="true">
+              ♡
+            </span>
+          </figure>
+        )}
         <div className="service-detail-info">
           <p className="eyebrow">{categoryLabel(v.category)}</p>
           <p className="service-feature-description">{serviceDescription(v)}</p>

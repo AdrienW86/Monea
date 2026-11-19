@@ -7,6 +7,29 @@ body:has(.management-shell) > header,
 body:has(.management-shell) > footer {
   display: none;
 }
+.block-presets {
+  border: 0;
+  padding: 0;
+  margin: 0 0 20px;
+}
+.block-presets legend {
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+.block-preset-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.management-image-field .media-preview {
+  display: block;
+  width: min(100%, 280px);
+  height: auto;
+  max-height: 210px;
+  object-fit: contain;
+  border-radius: 8px;
+  margin-block: 12px;
+}
 .management-shell {
   font-family: var(--font-sans), sans-serif;
   font-size: 14px;
